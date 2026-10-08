@@ -1,0 +1,66 @@
+---
+title: "Predicting Weight-Lifting Exercise Quality"
+author: "Draft for student review"
+output: html_document
+---
+
+## Executive summary
+
+Accelerometer records from six participants were used to predict the five-level `classe` outcome. Identifiers, timestamps, window metadata, and variables with at least 5% missing values were excluded, leaving 52 sensor predictors. Five-fold stratified cross-validation compared random forest and extremely randomized trees; a separate 25% stratified holdout provided an additional check. Extra trees produced mean cross-validation accuracy of **99.54%** (estimated out-of-sample error **0.46%**) and holdout accuracy of **99.69%**. Random forest reached 99.31% and 99.55%, respectively. Both final models produced the same predictions for all 20 test cases.
+
+## Data processing
+
+```{r data, echo=TRUE}
+library(caret)
+set.seed(20261007)
+training <- read.csv("data/pml-training.csv", na.strings=c("NA", "#DIV/0!", ""))
+testing  <- read.csv("data/pml-testing.csv",  na.strings=c("NA", "#DIV/0!", ""))
+metadata <- c("X", "user_name", "raw_timestamp_part_1", "raw_timestamp_part_2",
+              "cvtd_timestamp", "new_window", "num_window")
+candidate <- setdiff(names(training), c(metadata, "classe", "problem_id"))
+keep <- candidate[sapply(training[candidate], function(x) mean(!is.na(x)) >= .95 && is.numeric(x))]
+x <- training[keep]
+x <- x[, nearZeroVar(x, saveMetrics=TRUE)$nzv == FALSE]
+y <- training$classe
+```
+
+The row index and collection metadata are removed before splitting to prevent leakage. Median imputation is defined inside the training workflow. The class distribution is moderately uneven but every class has more than 3,200 records.
+
+![Training outcome distribution](figure/class_distribution.png)
+
+## Validation and model choice
+
+```{r models, echo=TRUE}
+ctrl <- trainControl(method="cv", number=5, classProbs=TRUE,
+                     savePredictions="final")
+set.seed(20261007)
+rf <- train(x=x, y=y, method="rf", trControl=ctrl,
+            tuneGrid=data.frame(mtry=floor(sqrt(ncol(x)))), ntree=500)
+rf
+```
+
+The independently executed audit also fitted an extra-trees classifier with the same folds and a 25% holdout. Extra trees had the lower cross-validation error and was selected. The confusion matrices show few errors and no class was systematically collapsed into another.
+
+![Holdout confusion matrices](figure/confusion_matrices.png)
+
+The strongest predictors are measurements from the belt, dumbbell, arm, and forearm; no participant identifier or timestamp is used.
+
+![Top predictor importance](figure/feature_importance.png)
+
+## Expected out-of-sample error
+
+Mean five-fold accuracy for extra trees was 0.99545, so the estimated error for new records from a similar participant and task distribution is 0.00455. This estimate does not claim equivalent performance for entirely unseen people, because folds contain records from the same six participants. The separate holdout accuracy of 0.99694 is consistent with the cross-validation estimate.
+
+## Test predictions
+
+```{r final, echo=TRUE}
+final.rf <- train(x=x, y=y, method="rf", trControl=ctrl,
+                  tuneGrid=data.frame(mtry=floor(sqrt(ncol(x)))), ntree=500)
+predict(final.rf, testing[keep])
+```
+
+The 20 predictions, in `problem_id` order, are:
+
+`B, A, B, A, A, E, D, B, A, A, B, C, B, A, E, E, A, B, B, B`.
+
+These are saved in `predictions_draft.csv` for review before entering the graded prediction quiz.

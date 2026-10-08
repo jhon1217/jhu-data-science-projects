@@ -1,0 +1,90 @@
+---
+title: "Severe Weather Events: Health and Economic Consequences"
+author: "Draft for student review"
+output:
+  html_document:
+    keep_md: true
+---
+
+## Synopsis
+
+This analysis uses the full NOAA Storm Database supplied for the assignment to identify event types associated with the greatest public-health and economic consequences. Event labels are converted to uppercase and trimmed, but otherwise retained so that the transformation is transparent. Public-health impact is measured as fatalities plus injuries. Economic impact is measured as reported property damage plus crop damage after interpreting the accompanying magnitude fields. On this basis, tornadoes have the largest combined health impact, with 96,979 fatalities and injuries. Floods have the greatest estimated economic impact, approximately $150.32 billion, followed by hurricanes/typhoons and tornadoes. Most estimated flood loss is property damage. Historical inconsistencies in event names and magnitude codes are limitations, so conclusions concern recorded impacts in this file rather than causal risk.
+
+## Data Processing
+
+The analysis starts from `StormData.csv.bz2` without an intermediate edited data file.
+
+```{r load, echo=TRUE, cache=TRUE}
+storm <- read.csv("data/StormData.csv.bz2", stringsAsFactors = FALSE,
+                  fileEncoding = "latin1")
+keep <- c("EVTYPE", "FATALITIES", "INJURIES", "PROPDMG", "PROPDMGEXP",
+          "CROPDMG", "CROPDMGEXP")
+storm <- storm[keep]
+storm$event <- toupper(trimws(storm$EVTYPE))
+```
+
+Magnitude codes are converted with `H = 10^2`, `K = 10^3`, `M = 10^6`, and `B = 10^9`. Numeric codes `0` through `8` are interpreted as powers of ten. Empty and other historical symbols are assigned a multiplier of one and disclosed as a limitation.
+
+```{r transform, echo=TRUE}
+damage_multiplier <- function(x) {
+  x <- toupper(trimws(ifelse(is.na(x), "", x)))
+  out <- rep(1, length(x))
+  out[x == "H"] <- 1e2
+  out[x == "K"] <- 1e3
+  out[x == "M"] <- 1e6
+  out[x == "B"] <- 1e9
+  for (n in 0:8) out[x == as.character(n)] <- 10^n
+  out
+}
+
+storm$health <- ifelse(is.na(storm$FATALITIES), 0, storm$FATALITIES) +
+                ifelse(is.na(storm$INJURIES), 0, storm$INJURIES)
+storm$property_loss <- ifelse(is.na(storm$PROPDMG), 0, storm$PROPDMG) *
+                       damage_multiplier(storm$PROPDMGEXP)
+storm$crop_loss <- ifelse(is.na(storm$CROPDMG), 0, storm$CROPDMG) *
+                   damage_multiplier(storm$CROPDMGEXP)
+storm$economic_loss <- storm$property_loss + storm$crop_loss
+
+health <- aggregate(cbind(FATALITIES, INJURIES, health) ~ event, storm, sum, na.rm=TRUE)
+health <- health[order(health$health, decreasing=TRUE), ]
+economic <- aggregate(cbind(property_loss, crop_loss, economic_loss) ~ event,
+                      storm, sum, na.rm=TRUE)
+economic <- economic[order(economic$economic_loss, decreasing=TRUE), ]
+```
+
+## Results
+
+### Population health
+
+```{r health-figure, echo=TRUE, fig.width=10, fig.height=6}
+top.health <- health[1:10, ]
+par(mar=c(5, 11, 3, 1))
+barplot(rev(top.health$health), names.arg=rev(top.health$event), horiz=TRUE,
+        las=1, col="#176B87", main="Storm events with greatest health impact",
+        xlab="Fatalities + injuries")
+```
+
+Tornadoes are the largest recorded health burden (96,979 combined fatalities and injuries). Excessive heat and thunderstorm wind are the next highest categories. The metric is a combined burden; it does not treat a fatality as equivalent in severity to an injury.
+
+### Economic consequences
+
+```{r economic-figure, echo=TRUE, fig.width=10, fig.height=6}
+top.economic <- economic[1:10, ]
+par(mar=c(5, 11, 3, 1))
+barplot(rev(top.economic$economic_loss) / 1e9,
+        names.arg=rev(top.economic$event), horiz=TRUE, las=1,
+        col="#176B87", main="Storm events with greatest economic impact",
+        xlab="Estimated damage (USD billions)")
+```
+
+Floods produce the greatest estimated combined property and crop loss, about $150.32 billion. Hurricanes/typhoons rank second and tornadoes third. The ranking is sensitive to inconsistent historical event labels and damage exponents, and the database does not normalize dollar amounts for inflation.
+
+```{r composition-figure, echo=TRUE, fig.width=10, fig.height=6}
+m <- rbind(rev(top.economic$property_loss), rev(top.economic$crop_loss)) / 1e9
+par(mar=c(5, 11, 3, 1))
+barplot(m, names.arg=rev(top.economic$event), horiz=TRUE, las=1,
+        col=c("#176B87", "#F28E2B"), main="Composition of economic damage",
+        xlab="Estimated damage (USD billions)", legend.text=c("Property", "Crops"))
+```
+
+The composition plot shows that property damage dominates most of the top-ranked categories, while crop damage contributes materially to drought and flood totals.

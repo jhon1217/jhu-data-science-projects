@@ -1,0 +1,64 @@
+{
+  "corpus": {
+    "blogs": {
+      "bytes": 210160014,
+      "lines": 899288,
+      "words": 37509522,
+      "characters": 207723793,
+      "training_sample_lines": 7121,
+      "eda_sample_lines": 8948
+    },
+    "news": {
+      "bytes": 205811889,
+      "lines": 1010242,
+      "words": 34042817,
+      "characters": 204233401,
+      "training_sample_lines": 8094,
+      "eda_sample_lines": 10122
+    },
+    "twitter": {
+      "bytes": 167105338,
+      "lines": 2360148,
+      "words": 29663285,
+      "characters": 164456396,
+      "training_sample_lines": 18652,
+      "eda_sample_lines": 23284
+    }
+  },
+  "tokenizer": "lowercase alphabetic words with internal apostrophes; URLs and @mentions removed; small explicit profanity blocklist",
+  "training_sample": "CRC32 bucket < 8 of 1000 (about 0.8%)",
+  "validation_sample": "CRC32 bucket 8-9 of 1000 (about 0.2%)",
+  "model_rows": {
+    "1": 5,
+    "2": 21942,
+    "3": 32896,
+    "4": 12334
+  },
+  "validation": {
+    "tokens": 193477,
+    "top1_accuracy": 0.12443339518392367,
+    "top3_accuracy": 0.2007111956459941,
+    "backoff_orders": {
+      "2": 102927,
+      "3": 60009,
+      "4": 11087,
+      "1": 19454
+    }
+  },
+  "example_predictions": {
+    "i went to the": [
+      "new",
+      "next",
+      "world"
+    ],
+    "thank you for": [
+      "the",
+      "your",
+      "all"
+    ],
+    "the weather is": [
+      "perfect"
+    ]
+  },
+  "limitations": "Sampled n-gram model; no semantic understanding; coverage and accuracy vary by domain; profanity filter is not exhaustive."
+}
