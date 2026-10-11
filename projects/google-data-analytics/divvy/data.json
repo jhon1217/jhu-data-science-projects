@@ -19,145 +19,145 @@
     {
       "month": 1,
       "user_type": "Customer",
-      "trips": 4591,
+      "trips": 4602,
       "avg_duration": 2017.23
     },
     {
       "month": 1,
       "user_type": "Subscriber",
-      "trips": 98601,
+      "trips": 98670,
       "avg_duration": 687.31
     },
     {
       "month": 2,
       "user_type": "Customer",
-      "trips": 2627,
+      "trips": 2638,
       "avg_duration": 1760.85
     },
     {
       "month": 2,
       "user_type": "Subscriber",
-      "trips": 93522,
+      "trips": 93548,
       "avg_duration": 673.51
     },
     {
       "month": 3,
       "user_type": "Customer",
-      "trips": 15877,
+      "trips": 15923,
       "avg_duration": 2204.61
     },
     {
       "month": 3,
       "user_type": "Subscriber",
-      "trips": 149659,
+      "trips": 149688,
       "avg_duration": 675.74
     },
     {
       "month": 4,
       "user_type": "Customer",
-      "trips": 47669,
+      "trips": 47744,
       "avg_duration": 2451.64
     },
     {
       "month": 4,
       "user_type": "Subscriber",
-      "trips": 217531,
+      "trips": 217566,
       "avg_duration": 748.18
     },
     {
       "month": 5,
       "user_type": "Customer",
-      "trips": 81507,
+      "trips": 81624,
       "avg_duration": 2495.02
     },
     {
       "month": 5,
       "user_type": "Subscriber",
-      "trips": 285793,
+      "trips": 285834,
       "avg_duration": 794.1
     },
     {
       "month": 6,
       "user_type": "Customer",
-      "trips": 130066,
+      "trips": 130218,
       "avg_duration": 2425.4
     },
     {
       "month": 6,
       "user_type": "Subscriber",
-      "trips": 345135,
+      "trips": 345177,
       "avg_duration": 842.61
     },
     {
       "month": 7,
       "user_type": "Customer",
-      "trips": 175433,
+      "trips": 175632,
       "avg_duration": 2436.74
     },
     {
       "month": 7,
       "user_type": "Subscriber",
-      "trips": 381615,
+      "trips": 381683,
       "avg_duration": 860.92
     },
     {
       "month": 8,
       "user_type": "Customer",
-      "trips": 186625,
+      "trips": 186889,
       "avg_duration": 2408.56
     },
     {
       "month": 8,
       "user_type": "Subscriber",
-      "trips": 403241,
+      "trips": 403295,
       "avg_duration": 831.81
     },
     {
       "month": 9,
       "user_type": "Customer",
-      "trips": 128988,
+      "trips": 129173,
       "avg_duration": 2268.63
     },
     {
       "month": 9,
       "user_type": "Subscriber",
-      "trips": 364004,
+      "trips": 364046,
       "avg_duration": 791.04
     },
     {
       "month": 10,
       "user_type": "Customer",
-      "trips": 70889,
+      "trips": 71035,
       "avg_duration": 2128.86
     },
     {
       "month": 10,
       "user_type": "Subscriber",
-      "trips": 300717,
+      "trips": 300751,
       "avg_duration": 719.58
     },
     {
       "month": 11,
       "user_type": "Customer",
-      "trips": 18653,
+      "trips": 18729,
       "avg_duration": 2058.34
     },
     {
       "month": 11,
       "user_type": "Subscriber",
-      "trips": 158401,
+      "trips": 158447,
       "avg_duration": 665.58
     },
     {
       "month": 12,
       "user_type": "Customer",
-      "trips": 16365,
+      "trips": 16430,
       "avg_duration": 2230.12
     },
     {
       "month": 12,
       "user_type": "Subscriber",
-      "trips": 138647,
+      "trips": 138662,
       "avg_duration": 662.13
     }
   ],

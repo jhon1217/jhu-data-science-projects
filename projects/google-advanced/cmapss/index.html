@@ -19,6 +19,9 @@
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 </head>
 <body>
+  <div class="scroll-progress" aria-hidden="true"><span data-scroll-progress></span></div>
+  <div class="ambient-orb orb-one" aria-hidden="true"></div>
+  <div class="ambient-orb orb-two" aria-hidden="true"></div>
   <nav class="nav"><div class="shell nav-inner"><a class="brand" href="../../../">Jhon<span>.</span>data</a><div class="nav-actions"><a class="nav-link" href="#explore">Explore</a><a class="nav-link" href="#method">Method</a><a class="nav-link" href="https://github.com/jhon1217/predictive-maintenance-cmapss">Source</a><button class="icon-btn" type="button" data-theme-toggle aria-label="Use light theme">☀</button></div></div></nav>
   <main>
     <header class="case-hero">
@@ -29,14 +32,19 @@
         <p class="hero-copy">A machine learning case study that turns multivariate sensor histories into remaining useful life estimates for a fleet of simulated turbofan engines.</p>
         <div class="case-meta"><span>NASA C-MAPSS · FD001</span><span>Random forest regression</span><span>Time aware validation</span><span>Interactive diagnostics</span></div>
         <div class="kpi-grid" id="metrics"><div class="loading">Loading model results…</div></div>
+        <div class="metric-context reveal" aria-label="Evaluation design">
+          <div><i></i><span><strong>Independent test fleet</strong><small>One final estimate per engine</small></span></div>
+          <div><i></i><span><strong>Engine-level validation</strong><small>Complete engines held out</small></span></div>
+          <div><i></i><span><strong>Decision-aware reading</strong><small>Late and early errors stay visible</small></span></div>
+        </div>
       </div>
     </header>
 
     <section class="section" id="explore">
       <div class="shell panel-grid">
-        <article class="panel wide reveal"><h3>Predicted vs. actual remaining life</h3><p>Each point is one engine at the end of its observed test history. Points near the diagonal indicate accurate estimates.</p><div class="chart" id="prediction-chart"></div></article>
-        <article class="panel reveal"><h3>What drives the model?</h3><p>Grouped feature importance combines each sensor's current level, five-cycle mean, and one-cycle change.</p><div class="chart" id="importance-chart"></div></article>
-        <article class="panel reveal"><h3>Inspect an engine</h3><p>Choose an engine to follow the strongest normalized sensor signals over its observed life.</p><div class="control-row"><label for="engine-select">Engine</label><select id="engine-select"></select></div><div class="chart" id="trajectory-chart"></div></article>
+        <article class="panel wide reveal"><span class="panel-kicker">Accuracy · 100 engines</span><h3>Predicted vs. actual remaining life</h3><p>Each point is one engine at the end of its observed test history. Points near the diagonal indicate accurate estimates.</p><div class="chart" id="prediction-chart"></div></article>
+        <article class="panel reveal"><span class="panel-kicker">Interpretability</span><h3>What drives the model?</h3><p>Grouped feature importance combines each sensor's current level, five-cycle mean, and one-cycle change.</p><div class="chart" id="importance-chart"></div></article>
+        <article class="panel reveal"><span class="panel-kicker">Interactive diagnosis</span><h3>Inspect an engine</h3><p>Choose an engine to follow the strongest normalized sensor signals over its observed life.</p><div class="control-row"><label for="engine-select">Engine</label><select id="engine-select"></select></div><div class="chart" id="trajectory-chart"></div></article>
       </div>
     </section>
 

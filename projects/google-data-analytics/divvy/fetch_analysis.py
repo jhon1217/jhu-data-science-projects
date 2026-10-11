@@ -36,21 +36,38 @@ def numeric(rows: list[dict], integer: tuple[str, ...] = ()) -> list[dict]:
     return rows
 
 
+def merge_monthly(counts: list[dict], durations: list[dict]) -> list[dict]:
+    """Keep complete trip counts while applying the quality filter only to duration."""
+    averages = {(row["month"], row["user_type"]): row["avg_duration"] for row in durations}
+    return [
+        {**row, "avg_duration": averages[(row["month"], row["user_type"])]}
+        for row in counts
+    ]
+
+
 def main() -> None:
     totals = numeric(
         query("user_type, count(*) as trips", group="user_type", order="user_type"),
         ("trips",),
     )
-    monthly = numeric(
+    monthly_counts = numeric(
         query(
-            "date_extract_m(start_time) as month, user_type, count(*) as trips, "
-            "avg(trip_duration) as avg_duration",
+            "date_extract_m(start_time) as month, user_type, count(*) as trips",
+            group="month,user_type",
+            order="month,user_type",
+        ),
+        ("month", "trips"),
+    )
+    monthly_durations = numeric(
+        query(
+            "date_extract_m(start_time) as month, user_type, avg(trip_duration) as avg_duration",
             group="month,user_type",
             order="month,user_type",
             where=f"{PERIOD} and {VALID_DURATION}",
         ),
-        ("month", "trips"),
+        ("month",),
     )
+    monthly = merge_monthly(monthly_counts, monthly_durations)
     weekday = numeric(
         query(
             "date_extract_dow(start_time) as weekday, user_type, count(*) as trips",

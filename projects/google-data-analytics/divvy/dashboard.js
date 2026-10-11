@@ -40,6 +40,15 @@ fetch("data.json")
     };
     select.addEventListener("change", renderStations);
     renderStations();
+
+    document.querySelector("#monthly-chart").on("plotly_click", (event) => {
+      const point = event.points?.[0];
+      if (!point) return;
+      select.value = point.curveNumber === 0 ? "Customer" : "Subscriber";
+      renderStations();
+      document.querySelector("#station-chart").closest(".panel").classList.add("chart-focus");
+      window.setTimeout(() => document.querySelector("#station-chart").closest(".panel").classList.remove("chart-focus"), 900);
+    });
   })
   .catch((error) => {
     document.querySelector("#metrics").innerHTML = `<p class="error">${error.message}</p>`;

@@ -20,11 +20,15 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Jhon Deiner Diaz","url":"https://jhon1217.github.io/jhu-data-science-projects/","sameAs":["https://github.com/jhon1217"],"jobTitle":"Data Analyst and Data Scientist","knowsAbout":["Data analytics","Machine learning","Python","R","SQL","Statistical inference"]}</script>
 </head>
 <body>
+  <div class="scroll-progress" aria-hidden="true"><span data-scroll-progress></span></div>
+  <div class="ambient-orb orb-one" aria-hidden="true"></div>
+  <div class="ambient-orb orb-two" aria-hidden="true"></div>
   <nav class="nav">
     <div class="shell nav-inner">
       <a class="brand" href="#top">Jhon<span>.</span>data</a>
       <div class="nav-actions">
         <a class="nav-link" href="#work">Selected work</a>
+        <a class="nav-link" href="#practice">Approach</a>
         <a class="nav-link" href="#credentials">Credentials</a>
         <a class="nav-link" href="https://github.com/jhon1217">GitHub</a>
         <button class="icon-btn" type="button" data-theme-toggle aria-label="Use light theme">☀</button>
@@ -35,18 +39,65 @@
   <main id="top">
     <section class="hero">
       <div class="shell">
-        <span class="eyebrow">Data analyst · Data scientist</span>
-        <h1>Evidence into<br><span class="gradient">clear decisions.</span></h1>
-        <p class="hero-copy">I build end-to-end analyses that connect a real question, trustworthy data, rigorous methods, and an experience people can explore.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#work">Explore selected work ↓</a>
-          <a class="button" href="https://github.com/jhon1217">View GitHub ↗</a>
+        <div class="hero-layout">
+          <div class="hero-content">
+            <span class="eyebrow">Data analyst · Data scientist</span>
+            <h1>Evidence into<br><span class="gradient">clear decisions.</span></h1>
+            <p class="hero-copy">I build end-to-end analyses that connect a real question, trustworthy data, rigorous methods, and an experience people can explore.</p>
+            <div class="hero-actions">
+              <a class="button primary" href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
+              <a class="button" href="https://github.com/jhon1217">View GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+
+          <aside class="hero-visual" data-motion-card aria-label="Animated overview of portfolio data signals">
+            <div class="visual-topline"><span><i></i> Portfolio signal</span><strong>LIVE</strong></div>
+            <svg class="signal-canvas" viewBox="0 0 620 400" role="img" aria-label="Animated sensor trend and mobility volume visualization">
+              <defs>
+                <linearGradient id="signalGradient" x1="0" x2="1">
+                  <stop offset="0" stop-color="#67e8f9"/>
+                  <stop offset=".55" stop-color="#a78bfa"/>
+                  <stop offset="1" stop-color="#fbbf24"/>
+                </linearGradient>
+                <linearGradient id="areaGradient" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#67e8f9" stop-opacity=".28"/>
+                  <stop offset="1" stop-color="#67e8f9" stop-opacity="0"/>
+                </linearGradient>
+                <filter id="signalGlow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+              </defs>
+              <g class="data-grid" aria-hidden="true">
+                <path d="M38 62H582M38 132H582M38 202H582M38 272H582M38 342H582"/>
+                <path d="M38 42V354M146 42V354M254 42V354M362 42V354M470 42V354M582 42V354"/>
+              </g>
+              <path class="signal-area" d="M38 313 C86 291 98 306 146 265 S215 282 254 222 S323 248 362 175 S431 209 470 132 S540 153 582 72 L582 354 L38 354 Z"/>
+              <path class="signal-line signal-shadow" d="M38 313 C86 291 98 306 146 265 S215 282 254 222 S323 248 362 175 S431 209 470 132 S540 153 582 72"/>
+              <path class="signal-line" d="M38 313 C86 291 98 306 146 265 S215 282 254 222 S323 248 362 175 S431 209 470 132 S540 153 582 72"/>
+              <g class="signal-bars" aria-hidden="true">
+                <rect x="68" y="250" width="24" height="104" rx="8"/>
+                <rect x="116" y="214" width="24" height="140" rx="8"/>
+                <rect x="164" y="276" width="24" height="78" rx="8"/>
+                <rect x="212" y="192" width="24" height="162" rx="8"/>
+              </g>
+              <g class="signal-points" filter="url(#signalGlow)">
+                <circle cx="146" cy="265" r="7"/><circle cx="254" cy="222" r="7"/><circle cx="362" cy="175" r="7"/><circle cx="470" cy="132" r="7"/><circle cx="582" cy="72" r="8"/>
+              </g>
+              <g class="metric-pill metric-pill-a"><rect x="326" y="276" width="128" height="48" rx="15"/><text x="344" y="296">MODEL RMSE</text><text x="344" y="316">19.77 cycles</text></g>
+              <g class="metric-pill metric-pill-b"><rect x="442" y="188" width="140" height="48" rx="15"/><text x="460" y="208">TRIPS</text><text x="460" y="228">3.8 million</text></g>
+            </svg>
+            <div class="visual-legend"><span><i class="cyan"></i>Predictive model</span><span><i class="gold"></i>Behavior analysis</span><span class="visual-time">2026 portfolio</span></div>
+          </aside>
         </div>
         <div class="hero-stats reveal" aria-label="Portfolio highlights">
-          <div class="stat"><strong>3</strong><span>specialized learning tracks</span></div>
-          <div class="stat"><strong>3.8M</strong><span>mobility trips analyzed</span></div>
-          <div class="stat"><strong>20.6K</strong><span>engine cycles modeled</span></div>
+          <div class="stat"><strong data-count="3">3</strong><span>specialized learning tracks</span></div>
+          <div class="stat"><strong data-count="3.8" data-decimals="1" data-suffix="M">3.8M</strong><span>mobility trips analyzed</span></div>
+          <div class="stat"><strong data-count="20.6" data-decimals="1" data-suffix="K">20.6K</strong><span>engine cycles modeled</span></div>
           <div class="stat"><strong>R · Python</strong><span>analysis and product stack</span></div>
+        </div>
+
+        <div class="signal-strip reveal" aria-label="Portfolio capabilities">
+          <div class="signal-story"><span>01</span><div><strong>Model</strong><small>Sensor histories → maintenance priority</small></div><svg viewBox="0 0 120 38" aria-hidden="true"><path d="M2 30C18 29 17 18 34 20S51 30 66 16 87 20 118 3"/></svg></div>
+          <div class="signal-story"><span>02</span><div><strong>Understand</strong><small>Trip behavior → growth opportunity</small></div><svg viewBox="0 0 120 38" aria-hidden="true"><path d="M3 34V24M24 34V14M45 34V20M66 34V7M87 34V18M108 34V3"/></svg></div>
+          <div class="signal-story"><span>03</span><div><strong>Communicate</strong><small>Evidence → interactive decision</small></div><svg viewBox="0 0 120 38" aria-hidden="true"><circle cx="16" cy="23" r="5"/><circle cx="48" cy="12" r="7"/><circle cx="81" cy="27" r="6"/><circle cx="108" cy="8" r="4"/><path d="M20 21L42 14M54 15L75 24M87 23L104 11"/></svg></div>
         </div>
       </div>
     </section>
@@ -57,48 +108,63 @@
           <div><span class="eyebrow">Selected work</span><h2>Projects with a point of view.</h2></div>
           <p>Filter by learning track. Every case study includes the question, the method, an interactive result, and enough context to judge the conclusion.</p>
         </div>
+        <div class="filter-row">
         <div class="filters" role="group" aria-label="Filter projects">
           <button class="filter active" type="button" data-filter="all">All projects</button>
           <button class="filter" type="button" data-filter="advanced">Google Advanced</button>
           <button class="filter" type="button" data-filter="google">Google Data Analytics</button>
           <button class="filter" type="button" data-filter="jhu">Johns Hopkins</button>
         </div>
+        <div class="project-count" aria-live="polite"><strong data-project-count>7</strong><span>projects in view</span></div>
+        </div>
 
         <div class="project-grid">
-          <article class="project-card featured reveal" data-track="advanced" style="--card-accent:#67e8f9">
-            <div><span class="project-number">01 · Predictive maintenance</span><h3>How many useful cycles does a jet engine have left?</h3><p>A machine learning case study using NASA C-MAPSS sensor histories to estimate remaining useful life and surface the signals that drive each prediction.</p><div class="tags"><span class="tag">Python</span><span class="tag">Random forest</span><span class="tag">Feature engineering</span><span class="tag">Plotly</span></div></div>
+          <article class="project-card featured reveal" data-track="advanced" data-tilt style="--card-accent:#67e8f9">
+            <div><span class="project-number">01 · Predictive maintenance</span><h3>How many useful cycles does a jet engine have left?</h3><p>A machine learning case study using NASA C-MAPSS sensor histories to estimate remaining useful life and surface the signals that drive each prediction.</p><div class="project-data-preview engine-preview" aria-label="Model result preview"><div class="preview-metric"><small>TEST RMSE</small><strong>19.77</strong><span>cycles</span></div><svg viewBox="0 0 300 96" aria-hidden="true"><path class="preview-grid" d="M0 82H300M0 50H300M0 18H300"/><path class="preview-line" d="M2 78C28 74 38 55 62 60S97 75 118 46 154 55 179 37 213 43 239 20 270 27 298 7"/><g class="preview-dots"><circle cx="62" cy="60" r="4"/><circle cx="118" cy="46" r="4"/><circle cx="179" cy="37" r="4"/><circle cx="239" cy="20" r="4"/><circle cx="298" cy="7" r="4"/></g></svg><span class="preview-note">100 test engines</span></div><div class="tags"><span class="tag">Python</span><span class="tag">Random forest</span><span class="tag">Feature engineering</span><span class="tag">Plotly</span></div></div>
             <div class="card-actions"><a class="card-link" href="projects/google-advanced/cmapss/">Open case study</a><a class="card-link secondary" href="https://github.com/jhon1217/predictive-maintenance-cmapss">View source</a></div>
           </article>
 
-          <article class="project-card compact reveal" data-track="google" style="--card-accent:#fbbf24">
-            <div><span class="project-number">02 · Urban mobility</span><h3>What separates casual riders from members?</h3><p>A behavioral analysis of 3.8 million Divvy trips with practical growth recommendations.</p><div class="tags"><span class="tag">SQL</span><span class="tag">Open data</span><span class="tag">Segmentation</span></div></div>
+          <article class="project-card compact reveal" data-track="google" data-tilt style="--card-accent:#fbbf24">
+            <div><span class="project-number">02 · Urban mobility</span><h3>What separates casual riders from members?</h3><p>A behavioral analysis of 3.8 million Divvy trips with practical growth recommendations.</p><div class="project-data-preview rider-preview" aria-label="Rider segment preview"><div class="donut" aria-hidden="true"><span>77%</span></div><div class="preview-copy"><small>TRIP MIX</small><strong>Members lead volume</strong><span>Casual rides last longer</span></div></div><div class="tags"><span class="tag">SQL</span><span class="tag">Open data</span><span class="tag">Segmentation</span></div></div>
             <div class="card-actions"><a class="card-link" href="projects/google-data-analytics/divvy/">Explore dashboard</a><a class="card-link secondary" href="https://github.com/jhon1217/divvy-rider-analysis">View source</a></div>
           </article>
 
-          <article class="project-card reveal" data-track="jhu" style="--card-accent:#a78bfa">
+          <article class="project-card reveal" data-track="jhu" data-tilt style="--card-accent:#a78bfa">
             <div><span class="project-number">03 · Machine learning</span><h3>Recognizing exercise quality from wearable sensors</h3><p>A reproducible classification workflow that predicts how an exercise was performed from body movement signals.</p><div class="tags"><span class="tag">R</span><span class="tag">Random forest</span><span class="tag">Cross validation</span></div></div>
             <a class="card-link" href="practical-machine-learning.html">Read the analysis</a>
           </article>
 
-          <article class="project-card reveal" data-track="jhu" style="--card-accent:#5ee8ae">
+          <article class="project-card reveal" data-track="jhu" data-tilt style="--card-accent:#5ee8ae">
             <div><span class="project-number">04 · Geospatial story</span><h3>A guided map of Bogotá</h3><p>An interactive Leaflet experience with curated places, contextual popups, map controls, and a clear visual hierarchy.</p><div class="tags"><span class="tag">R Markdown</span><span class="tag">Leaflet</span><span class="tag">Geospatial</span></div></div>
             <a class="card-link" href="data-products-leaflet.html">Explore the map</a>
           </article>
 
-          <article class="project-card compact reveal" data-track="jhu" style="--card-accent:#fb7185">
+          <article class="project-card compact reveal" data-track="jhu" data-tilt style="--card-accent:#fb7185">
             <div><span class="project-number">05 · Natural language</span><h3>Next-word prediction</h3><p>A language product that turns corpus analysis into fast, explainable suggestions.</p><div class="tags"><span class="tag">NLP</span><span class="tag">Shiny</span><span class="tag">R</span></div></div>
             <a class="card-link" href="capstone-pitch.html">View product story</a>
           </article>
 
-          <article class="project-card compact reveal" data-track="jhu" style="--card-accent:#60a5fa">
+          <article class="project-card compact reveal" data-track="jhu" data-tilt style="--card-accent:#60a5fa">
             <div><span class="project-number">06 · Public health</span><h3>Severe weather impact</h3><p>Reproducible evidence on event types with the largest health and economic consequences.</p><div class="tags"><span class="tag">R</span><span class="tag">NOAA</span><span class="tag">Reproducible research</span></div></div>
             <a class="card-link" href="noaa-storm-analysis.pdf">Open report</a>
           </article>
 
-          <article class="project-card compact reveal" data-track="jhu" style="--card-accent:#c084fc">
+          <article class="project-card compact reveal" data-track="jhu" data-tilt style="--card-accent:#c084fc">
             <div><span class="project-number">07 · Statistical inference</span><h3>Simulation and tooth growth</h3><p>Applied inference through the exponential distribution and experimental comparison.</p><div class="tags"><span class="tag">Inference</span><span class="tag">Simulation</span><span class="tag">R</span></div></div>
             <a class="card-link" href="statistical-inference-project.pdf">Open report</a>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section decision-flow" aria-labelledby="flow-title">
+      <div class="shell">
+        <div class="section-heading reveal"><div><span class="eyebrow">From signal to action</span><h2 id="flow-title">A visible analytical path.</h2></div><p>Each project shows the reasoning between a raw observation and a decision, including the checks that keep the conclusion honest.</p></div>
+        <div class="flow-rail reveal">
+          <article><span>01</span><i></i><small>Question</small><h3>Frame the decision</h3><p>Define the audience, constraint, and useful outcome.</p></article>
+          <article><span>02</span><i></i><small>Evidence</small><h3>Audit the signal</h3><p>Trace sources, quality, exclusions, and uncertainty.</p></article>
+          <article><span>03</span><i></i><small>Model</small><h3>Test the method</h3><p>Separate development from evaluation and compare errors.</p></article>
+          <article><span>04</span><i></i><small>Product</small><h3>Make it explorable</h3><p>Turn the result into a clear, interactive experience.</p></article>
         </div>
       </div>
     </section>

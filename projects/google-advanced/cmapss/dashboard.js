@@ -37,6 +37,18 @@ fetch("data.json")
     select.value = Object.keys(data.trajectories)[40] || "1";
     select.addEventListener("change", renderTrajectory);
     renderTrajectory();
+
+    const predictionChart = document.querySelector("#prediction-chart");
+    predictionChart.on("plotly_click", (event) => {
+      const point = event.points?.[0];
+      if (!point || point.curveNumber !== 0) return;
+      const engine = String(data.predictions[point.pointIndex].engine);
+      if (!data.trajectories[engine]) return;
+      select.value = engine;
+      renderTrajectory();
+      document.querySelector("#trajectory-chart").closest(".panel").classList.add("chart-focus");
+      window.setTimeout(() => document.querySelector("#trajectory-chart").closest(".panel").classList.remove("chart-focus"), 900);
+    });
   })
   .catch((error) => {
     document.querySelector("#metrics").innerHTML = `<p class="error">${error.message}</p>`;
