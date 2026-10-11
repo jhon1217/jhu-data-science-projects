@@ -1,6 +1,6 @@
 # Activity Monitoring: Daily Patterns and Missing-Value Imputation
 
-*Draft for student review*
+*Reproducible Research course project*
 
 
 ```r

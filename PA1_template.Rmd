@@ -1,6 +1,6 @@
 ---
 title: "Activity Monitoring: Daily Patterns and Missing-Value Imputation"
-author: "Jhon Deiner Díaz Díaz — draft for review"
+author: "Jhon Deiner Díaz Díaz"
 output: html_document
 ---
 

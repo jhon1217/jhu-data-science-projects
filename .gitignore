@@ -1,0 +1,6 @@
+tmp/
+*.tmp
+*.clean.pdf
+*_audit.*
+audit/
+audits/

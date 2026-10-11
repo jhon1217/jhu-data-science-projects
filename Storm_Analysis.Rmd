@@ -1,6 +1,6 @@
 ---
 title: "Severe Weather Events: Health and Economic Consequences"
-author: "Draft for student review"
+author: "Jhon Deiner Díaz Díaz"
 output:
   html_document:
     keep_md: true

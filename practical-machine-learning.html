@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Prediction Assignment Draft</title>
+  <title>Prediction Assignment</title>
   <style>
 html {
 color: #1a1a1a;
@@ -165,11 +165,11 @@ vertical-align: middle;
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Prediction Assignment Draft</h1>
+<h1 class="title">Prediction Assignment</h1>
 </header>
 <h1 id="predicting-weight-lifting-exercise-quality">Predicting
 Weight-Lifting Exercise Quality</h1>
-<p><em>Draft for student review</em></p>
+<p><em>Practical Machine Learning course project</em></p>
 <h2 id="executive-summary">Executive summary</h2>
 <p>Accelerometer records from six participants were used to predict the
 five-level <code>classe</code> outcome. Identifiers, timestamps, window
@@ -192,7 +192,7 @@ were excluded, leaving 52 numeric sensor predictors.</p>
 distribution</figcaption>
 </figure>
 <h2 id="validation-and-model-choice">Validation and model choice</h2>
-<p>The independent audit used five-fold stratified cross-validation and
+<p>The validation workflow used five-fold stratified cross-validation and
 a 25% stratified holdout. Extra trees had the lower cross-validation
 error and was selected. The confusion matrices show few errors and no
 class was systematically collapsed into another.</p>
@@ -215,8 +215,7 @@ Holdout accuracy of 0.99694 is consistent with cross-validation.</p>
 <h2 id="test-predictions">Test predictions</h2>
 <p>The 20 predictions in <code>problem_id</code> order are:</p>
 <p><code>B, A, B, A, A, E, D, B, A, A, B, C, B, A, E, E, A, B, B, B</code>.</p>
-<p>See <code>Prediction_Assignment.Rmd</code> for the complete R
-workflow and <code>build_audit.py</code> for the executed verification
+<p>See <code>Prediction_Assignment.Rmd</code> for the complete reproducible R
 workflow.</p>
 </body>
 </html>

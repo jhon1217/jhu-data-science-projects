@@ -3,83 +3,58 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Johns Hopkins Data Science Projects</title>
+  <meta name="description" content="Data science projects completed for the Johns Hopkins University Data Science Specialization.">
+  <title>Jhon Deiner Diaz | Data Science Portfolio</title>
   <style>
-    :root { color-scheme: light; --ink:#14213d; --blue:#2563eb; --bg:#f5f7fb; --card:#fff; }
+    :root { color-scheme: light; --ink:#102a43; --muted:#52667a; --blue:#0b6e99; --teal:#168a82; --surface:#fff; --background:#f2f6f8; --border:#dce6eb; }
     * { box-sizing: border-box; }
-    body { margin:0; font-family:system-ui,-apple-system,Segoe UI,sans-serif; background:var(--bg); color:var(--ink); }
-    main { max-width:920px; margin:0 auto; padding:48px 24px 72px; }
-    h1 { font-size:clamp(2rem,5vw,3.4rem); margin:0 0 12px; }
-    .lead { font-size:1.1rem; line-height:1.6; max-width:760px; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; margin-top:32px; }
-    article { background:var(--card); border-radius:16px; padding:22px; box-shadow:0 8px 30px rgba(20,33,61,.08); }
-    h2 { font-size:1.15rem; margin:0 0 12px; }
-    a { color:var(--blue); font-weight:650; text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    ul { margin:0; padding-left:20px; line-height:1.8; }
-    footer { margin-top:34px; font-size:.9rem; color:#526079; }
+    body { margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; background:var(--background); color:var(--ink); }
+    a { color:inherit; }
+    header { background:linear-gradient(135deg,#0c3b57 0%,#0b6e73 100%); color:white; }
+    .hero, main, footer { width:min(1120px,calc(100% - 40px)); margin:0 auto; }
+    .hero { padding:72px 0 64px; }
+    .eyebrow { margin:0 0 14px; color:#aee8df; font-size:.78rem; font-weight:800; letter-spacing:.13em; text-transform:uppercase; }
+    h1 { max-width:760px; margin:0; font-size:clamp(2.4rem,7vw,4.8rem); line-height:1.02; letter-spacing:-.04em; }
+    .lead { max-width:720px; margin:22px 0 0; color:#d9eef0; font-size:1.08rem; line-height:1.7; }
+    .summary { display:flex; flex-wrap:wrap; gap:10px; margin-top:30px; }
+    .summary span { padding:8px 12px; border:1px solid rgba(255,255,255,.24); border-radius:999px; background:rgba(255,255,255,.09); font-size:.88rem; }
+    main { padding:54px 0 72px; }
+    .section-heading { margin-bottom:24px; }
+    .section-heading h2 { margin:0 0 8px; font-size:1.7rem; }
+    .section-heading p { margin:0; color:var(--muted); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(310px,1fr)); gap:18px; }
+    article { display:flex; flex-direction:column; min-height:250px; padding:24px; border:1px solid var(--border); border-radius:18px; background:var(--surface); box-shadow:0 12px 34px rgba(16,42,67,.07); }
+    .number { color:var(--teal); font-size:.78rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; }
+    article h3 { margin:9px 0 8px; font-size:1.25rem; }
+    article p { margin:0; color:var(--muted); line-height:1.55; }
+    ul { display:grid; gap:8px; margin:auto 0 0; padding:22px 0 0; list-style:none; }
+    li { border-top:1px solid var(--border); padding-top:8px; }
+    li a { color:var(--blue); font-weight:720; text-decoration:none; }
+    li a:hover, li a:focus-visible { text-decoration:underline; }
+    footer { padding:24px 0 40px; border-top:1px solid var(--border); color:var(--muted); font-size:.9rem; }
+    @media (max-width:560px) { .hero { padding:52px 0 46px; } .grid { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
-<main>
-  <h1>Johns Hopkins Data Science Projects</h1>
-  <p class="lead">Review site for the project drafts prepared for the Johns Hopkins University Data Science Specialization. Each link opens a reproducible report, interactive visualization, presentation, or supporting source file.</p>
-  <section class="grid">
-    <article>
-      <h2>Exploratory Data Analysis</h2>
-      <ul>
-        <li><a href="eda-plot1.png">Plot 1</a> · <a href="eda-plot1.R">R code</a></li>
-        <li><a href="eda-plot2.png">Plot 2</a> · <a href="eda-plot2.R">R code</a></li>
-        <li><a href="eda-plot3.png">Plot 3</a> · <a href="eda-plot3.R">R code</a></li>
-        <li><a href="eda-plot4.png">Plot 4</a> · <a href="eda-plot4.R">R code</a></li>
-        <li><a href="eda-plot5.png">Plot 5</a> · <a href="eda-plot5.R">R code</a></li>
-        <li><a href="eda-plot6.png">Plot 6</a> · <a href="eda-plot6.R">R code</a></li>
-      </ul>
-    </article>
-    <article>
-      <h2>Reproducible Research</h2>
-      <ul>
-        <li><a href="reproducible-research-project-1.html">Project 1 report</a></li>
-        <li><a href="PA1_template.Rmd">R Markdown source</a></li>
-        <li><a href="PA1_template.md">Markdown output</a></li>
-        <li><a href="NOAA_Storm_Analysis_Draft.pdf">Project 2 PDF</a></li>
-        <li><a href="Storm_Analysis.Rmd">Project 2 source</a></li>
-      </ul>
-    </article>
-    <article>
-      <h2>Statistical Inference and Regression</h2>
-      <ul>
-        <li><a href="Statistical_Inference_Project_Draft.pdf">Statistical Inference report</a></li>
-        <li><a href="Regression_Models_Project_Draft.pdf">Regression Models report</a></li>
-      </ul>
-    </article>
-    <article>
-      <h2>Practical Machine Learning</h2>
-      <ul>
-        <li><a href="practical-machine-learning.html">Prediction writeup</a></li>
-        <li><a href="Prediction_Assignment.Rmd">R Markdown source</a></li>
-        <li><a href="predictions_draft.csv">Twenty predictions</a></li>
-      </ul>
-    </article>
-    <article>
-      <h2>Developing Data Products</h2>
-      <ul>
-        <li><a href="data-products-leaflet.html">Leaflet map</a></li>
-        <li><a href="data-products-plotly.html">Plotly presentation</a></li>
-        <li><a href="data-products-shiny-pitch.html">Shiny pitch</a></li>
-        <li><a href="data-products-shiny-app.R">Shiny source</a></li>
-      </ul>
-    </article>
-    <article>
-      <h2>Data Science Capstone</h2>
-      <ul>
-        <li><a href="capstone-milestone.html">Milestone report</a></li>
-        <li><a href="capstone-pitch.html">Final presentation</a></li>
-        <li><a href="capstone-app.R">Word prediction app source</a></li>
-      </ul>
-    </article>
-  </section>
-  <footer>Draft portfolio prepared for review. Publication does not imply Coursera submission, grading, or completion.</footer>
-</main>
+  <header>
+    <div class="hero">
+      <p class="eyebrow">Johns Hopkins University · Data Science</p>
+      <h1>Course project portfolio</h1>
+      <p class="lead">A curated collection of reproducible analyses, statistical reports, machine learning models, and interactive data products developed with R and modern web libraries.</p>
+      <div class="summary" aria-label="Portfolio summary"><span>6 subject areas</span><span>Reproducible analysis</span><span>Interactive visualizations</span></div>
+    </div>
+  </header>
+  <main>
+    <div class="section-heading"><h2>Selected coursework</h2><p>Open any project to view the analysis, visualization, or presentation.</p></div>
+    <section class="grid">
+      <article><span class="number">01 · Exploratory analysis</span><h3>Household Power Consumption</h3><p>Six visual analyses created from individual household electric power consumption data.</p><ul><li><a href="eda-plot1.png">Plot 1</a> · <a href="eda-plot2.png">Plot 2</a> · <a href="eda-plot3.png">Plot 3</a></li><li><a href="eda-plot4.png">Plot 4</a> · <a href="eda-plot5.png">Plot 5</a> · <a href="eda-plot6.png">Plot 6</a></li></ul></article>
+      <article><span class="number">02 · Reproducible research</span><h3>Activity and Severe Weather</h3><p>Reproducible reporting for activity monitoring and NOAA storm impact data.</p><ul><li><a href="reproducible-research-project-1.html">Activity monitoring analysis</a></li><li><a href="noaa-storm-analysis.pdf">Severe weather impact report</a></li></ul></article>
+      <article><span class="number">03 · Statistical modeling</span><h3>Inference and Regression</h3><p>Simulation based inference, ToothGrowth analysis, and multivariable fuel economy modeling.</p><ul><li><a href="statistical-inference-project.pdf">Statistical inference report</a></li><li><a href="regression-models-project.pdf">Regression models report</a></li></ul></article>
+      <article><span class="number">04 · Machine learning</span><h3>Exercise Quality Prediction</h3><p>Cross validated classification of weight lifting technique using wearable sensor data.</p><ul><li><a href="practical-machine-learning.html">Prediction analysis</a></li></ul></article>
+      <article><span class="number">05 · Data products</span><h3>Interactive Applications</h3><p>Leaflet, Plotly, and Shiny projects designed for direct exploration and clear communication.</p><ul><li><a href="data-products-leaflet.html">Colombian city map</a></li><li><a href="data-products-plotly.html">Fuel economy presentation</a></li><li><a href="data-products-shiny-pitch.html">Shiny application pitch</a></li></ul></article>
+      <article><span class="number">06 · Capstone</span><h3>NextWord Predictor</h3><p>An n-gram language model, exploratory corpus report, and product presentation for next-word prediction.</p><ul><li><a href="capstone-milestone.html">Corpus milestone report</a></li><li><a href="capstone-pitch.html">Product presentation</a></li></ul></article>
+    </section>
+  </main>
+  <footer>Jhon Deiner Diaz · Johns Hopkins University Data Science Specialization · Updated October 2026</footer>
 </body>
 </html>

@@ -1,6 +1,6 @@
 ---
 title: "Predicting Weight-Lifting Exercise Quality"
-author: "Draft for student review"
+author: "Jhon Deiner Díaz Díaz"
 output: html_document
 ---
 
@@ -39,7 +39,7 @@ rf <- train(x=x, y=y, method="rf", trControl=ctrl,
 rf
 ```
 
-The independently executed audit also fitted an extra-trees classifier with the same folds and a 25% holdout. Extra trees had the lower cross-validation error and was selected. The confusion matrices show few errors and no class was systematically collapsed into another.
+The validation workflow also fitted an extra-trees classifier with the same folds and a 25% holdout. Extra trees had the lower cross-validation error and was selected. The confusion matrices show few errors and no class was systematically collapsed into another.
 
 ![Holdout confusion matrices](figure/confusion_matrices.png)
 
@@ -63,4 +63,4 @@ The 20 predictions, in `problem_id` order, are:
 
 `B, A, B, A, A, E, D, B, A, A, B, C, B, A, E, E, A, B, B, B`.
 
-These are saved in `predictions_draft.csv` for review before entering the graded prediction quiz.
+These are saved in `predictions.csv` in `problem_id` order for reproducibility.
