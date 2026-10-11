@@ -182,6 +182,9 @@ h1 .gradient, .gradient {
 .tag { padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: .76rem; font-weight: 700; }
 .card-link { display: inline-flex; gap: 8px; align-items: center; color: var(--text); text-decoration: none; font-weight: 800; }
 .card-link::after { content: "↗"; color: var(--card-accent, var(--primary)); }
+.card-actions { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; }
+.card-link.secondary { color: var(--muted); font-weight: 700; }
+.card-link.secondary:hover { color: var(--text); }
 
 .credential-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .credential { padding: 24px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); }

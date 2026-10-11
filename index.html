@@ -9,10 +9,15 @@
   <meta property="og:description" content="From raw data to decisions: interactive case studies across Google and Johns Hopkins programs.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://jhon1217.github.io/jhu-data-science-projects/">
+  <meta property="og:image" content="https://jhon1217.github.io/jhu-data-science-projects/assets/social-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#07111f">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Jhon Deiner Diaz","url":"https://jhon1217.github.io/jhu-data-science-projects/","sameAs":["https://github.com/jhon1217"],"jobTitle":"Data Analyst and Data Scientist","knowsAbout":["Data analytics","Machine learning","Python","R","SQL","Statistical inference"]}</script>
 </head>
 <body>
   <nav class="nav">
@@ -62,12 +67,12 @@
         <div class="project-grid">
           <article class="project-card featured reveal" data-track="advanced" style="--card-accent:#67e8f9">
             <div><span class="project-number">01 · Predictive maintenance</span><h3>How many useful cycles does a jet engine have left?</h3><p>A machine learning case study using NASA C-MAPSS sensor histories to estimate remaining useful life and surface the signals that drive each prediction.</p><div class="tags"><span class="tag">Python</span><span class="tag">Random forest</span><span class="tag">Feature engineering</span><span class="tag">Plotly</span></div></div>
-            <a class="card-link" href="projects/google-advanced/cmapss/">Open interactive case study</a>
+            <div class="card-actions"><a class="card-link" href="projects/google-advanced/cmapss/">Open case study</a><a class="card-link secondary" href="https://github.com/jhon1217/predictive-maintenance-cmapss">View source</a></div>
           </article>
 
           <article class="project-card compact reveal" data-track="google" style="--card-accent:#fbbf24">
             <div><span class="project-number">02 · Urban mobility</span><h3>What separates casual riders from members?</h3><p>A behavioral analysis of 3.8 million Divvy trips with practical growth recommendations.</p><div class="tags"><span class="tag">SQL</span><span class="tag">Open data</span><span class="tag">Segmentation</span></div></div>
-            <a class="card-link" href="projects/google-data-analytics/divvy/">Explore the dashboard</a>
+            <div class="card-actions"><a class="card-link" href="projects/google-data-analytics/divvy/">Explore dashboard</a><a class="card-link secondary" href="https://github.com/jhon1217/divvy-rider-analysis">View source</a></div>
           </article>
 
           <article class="project-card reveal" data-track="jhu" style="--card-accent:#a78bfa">
@@ -94,6 +99,17 @@
             <div><span class="project-number">07 · Statistical inference</span><h3>Simulation and tooth growth</h3><p>Applied inference through the exponential distribution and experimental comparison.</p><div class="tags"><span class="tag">Inference</span><span class="tag">Simulation</span><span class="tag">R</span></div></div>
             <a class="card-link" href="statistical-inference-project.pdf">Open report</a>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="practice">
+      <div class="shell">
+        <div class="section-heading reveal"><div><span class="eyebrow">Scientific practice</span><h2>Built to be questioned.</h2></div><p>A strong analysis makes its evidence, assumptions, uncertainty, and limits easy to inspect.</p></div>
+        <div class="credential-grid">
+          <article class="credential reveal"><small>01 · Traceability</small><h3>Cited public sources</h3><p>Every featured result links back to its original dataset and states the population, period, and scope.</p></article>
+          <article class="credential reveal"><small>02 · Reproducibility</small><h3>Code beside results</h3><p>Published aggregates and model outputs can be rebuilt with versioned scripts and documented dependencies.</p></article>
+          <article class="credential reveal"><small>03 · Honest evidence</small><h3>Metrics with limitations</h3><p>Evaluation separates development from testing and explains where the result should not be generalized.</p></article>
         </div>
       </div>
     </section>
