@@ -1,0 +1,6864 @@
+{
+  "source": {
+    "name": "Divvy Trips",
+    "publisher": "City of Chicago Data Portal",
+    "url": "https://data.cityofchicago.org/Transportation/Divvy-Trips/fg6s-gzvg",
+    "period": "2019"
+  },
+  "totals": [
+    {
+      "user_type": "Customer",
+      "trips": 880637
+    },
+    {
+      "user_type": "Subscriber",
+      "trips": 2937367
+    }
+  ],
+  "monthly": [
+    {
+      "month": 1,
+      "user_type": "Customer",
+      "trips": 4591,
+      "avg_duration": 2017.23
+    },
+    {
+      "month": 1,
+      "user_type": "Subscriber",
+      "trips": 98601,
+      "avg_duration": 687.31
+    },
+    {
+      "month": 2,
+      "user_type": "Customer",
+      "trips": 2627,
+      "avg_duration": 1760.85
+    },
+    {
+      "month": 2,
+      "user_type": "Subscriber",
+      "trips": 93522,
+      "avg_duration": 673.51
+    },
+    {
+      "month": 3,
+      "user_type": "Customer",
+      "trips": 15877,
+      "avg_duration": 2204.61
+    },
+    {
+      "month": 3,
+      "user_type": "Subscriber",
+      "trips": 149659,
+      "avg_duration": 675.74
+    },
+    {
+      "month": 4,
+      "user_type": "Customer",
+      "trips": 47669,
+      "avg_duration": 2451.64
+    },
+    {
+      "month": 4,
+      "user_type": "Subscriber",
+      "trips": 217531,
+      "avg_duration": 748.18
+    },
+    {
+      "month": 5,
+      "user_type": "Customer",
+      "trips": 81507,
+      "avg_duration": 2495.02
+    },
+    {
+      "month": 5,
+      "user_type": "Subscriber",
+      "trips": 285793,
+      "avg_duration": 794.1
+    },
+    {
+      "month": 6,
+      "user_type": "Customer",
+      "trips": 130066,
+      "avg_duration": 2425.4
+    },
+    {
+      "month": 6,
+      "user_type": "Subscriber",
+      "trips": 345135,
+      "avg_duration": 842.61
+    },
+    {
+      "month": 7,
+      "user_type": "Customer",
+      "trips": 175433,
+      "avg_duration": 2436.74
+    },
+    {
+      "month": 7,
+      "user_type": "Subscriber",
+      "trips": 381615,
+      "avg_duration": 860.92
+    },
+    {
+      "month": 8,
+      "user_type": "Customer",
+      "trips": 186625,
+      "avg_duration": 2408.56
+    },
+    {
+      "month": 8,
+      "user_type": "Subscriber",
+      "trips": 403241,
+      "avg_duration": 831.81
+    },
+    {
+      "month": 9,
+      "user_type": "Customer",
+      "trips": 128988,
+      "avg_duration": 2268.63
+    },
+    {
+      "month": 9,
+      "user_type": "Subscriber",
+      "trips": 364004,
+      "avg_duration": 791.04
+    },
+    {
+      "month": 10,
+      "user_type": "Customer",
+      "trips": 70889,
+      "avg_duration": 2128.86
+    },
+    {
+      "month": 10,
+      "user_type": "Subscriber",
+      "trips": 300717,
+      "avg_duration": 719.58
+    },
+    {
+      "month": 11,
+      "user_type": "Customer",
+      "trips": 18653,
+      "avg_duration": 2058.34
+    },
+    {
+      "month": 11,
+      "user_type": "Subscriber",
+      "trips": 158401,
+      "avg_duration": 665.58
+    },
+    {
+      "month": 12,
+      "user_type": "Customer",
+      "trips": 16365,
+      "avg_duration": 2230.12
+    },
+    {
+      "month": 12,
+      "user_type": "Subscriber",
+      "trips": 138647,
+      "avg_duration": 662.13
+    }
+  ],
+  "weekday": [
+    {
+      "weekday": 0,
+      "user_type": "Customer",
+      "trips": 170179
+    },
+    {
+      "weekday": 0,
+      "user_type": "Subscriber",
+      "trips": 256241
+    },
+    {
+      "weekday": 1,
+      "user_type": "Customer",
+      "trips": 101489
+    },
+    {
+      "weekday": 1,
+      "user_type": "Subscriber",
+      "trips": 458780
+    },
+    {
+      "weekday": 2,
+      "user_type": "Customer",
+      "trips": 88655
+    },
+    {
+      "weekday": 2,
+      "user_type": "Subscriber",
+      "trips": 497025
+    },
+    {
+      "weekday": 3,
+      "user_type": "Customer",
+      "trips": 89745
+    },
+    {
+      "weekday": 3,
+      "user_type": "Subscriber",
+      "trips": 494277
+    },
+    {
+      "weekday": 4,
+      "user_type": "Customer",
+      "trips": 101372
+    },
+    {
+      "weekday": 4,
+      "user_type": "Subscriber",
+      "trips": 486915
+    },
+    {
+      "weekday": 5,
+      "user_type": "Customer",
+      "trips": 121141
+    },
+    {
+      "weekday": 5,
+      "user_type": "Subscriber",
+      "trips": 456966
+    },
+    {
+      "weekday": 6,
+      "user_type": "Customer",
+      "trips": 208056
+    },
+    {
+      "weekday": 6,
+      "user_type": "Subscriber",
+      "trips": 287163
+    }
+  ],
+  "hourly": [
+    {
+      "hour": 0,
+      "user_type": "Customer",
+      "trips": 8204
+    },
+    {
+      "hour": 0,
+      "user_type": "Subscriber",
+      "trips": 15874
+    },
+    {
+      "hour": 1,
+      "user_type": "Customer",
+      "trips": 5384
+    },
+    {
+      "hour": 1,
+      "user_type": "Subscriber",
+      "trips": 9033
+    },
+    {
+      "hour": 2,
+      "user_type": "Customer",
+      "trips": 3335
+    },
+    {
+      "hour": 2,
+      "user_type": "Subscriber",
+      "trips": 5329
+    },
+    {
+      "hour": 3,
+      "user_type": "Customer",
+      "trips": 1925
+    },
+    {
+      "hour": 3,
+      "user_type": "Subscriber",
+      "trips": 3686
+    },
+    {
+      "hour": 4,
+      "user_type": "Customer",
+      "trips": 1175
+    },
+    {
+      "hour": 4,
+      "user_type": "Subscriber",
+      "trips": 6614
+    },
+    {
+      "hour": 5,
+      "user_type": "Customer",
+      "trips": 2614
+    },
+    {
+      "hour": 5,
+      "user_type": "Subscriber",
+      "trips": 33156
+    },
+    {
+      "hour": 6,
+      "user_type": "Customer",
+      "trips": 6091
+    },
+    {
+      "hour": 6,
+      "user_type": "Subscriber",
+      "trips": 102141
+    },
+    {
+      "hour": 7,
+      "user_type": "Customer",
+      "trips": 12866
+    },
+    {
+      "hour": 7,
+      "user_type": "Subscriber",
+      "trips": 224842
+    },
+    {
+      "hour": 8,
+      "user_type": "Customer",
+      "trips": 21798
+    },
+    {
+      "hour": 8,
+      "user_type": "Subscriber",
+      "trips": 283982
+    },
+    {
+      "hour": 9,
+      "user_type": "Customer",
+      "trips": 28702
+    },
+    {
+      "hour": 9,
+      "user_type": "Subscriber",
+      "trips": 135131
+    },
+    {
+      "hour": 10,
+      "user_type": "Customer",
+      "trips": 44764
+    },
+    {
+      "hour": 10,
+      "user_type": "Subscriber",
+      "trips": 100700
+    },
+    {
+      "hour": 11,
+      "user_type": "Customer",
+      "trips": 60036
+    },
+    {
+      "hour": 11,
+      "user_type": "Subscriber",
+      "trips": 119930
+    },
+    {
+      "hour": 12,
+      "user_type": "Customer",
+      "trips": 69591
+    },
+    {
+      "hour": 12,
+      "user_type": "Subscriber",
+      "trips": 136676
+    },
+    {
+      "hour": 13,
+      "user_type": "Customer",
+      "trips": 75179
+    },
+    {
+      "hour": 13,
+      "user_type": "Subscriber",
+      "trips": 131946
+    },
+    {
+      "hour": 14,
+      "user_type": "Customer",
+      "trips": 78471
+    },
+    {
+      "hour": 14,
+      "user_type": "Subscriber",
+      "trips": 127914
+    },
+    {
+      "hour": 15,
+      "user_type": "Customer",
+      "trips": 80094
+    },
+    {
+      "hour": 15,
+      "user_type": "Subscriber",
+      "trips": 163346
+    },
+    {
+      "hour": 16,
+      "user_type": "Customer",
+      "trips": 82877
+    },
+    {
+      "hour": 16,
+      "user_type": "Subscriber",
+      "trips": 292901
+    },
+    {
+      "hour": 17,
+      "user_type": "Customer",
+      "trips": 84487
+    },
+    {
+      "hour": 17,
+      "user_type": "Subscriber",
+      "trips": 390667
+    },
+    {
+      "hour": 18,
+      "user_type": "Customer",
+      "trips": 68019
+    },
+    {
+      "hour": 18,
+      "user_type": "Subscriber",
+      "trips": 247234
+    },
+    {
+      "hour": 19,
+      "user_type": "Customer",
+      "trips": 50375
+    },
+    {
+      "hour": 19,
+      "user_type": "Subscriber",
+      "trips": 158385
+    },
+    {
+      "hour": 20,
+      "user_type": "Customer",
+      "trips": 34403
+    },
+    {
+      "hour": 20,
+      "user_type": "Subscriber",
+      "trips": 99757
+    },
+    {
+      "hour": 21,
+      "user_type": "Customer",
+      "trips": 24925
+    },
+    {
+      "hour": 21,
+      "user_type": "Subscriber",
+      "trips": 71268
+    },
+    {
+      "hour": 22,
+      "user_type": "Customer",
+      "trips": 21166
+    },
+    {
+      "hour": 22,
+      "user_type": "Subscriber",
+      "trips": 48535
+    },
+    {
+      "hour": 23,
+      "user_type": "Customer",
+      "trips": 14156
+    },
+    {
+      "hour": 23,
+      "user_type": "Subscriber",
+      "trips": 28320
+    }
+  ],
+  "top_stations": [
+    {
+      "from_station_name": "Streeter Dr & Grand Ave",
+      "user_type": "Customer",
+      "trips": 53104
+    },
+    {
+      "from_station_name": "Canal St & Adams St",
+      "user_type": "Subscriber",
+      "trips": 50575
+    },
+    {
+      "from_station_name": "Clinton St & Madison St",
+      "user_type": "Subscriber",
+      "trips": 45990
+    },
+    {
+      "from_station_name": "Clinton St & Washington Blvd",
+      "user_type": "Subscriber",
+      "trips": 45378
+    },
+    {
+      "from_station_name": "Lake Shore Dr & Monroe St",
+      "user_type": "Customer",
+      "trips": 39238
+    },
+    {
+      "from_station_name": "Columbus Dr & Randolph St",
+      "user_type": "Subscriber",
+      "trips": 31370
+    },
+    {
+      "from_station_name": "Franklin St & Monroe St",
+      "user_type": "Subscriber",
+      "trips": 30832
+    },
+    {
+      "from_station_name": "Kingsbury St & Kinzie St",
+      "user_type": "Subscriber",
+      "trips": 30654
+    },
+    {
+      "from_station_name": "Daley Center Plaza",
+      "user_type": "Subscriber",
+      "trips": 30423
+    },
+    {
+      "from_station_name": "Canal St & Madison St",
+      "user_type": "Subscriber",
+      "trips": 27138
+    },
+    {
+      "from_station_name": "Michigan Ave & Washington St",
+      "user_type": "Subscriber",
+      "trips": 25468
+    },
+    {
+      "from_station_name": "LaSalle St & Jackson Blvd",
+      "user_type": "Subscriber",
+      "trips": 23021
+    },
+    {
+      "from_station_name": "Millennium Park",
+      "user_type": "Customer",
+      "trips": 21749
+    },
+    {
+      "from_station_name": "Clinton St & Lake St",
+      "user_type": "Subscriber",
+      "trips": 21567
+    },
+    {
+      "from_station_name": "Clark St & Elm St",
+      "user_type": "Subscriber",
+      "trips": 21485
+    },
+    {
+      "from_station_name": "Michigan Ave & Oak St",
+      "user_type": "Customer",
+      "trips": 21388
+    },
+    {
+      "from_station_name": "Orleans St & Merchandise Mart Plaza",
+      "user_type": "Subscriber",
+      "trips": 21356
+    },
+    {
+      "from_station_name": "Wells St & Huron St",
+      "user_type": "Subscriber",
+      "trips": 21143
+    },
+    {
+      "from_station_name": "Larrabee St & Kingsbury St",
+      "user_type": "Subscriber",
+      "trips": 20904
+    },
+    {
+      "from_station_name": "Shedd Aquarium",
+      "user_type": "Customer",
+      "trips": 20617
+    },
+    {
+      "from_station_name": "Dearborn St & Erie St",
+      "user_type": "Subscriber",
+      "trips": 20232
+    },
+    {
+      "from_station_name": "Desplaines St & Kinzie St",
+      "user_type": "Subscriber",
+      "trips": 19427
+    },
+    {
+      "from_station_name": "Lake Shore Dr & North Blvd",
+      "user_type": "Customer",
+      "trips": 18952
+    },
+    {
+      "from_station_name": "Wells St & Concord Ln",
+      "user_type": "Subscriber",
+      "trips": 18622
+    },
+    {
+      "from_station_name": "Wabash Ave & Grand Ave",
+      "user_type": "Subscriber",
+      "trips": 18505
+    },
+    {
+      "from_station_name": "Dearborn St & Monroe St",
+      "user_type": "Subscriber",
+      "trips": 18144
+    },
+    {
+      "from_station_name": "Michigan Ave & Lake St",
+      "user_type": "Subscriber",
+      "trips": 17410
+    },
+    {
+      "from_station_name": "St. Clair St & Erie St",
+      "user_type": "Subscriber",
+      "trips": 17332
+    },
+    {
+      "from_station_name": "Kingsbury St & Erie St",
+      "user_type": "Subscriber",
+      "trips": 17256
+    },
+    {
+      "from_station_name": "Wells St & Hubbard St",
+      "user_type": "Subscriber",
+      "trips": 17118
+    },
+    {
+      "from_station_name": "Theater on the Lake",
+      "user_type": "Subscriber",
+      "trips": 16974
+    },
+    {
+      "from_station_name": "Franklin St & Jackson Blvd",
+      "user_type": "Subscriber",
+      "trips": 16394
+    },
+    {
+      "from_station_name": "State St & Randolph St",
+      "user_type": "Subscriber",
+      "trips": 16136
+    },
+    {
+      "from_station_name": "Ashland Ave & Division St",
+      "user_type": "Subscriber",
+      "trips": 16029
+    },
+    {
+      "from_station_name": "Wabash Ave & Roosevelt Rd",
+      "user_type": "Subscriber",
+      "trips": 15914
+    },
+    {
+      "from_station_name": "State St & Kinzie St",
+      "user_type": "Subscriber",
+      "trips": 15764
+    },
+    {
+      "from_station_name": "Damen Ave & Pierce Ave",
+      "user_type": "Subscriber",
+      "trips": 15546
+    },
+    {
+      "from_station_name": "Lake Shore Dr & North Blvd",
+      "user_type": "Subscriber",
+      "trips": 15520
+    },
+    {
+      "from_station_name": "Fairbanks Ct & Grand Ave",
+      "user_type": "Subscriber",
+      "trips": 15477
+    },
+    {
+      "from_station_name": "Morgan St & Lake St",
+      "user_type": "Subscriber",
+      "trips": 15307
+    },
+    {
+      "from_station_name": "Sheffield Ave & Fullerton Ave",
+      "user_type": "Subscriber",
+      "trips": 15129
+    },
+    {
+      "from_station_name": "Theater on the Lake",
+      "user_type": "Customer",
+      "trips": 15027
+    },
+    {
+      "from_station_name": "Wacker Dr & Washington St",
+      "user_type": "Subscriber",
+      "trips": 15010
+    },
+    {
+      "from_station_name": "Wilton Ave & Belmont Ave",
+      "user_type": "Subscriber",
+      "trips": 14990
+    },
+    {
+      "from_station_name": "Clark St & Armitage Ave",
+      "user_type": "Subscriber",
+      "trips": 14881
+    },
+    {
+      "from_station_name": "Streeter Dr & Grand Ave",
+      "user_type": "Subscriber",
+      "trips": 14879
+    },
+    {
+      "from_station_name": "LaSalle St & Illinois St",
+      "user_type": "Subscriber",
+      "trips": 14412
+    },
+    {
+      "from_station_name": "Dearborn Pkwy & Delaware Pl",
+      "user_type": "Subscriber",
+      "trips": 14144
+    },
+    {
+      "from_station_name": "Green St & Madison St",
+      "user_type": "Subscriber",
+      "trips": 14121
+    },
+    {
+      "from_station_name": "Michigan Ave & Oak St",
+      "user_type": "Subscriber",
+      "trips": 14061
+    },
+    {
+      "from_station_name": "Franklin St & Lake St",
+      "user_type": "Subscriber",
+      "trips": 13964
+    },
+    {
+      "from_station_name": "Clark St & Lake St",
+      "user_type": "Subscriber",
+      "trips": 13843
+    },
+    {
+      "from_station_name": "Ravenswood Ave & Lawrence Ave",
+      "user_type": "Subscriber",
+      "trips": 13713
+    },
+    {
+      "from_station_name": "Broadway & Barry Ave",
+      "user_type": "Subscriber",
+      "trips": 13686
+    },
+    {
+      "from_station_name": "Clark St & Randolph St",
+      "user_type": "Subscriber",
+      "trips": 13520
+    },
+    {
+      "from_station_name": "Wilton Ave & Diversey Pkwy",
+      "user_type": "Subscriber",
+      "trips": 13489
+    },
+    {
+      "from_station_name": "Milwaukee Ave & Grand Ave",
+      "user_type": "Subscriber",
+      "trips": 13316
+    },
+    {
+      "from_station_name": "Sedgwick St & Huron St",
+      "user_type": "Subscriber",
+      "trips": 13109
+    },
+    {
+      "from_station_name": "McClurg Ct & Illinois St",
+      "user_type": "Subscriber",
+      "trips": 13086
+    },
+    {
+      "from_station_name": "Clark St & Lincoln Ave",
+      "user_type": "Subscriber",
+      "trips": 12950
+    },
+    {
+      "from_station_name": "Wells St & Elm St",
+      "user_type": "Subscriber",
+      "trips": 12928
+    },
+    {
+      "from_station_name": "Indiana Ave & Roosevelt Rd",
+      "user_type": "Subscriber",
+      "trips": 12922
+    },
+    {
+      "from_station_name": "McClurg Ct & Erie St",
+      "user_type": "Subscriber",
+      "trips": 12843
+    },
+    {
+      "from_station_name": "Marshfield Ave & Cortland St",
+      "user_type": "Subscriber",
+      "trips": 12713
+    },
+    {
+      "from_station_name": "Bissell St & Armitage Ave",
+      "user_type": "Subscriber",
+      "trips": 12615
+    },
+    {
+      "from_station_name": "Morgan St & Polk St",
+      "user_type": "Subscriber",
+      "trips": 12589
+    },
+    {
+      "from_station_name": "Dusable Harbor",
+      "user_type": "Customer",
+      "trips": 12546
+    },
+    {
+      "from_station_name": "Desplaines St & Jackson Blvd",
+      "user_type": "Subscriber",
+      "trips": 12484
+    },
+    {
+      "from_station_name": "Loomis St & Lexington St",
+      "user_type": "Subscriber",
+      "trips": 12417
+    },
+    {
+      "from_station_name": "Clark St & Wrightwood Ave",
+      "user_type": "Subscriber",
+      "trips": 12402
+    },
+    {
+      "from_station_name": "Millennium Park",
+      "user_type": "Subscriber",
+      "trips": 12357
+    },
+    {
+      "from_station_name": "Michigan Ave & Washington St",
+      "user_type": "Customer",
+      "trips": 12228
+    },
+    {
+      "from_station_name": "Peoria St & Jackson Blvd",
+      "user_type": "Subscriber",
+      "trips": 12041
+    },
+    {
+      "from_station_name": "Adler Planetarium",
+      "user_type": "Customer",
+      "trips": 11928
+    },
+    {
+      "from_station_name": "Wells St & Evergreen Ave",
+      "user_type": "Subscriber",
+      "trips": 11723
+    },
+    {
+      "from_station_name": "Sedgwick St & North Ave",
+      "user_type": "Subscriber",
+      "trips": 11627
+    },
+    {
+      "from_station_name": "Clark St & Schiller St",
+      "user_type": "Subscriber",
+      "trips": 11383
+    },
+    {
+      "from_station_name": "Clark St & Ida B Wells Dr",
+      "user_type": "Subscriber",
+      "trips": 11189
+    },
+    {
+      "from_station_name": "Green St & Randolph St",
+      "user_type": "Subscriber",
+      "trips": 11062
+    },
+    {
+      "from_station_name": "Rush St & Superior St",
+      "user_type": "Subscriber",
+      "trips": 11002
+    },
+    {
+      "from_station_name": "Aberdeen St & Jackson Blvd",
+      "user_type": "Subscriber",
+      "trips": 10878
+    },
+    {
+      "from_station_name": "Clinton St & Jackson Blvd",
+      "user_type": "Subscriber",
+      "trips": 10853
+    },
+    {
+      "from_station_name": "Sheridan Rd & Irving Park Rd",
+      "user_type": "Subscriber",
+      "trips": 10829
+    },
+    {
+      "from_station_name": "Cityfront Plaza Dr & Pioneer Ct",
+      "user_type": "Subscriber",
+      "trips": 10795
+    },
+    {
+      "from_station_name": "Lake Shore Dr & Monroe St",
+      "user_type": "Subscriber",
+      "trips": 10566
+    },
+    {
+      "from_station_name": "Lincoln Ave & Fullerton Ave",
+      "user_type": "Subscriber",
+      "trips": 10560
+    },
+    {
+      "from_station_name": "Stetson Ave & South Water St",
+      "user_type": "Subscriber",
+      "trips": 10505
+    },
+    {
+      "from_station_name": "University Ave & 57th St",
+      "user_type": "Subscriber",
+      "trips": 10353
+    },
+    {
+      "from_station_name": "Dearborn St & Adams St",
+      "user_type": "Subscriber",
+      "trips": 10300
+    },
+    {
+      "from_station_name": "Sheffield Ave & Kingsbury St",
+      "user_type": "Subscriber",
+      "trips": 10184
+    },
+    {
+      "from_station_name": "Southport Ave & Roscoe St",
+      "user_type": "Subscriber",
+      "trips": 10165
+    },
+    {
+      "from_station_name": "LaSalle St & Washington St",
+      "user_type": "Subscriber",
+      "trips": 10157
+    },
+    {
+      "from_station_name": "Sheffield Ave & Wellington Ave",
+      "user_type": "Subscriber",
+      "trips": 10151
+    },
+    {
+      "from_station_name": "Wabash Ave & 9th St",
+      "user_type": "Subscriber",
+      "trips": 10046
+    },
+    {
+      "from_station_name": "Federal St & Polk St",
+      "user_type": "Subscriber",
+      "trips": 9968
+    },
+    {
+      "from_station_name": "Sheffield Ave & Webster Ave",
+      "user_type": "Subscriber",
+      "trips": 9925
+    },
+    {
+      "from_station_name": "Mies van der Rohe Way & Chestnut St",
+      "user_type": "Subscriber",
+      "trips": 9857
+    },
+    {
+      "from_station_name": "Desplaines St & Randolph St",
+      "user_type": "Subscriber",
+      "trips": 9806
+    },
+    {
+      "from_station_name": "Clark St & Drummond Pl",
+      "user_type": "Subscriber",
+      "trips": 9779
+    },
+    {
+      "from_station_name": "Larrabee St & Webster Ave",
+      "user_type": "Subscriber",
+      "trips": 9646
+    },
+    {
+      "from_station_name": "Rush St & Hubbard St",
+      "user_type": "Subscriber",
+      "trips": 9544
+    },
+    {
+      "from_station_name": "Michigan Ave & 8th St",
+      "user_type": "Customer",
+      "trips": 9525
+    },
+    {
+      "from_station_name": "Lakeview Ave & Fullerton Pkwy",
+      "user_type": "Subscriber",
+      "trips": 9506
+    },
+    {
+      "from_station_name": "Sedgwick St & Webster Ave",
+      "user_type": "Subscriber",
+      "trips": 9404
+    },
+    {
+      "from_station_name": "Wabash Ave & Adams St",
+      "user_type": "Subscriber",
+      "trips": 9379
+    },
+    {
+      "from_station_name": "Broadway & Cornelia Ave",
+      "user_type": "Subscriber",
+      "trips": 9326
+    },
+    {
+      "from_station_name": "Canal St & Jackson Blvd",
+      "user_type": "Subscriber",
+      "trips": 9314
+    },
+    {
+      "from_station_name": "State St & Pearson St",
+      "user_type": "Subscriber",
+      "trips": 9305
+    },
+    {
+      "from_station_name": "Mies van der Rohe Way & Chicago Ave",
+      "user_type": "Subscriber",
+      "trips": 9178
+    },
+    {
+      "from_station_name": "Canal St & Monroe St",
+      "user_type": "Subscriber",
+      "trips": 9114
+    },
+    {
+      "from_station_name": "Clark St & Wellington Ave",
+      "user_type": "Subscriber",
+      "trips": 9099
+    },
+    {
+      "from_station_name": "Rush St & Cedar St",
+      "user_type": "Subscriber",
+      "trips": 9097
+    },
+    {
+      "from_station_name": "Pine Grove Ave & Waveland Ave",
+      "user_type": "Subscriber",
+      "trips": 9075
+    },
+    {
+      "from_station_name": "State St & Van Buren St",
+      "user_type": "Subscriber",
+      "trips": 8837
+    },
+    {
+      "from_station_name": "Broadway & Waveland Ave",
+      "user_type": "Subscriber",
+      "trips": 8782
+    },
+    {
+      "from_station_name": "Aberdeen St & Randolph St",
+      "user_type": "Subscriber",
+      "trips": 8738
+    },
+    {
+      "from_station_name": "Michigan Ave & Jackson Blvd",
+      "user_type": "Subscriber",
+      "trips": 8624
+    },
+    {
+      "from_station_name": "Clinton St & Jackson Blvd (*)",
+      "user_type": "Subscriber",
+      "trips": 8576
+    },
+    {
+      "from_station_name": "Ogden Ave & Chicago Ave",
+      "user_type": "Subscriber",
+      "trips": 8572
+    },
+    {
+      "from_station_name": "Wolcott Ave & Polk St",
+      "user_type": "Subscriber",
+      "trips": 8537
+    },
+    {
+      "from_station_name": "Halsted St & Clybourn Ave",
+      "user_type": "Subscriber",
+      "trips": 8519
+    },
+    {
+      "from_station_name": "Halsted St & Dickens Ave",
+      "user_type": "Subscriber",
+      "trips": 8452
+    },
+    {
+      "from_station_name": "Wood St & Milwaukee Ave",
+      "user_type": "Subscriber",
+      "trips": 8433
+    },
+    {
+      "from_station_name": "Southport Ave & Waveland Ave",
+      "user_type": "Subscriber",
+      "trips": 8399
+    },
+    {
+      "from_station_name": "Michigan Ave & Madison St",
+      "user_type": "Subscriber",
+      "trips": 8360
+    },
+    {
+      "from_station_name": "Larrabee St & Division St",
+      "user_type": "Subscriber",
+      "trips": 8360
+    },
+    {
+      "from_station_name": "Dayton St & North Ave",
+      "user_type": "Subscriber",
+      "trips": 8259
+    },
+    {
+      "from_station_name": "Aberdeen St & Monroe St",
+      "user_type": "Subscriber",
+      "trips": 8249
+    },
+    {
+      "from_station_name": "Clark St & Chicago Ave",
+      "user_type": "Subscriber",
+      "trips": 8198
+    },
+    {
+      "from_station_name": "Montrose Harbor",
+      "user_type": "Customer",
+      "trips": 8188
+    },
+    {
+      "from_station_name": "Halsted St & Roscoe St",
+      "user_type": "Subscriber",
+      "trips": 8179
+    },
+    {
+      "from_station_name": "Southport Ave & Wellington Ave",
+      "user_type": "Subscriber",
+      "trips": 8155
+    },
+    {
+      "from_station_name": "Franklin St & Chicago Ave",
+      "user_type": "Subscriber",
+      "trips": 8129
+    },
+    {
+      "from_station_name": "Burling St (Halsted) & Diversey Pkwy (Temp)",
+      "user_type": "Subscriber",
+      "trips": 8091
+    },
+    {
+      "from_station_name": "Broadway & Belmont Ave",
+      "user_type": "Subscriber",
+      "trips": 8070
+    },
+    {
+      "from_station_name": "Lake Shore Dr & Ohio St",
+      "user_type": "Subscriber",
+      "trips": 8063
+    },
+    {
+      "from_station_name": "Indiana Ave & Roosevelt Rd",
+      "user_type": "Customer",
+      "trips": 8029
+    },
+    {
+      "from_station_name": "Lake Shore Dr & Wellington Ave",
+      "user_type": "Subscriber",
+      "trips": 7974
+    },
+    {
+      "from_station_name": "Milwaukee Ave & Wabansia Ave",
+      "user_type": "Subscriber",
+      "trips": 7968
+    },
+    {
+      "from_station_name": "Halsted St & Wrightwood Ave",
+      "user_type": "Subscriber",
+      "trips": 7945
+    },
+    {
+      "from_station_name": "Sheffield Ave & Willow St",
+      "user_type": "Subscriber",
+      "trips": 7936
+    },
+    {
+      "from_station_name": "Larrabee St & Oak St",
+      "user_type": "Subscriber",
+      "trips": 7928
+    },
+    {
+      "from_station_name": "Columbus Dr & Randolph St",
+      "user_type": "Customer",
+      "trips": 7822
+    },
+    {
+      "from_station_name": "Pine Grove Ave & Irving Park Rd",
+      "user_type": "Subscriber",
+      "trips": 7809
+    },
+    {
+      "from_station_name": "Michigan Ave & 18th St",
+      "user_type": "Subscriber",
+      "trips": 7789
+    },
+    {
+      "from_station_name": "Sheffield Ave & Waveland Ave",
+      "user_type": "Subscriber",
+      "trips": 7780
+    },
+    {
+      "from_station_name": "Racine Ave & Fullerton Ave",
+      "user_type": "Subscriber",
+      "trips": 7761
+    },
+    {
+      "from_station_name": "Lake Shore Dr & Belmont Ave",
+      "user_type": "Subscriber",
+      "trips": 7745
+    },
+    {
+      "from_station_name": "Wabash Ave & Wacker Pl",
+      "user_type": "Subscriber",
+      "trips": 7732
+    },
+    {
+      "from_station_name": "Jefferson St & Monroe St",
+      "user_type": "Subscriber",
+      "trips": 7719
+    },
+    {
+      "from_station_name": "Wabash Ave & 16th St",
+      "user_type": "Subscriber",
+      "trips": 7686
+    },
+    {
+      "from_station_name": "Field Museum",
+      "user_type": "Customer",
+      "trips": 7654
+    },
+    {
+      "from_station_name": "Damen Ave & Chicago Ave",
+      "user_type": "Subscriber",
+      "trips": 7651
+    },
+    {
+      "from_station_name": "Ellis Ave & 55th St",
+      "user_type": "Subscriber",
+      "trips": 7616
+    },
+    {
+      "from_station_name": "Stockton Dr & Wrightwood Ave",
+      "user_type": "Subscriber",
+      "trips": 7450
+    },
+    {
+      "from_station_name": "Michigan Ave & 14th St",
+      "user_type": "Subscriber",
+      "trips": 7354
+    },
+    {
+      "from_station_name": "Halsted St & Polk St",
+      "user_type": "Subscriber",
+      "trips": 7336
+    },
+    {
+      "from_station_name": "Lake Shore Dr & Diversey Pkwy",
+      "user_type": "Subscriber",
+      "trips": 7331
+    },
+    {
+      "from_station_name": "Field Blvd & South Water St",
+      "user_type": "Subscriber",
+      "trips": 7311
+    },
+    {
+      "from_station_name": "Burnham Harbor",
+      "user_type": "Subscriber",
+      "trips": 7267
+    },
+    {
+      "from_station_name": "Kimbark Ave & 53rd St",
+      "user_type": "Subscriber",
+      "trips": 7244
+    },
+    {
+      "from_station_name": "Ogden Ave & Race Ave",
+      "user_type": "Subscriber",
+      "trips": 7209
+    },
+    {
+      "from_station_name": "Orleans St & Chestnut St (NEXT Apts)",
+      "user_type": "Subscriber",
+      "trips": 7201
+    },
+    {
+      "from_station_name": "California Ave & Milwaukee Ave",
+      "user_type": "Subscriber",
+      "trips": 7180
+    },
+    {
+      "from_station_name": "Western Ave & Winnebago Ave",
+      "user_type": "Subscriber",
+      "trips": 7156
+    },
+    {
+      "from_station_name": "Southport Ave & Clybourn Ave",
+      "user_type": "Subscriber",
+      "trips": 7106
+    },
+    {
+      "from_station_name": "Wells St & Polk St",
+      "user_type": "Subscriber",
+      "trips": 7058
+    },
+    {
+      "from_station_name": "McClurg Ct & Illinois St",
+      "user_type": "Customer",
+      "trips": 6977
+    },
+    {
+      "from_station_name": "Lincoln Ave & Roscoe St",
+      "user_type": "Subscriber",
+      "trips": 6951
+    },
+    {
+      "from_station_name": "MLK Jr Dr & 29th St",
+      "user_type": "Subscriber",
+      "trips": 6941
+    },
+    {
+      "from_station_name": "Damen Ave & Cortland St",
+      "user_type": "Subscriber",
+      "trips": 6940
+    },
+    {
+      "from_station_name": "Michigan Ave & Jackson Blvd",
+      "user_type": "Customer",
+      "trips": 6917
+    },
+    {
+      "from_station_name": "Sheffield Ave & Wrightwood Ave",
+      "user_type": "Subscriber",
+      "trips": 6844
+    },
+    {
+      "from_station_name": "Ada St & Washington Blvd",
+      "user_type": "Subscriber",
+      "trips": 6805
+    },
+    {
+      "from_station_name": "Honore St & Division St",
+      "user_type": "Subscriber",
+      "trips": 6731
+    },
+    {
+      "from_station_name": "Clark St & Lincoln Ave",
+      "user_type": "Customer",
+      "trips": 6715
+    },
+    {
+      "from_station_name": "Broadway & Sheridan Rd",
+      "user_type": "Subscriber",
+      "trips": 6668
+    },
+    {
+      "from_station_name": "Clark St & Armitage Ave",
+      "user_type": "Customer",
+      "trips": 6608
+    },
+    {
+      "from_station_name": "Damen Ave & Division St",
+      "user_type": "Subscriber",
+      "trips": 6580
+    },
+    {
+      "from_station_name": "Kedzie Ave & Milwaukee Ave",
+      "user_type": "Subscriber",
+      "trips": 6568
+    },
+    {
+      "from_station_name": "Clifton Ave & Armitage Ave",
+      "user_type": "Subscriber",
+      "trips": 6496
+    },
+    {
+      "from_station_name": "Clark St & Winnemac Ave",
+      "user_type": "Subscriber",
+      "trips": 6488
+    },
+    {
+      "from_station_name": "Wells St & Walton St",
+      "user_type": "Subscriber",
+      "trips": 6433
+    },
+    {
+      "from_station_name": "Canal St & Taylor St",
+      "user_type": "Subscriber",
+      "trips": 6396
+    },
+    {
+      "from_station_name": "Lake Shore Dr & Ohio St",
+      "user_type": "Customer",
+      "trips": 6379
+    },
+    {
+      "from_station_name": "Halsted St & Willow St",
+      "user_type": "Subscriber",
+      "trips": 6366
+    },
+    {
+      "from_station_name": "Broadway & Wilson Ave",
+      "user_type": "Subscriber",
+      "trips": 6351
+    },
+    {
+      "from_station_name": "Clinton St & Tilden St",
+      "user_type": "Subscriber",
+      "trips": 6334
+    },
+    {
+      "from_station_name": "May St & Taylor St",
+      "user_type": "Subscriber",
+      "trips": 6167
+    },
+    {
+      "from_station_name": "Carpenter St & Huron St",
+      "user_type": "Subscriber",
+      "trips": 6110
+    },
+    {
+      "from_station_name": "Clark St & Newport St",
+      "user_type": "Subscriber",
+      "trips": 6109
+    },
+    {
+      "from_station_name": "Ritchie Ct & Banks St",
+      "user_type": "Subscriber",
+      "trips": 6106
+    },
+    {
+      "from_station_name": "Lincoln Ave & Diversey Pkwy",
+      "user_type": "Subscriber",
+      "trips": 6096
+    },
+    {
+      "from_station_name": "Ellis Ave & 60th St",
+      "user_type": "Subscriber",
+      "trips": 6083
+    },
+    {
+      "from_station_name": "State St & 33rd St",
+      "user_type": "Subscriber",
+      "trips": 6067
+    },
+    {
+      "from_station_name": "Wabash Ave & Grand Ave",
+      "user_type": "Customer",
+      "trips": 6029
+    },
+    {
+      "from_station_name": "Clarendon Ave & Gordon Ter",
+      "user_type": "Subscriber",
+      "trips": 5988
+    },
+    {
+      "from_station_name": "Larrabee St & Armitage Ave",
+      "user_type": "Subscriber",
+      "trips": 5986
+    },
+    {
+      "from_station_name": "Halsted St & Maxwell St",
+      "user_type": "Subscriber",
+      "trips": 5909
+    },
+    {
+      "from_station_name": "Clark St & North Ave",
+      "user_type": "Subscriber",
+      "trips": 5906
+    },
+    {
+      "from_station_name": "Canal St & Monroe St (*)",
+      "user_type": "Subscriber",
+      "trips": 5866
+    },
+    {
+      "from_station_name": "State St & Harrison St",
+      "user_type": "Subscriber",
+      "trips": 5852
+    },
+    {
+      "from_station_name": "Noble St & Milwaukee Ave",
+      "user_type": "Subscriber",
+      "trips": 5835
+    },
+    {
+      "from_station_name": "Sheridan Rd & Montrose Ave",
+      "user_type": "Subscriber",
+      "trips": 5835
+    },
+    {
+      "from_station_name": "Halsted St & Roosevelt Rd",
+      "user_type": "Subscriber",
+      "trips": 5818
+    },
+    {
+      "from_station_name": "Shedd Aquarium",
+      "user_type": "Subscriber",
+      "trips": 5815
+    },
+    {
+      "from_station_name": "Artesian Ave & Hubbard St",
+      "user_type": "Subscriber",
+      "trips": 5772
+    },
+    {
+      "from_station_name": "Paulina Ave & North Ave",
+      "user_type": "Subscriber",
+      "trips": 5767
+    },
+    {
+      "from_station_name": "900 W Harrison St",
+      "user_type": "Subscriber",
+      "trips": 5760
+    },
+    {
+      "from_station_name": "Wood St & Taylor St",
+      "user_type": "Subscriber",
+      "trips": 5743
+    },
+    {
+      "from_station_name": "Lake Shore Dr & Belmont Ave",
+      "user_type": "Customer",
+      "trips": 5722
+    },
+    {
+      "from_station_name": "Racine Ave & Congress Pkwy",
+      "user_type": "Subscriber",
+      "trips": 5694
+    },
+    {
+      "from_station_name": "Greenview Ave & Fullerton Ave",
+      "user_type": "Subscriber",
+      "trips": 5665
+    },
+    {
+      "from_station_name": "Eckhart Park",
+      "user_type": "Subscriber",
+      "trips": 5664
+    },
+    {
+      "from_station_name": "LaSalle St & Adams St",
+      "user_type": "Subscriber",
+      "trips": 5588
+    },
+    {
+      "from_station_name": "Clark St & Berwyn Ave",
+      "user_type": "Subscriber",
+      "trips": 5571
+    },
+    {
+      "from_station_name": "Michigan Ave & Pearson St",
+      "user_type": "Subscriber",
+      "trips": 5564
+    },
+    {
+      "from_station_name": "Damen Ave & Thomas St (Augusta Blvd)",
+      "user_type": "Subscriber",
+      "trips": 5538
+    },
+    {
+      "from_station_name": "Clybourn Ave & Division St",
+      "user_type": "Subscriber",
+      "trips": 5523
+    },
+    {
+      "from_station_name": "Racine Ave & Belmont Ave",
+      "user_type": "Subscriber",
+      "trips": 5523
+    },
+    {
+      "from_station_name": "Blue Island Ave & 18th St",
+      "user_type": "Subscriber",
+      "trips": 5501
+    },
+    {
+      "from_station_name": "Calumet Ave & 18th St",
+      "user_type": "Subscriber",
+      "trips": 5485
+    },
+    {
+      "from_station_name": "Lincoln Ave & Belmont Ave",
+      "user_type": "Subscriber",
+      "trips": 5455
+    },
+    {
+      "from_station_name": "Ashland Ave & Blackhawk St",
+      "user_type": "Subscriber",
+      "trips": 5431
+    },
+    {
+      "from_station_name": "Montrose Harbor",
+      "user_type": "Subscriber",
+      "trips": 5405
+    },
+    {
+      "from_station_name": "Michigan Ave & Lake St",
+      "user_type": "Customer",
+      "trips": 5397
+    },
+    {
+      "from_station_name": "Clark St & Grace St",
+      "user_type": "Subscriber",
+      "trips": 5391
+    },
+    {
+      "from_station_name": "Halsted St & Clybourn Ave (*)",
+      "user_type": "Subscriber",
+      "trips": 5388
+    },
+    {
+      "from_station_name": "Michigan Ave & Pearson St",
+      "user_type": "Customer",
+      "trips": 5333
+    },
+    {
+      "from_station_name": "Michigan Ave & 8th St",
+      "user_type": "Subscriber",
+      "trips": 5269
+    },
+    {
+      "from_station_name": "Western Ave & Walton St",
+      "user_type": "Subscriber",
+      "trips": 5256
+    },
+    {
+      "from_station_name": "Southport Ave & Wrightwood Ave",
+      "user_type": "Subscriber",
+      "trips": 5210
+    },
+    {
+      "from_station_name": "LaSalle Dr & Huron St",
+      "user_type": "Subscriber",
+      "trips": 5182
+    },
+    {
+      "from_station_name": "Lakefront Trail & Bryn Mawr Ave",
+      "user_type": "Subscriber",
+      "trips": 5181
+    },
+    {
+      "from_station_name": "Paulina St & Flournoy St",
+      "user_type": "Subscriber",
+      "trips": 5180
+    },
+    {
+      "from_station_name": "Delano Ct & Roosevelt Rd",
+      "user_type": "Subscriber",
+      "trips": 5125
+    },
+    {
+      "from_station_name": "Fairbanks Ct & Grand Ave",
+      "user_type": "Customer",
+      "trips": 5125
+    },
+    {
+      "from_station_name": "Ellis Ave & 58th St",
+      "user_type": "Subscriber",
+      "trips": 5093
+    },
+    {
+      "from_station_name": "Franklin St & Quincy St",
+      "user_type": "Subscriber",
+      "trips": 5092
+    },
+    {
+      "from_station_name": "Lakeview Ave & Fullerton Pkwy",
+      "user_type": "Customer",
+      "trips": 4977
+    },
+    {
+      "from_station_name": "Damen Ave & Leland Ave",
+      "user_type": "Subscriber",
+      "trips": 4908
+    },
+    {
+      "from_station_name": "Racine Ave & Randolph St",
+      "user_type": "Subscriber",
+      "trips": 4894
+    },
+    {
+      "from_station_name": "Wood St & Augusta Blvd",
+      "user_type": "Subscriber",
+      "trips": 4854
+    },
+    {
+      "from_station_name": "Franklin St & Chicago Ave (Temp)",
+      "user_type": "Subscriber",
+      "trips": 4842
+    },
+    {
+      "from_station_name": "Adler Planetarium",
+      "user_type": "Subscriber",
+      "trips": 4807
+    },
+    {
+      "from_station_name": "Shore Dr & 55th St",
+      "user_type": "Subscriber",
+      "trips": 4795
+    },
+    {
+      "from_station_name": "Ashland Ave & Chicago Ave",
+      "user_type": "Subscriber",
+      "trips": 4749
+    },
+    {
+      "from_station_name": "Clark St & Leland Ave",
+      "user_type": "Subscriber",
+      "trips": 4722
+    },
+    {
+      "from_station_name": "Lake Shore Dr & Diversey Pkwy",
+      "user_type": "Customer",
+      "trips": 4698
+    },
+    {
+      "from_station_name": "Franklin St & Adams St (Temp)",
+      "user_type": "Subscriber",
+      "trips": 4660
+    },
+    {
+      "from_station_name": "Clinton St & Roosevelt Rd",
+      "user_type": "Subscriber",
+      "trips": 4645
+    },
+    {
+      "from_station_name": "Hermitage Ave & Polk St",
+      "user_type": "Subscriber",
+      "trips": 4625
+    },
+    {
+      "from_station_name": "Dusable Harbor",
+      "user_type": "Subscriber",
+      "trips": 4607
+    },
+    {
+      "from_station_name": "Southport Ave & Irving Park Rd",
+      "user_type": "Subscriber",
+      "trips": 4596
+    },
+    {
+      "from_station_name": "Southport Ave & Belmont Ave",
+      "user_type": "Subscriber",
+      "trips": 4565
+    },
+    {
+      "from_station_name": "Larrabee St & Menomonee St",
+      "user_type": "Subscriber",
+      "trips": 4548
+    },
+    {
+      "from_station_name": "Mies van der Rohe Way & Chestnut St",
+      "user_type": "Customer",
+      "trips": 4545
+    },
+    {
+      "from_station_name": "St. Clair St & Erie St",
+      "user_type": "Customer",
+      "trips": 4540
+    },
+    {
+      "from_station_name": "Western Ave & Leland Ave",
+      "user_type": "Subscriber",
+      "trips": 4516
+    },
+    {
+      "from_station_name": "Lake Park Ave & 56th St",
+      "user_type": "Subscriber",
+      "trips": 4499
+    },
+    {
+      "from_station_name": "Ashland Ave & Augusta Blvd",
+      "user_type": "Subscriber",
+      "trips": 4482
+    },
+    {
+      "from_station_name": "Lakefront Trail & Bryn Mawr Ave",
+      "user_type": "Customer",
+      "trips": 4478
+    },
+    {
+      "from_station_name": "Racine Ave & Wrightwood Ave",
+      "user_type": "Subscriber",
+      "trips": 4449
+    },
+    {
+      "from_station_name": "Michigan Ave & Ida B Wells Dr",
+      "user_type": "Subscriber",
+      "trips": 4440
+    },
+    {
+      "from_station_name": "Lake Shore Dr & Wellington Ave",
+      "user_type": "Customer",
+      "trips": 4405
+    },
+    {
+      "from_station_name": "Sangamon St & Washington Blvd",
+      "user_type": "Subscriber",
+      "trips": 4375
+    },
+    {
+      "from_station_name": "Sheffield Ave & Waveland Ave",
+      "user_type": "Customer",
+      "trips": 4351
+    },
+    {
+      "from_station_name": "Wells St & Concord Ln",
+      "user_type": "Customer",
+      "trips": 4350
+    },
+    {
+      "from_station_name": "Broadway & Berwyn Ave",
+      "user_type": "Subscriber",
+      "trips": 4346
+    },
+    {
+      "from_station_name": "Orleans St & Hubbard St",
+      "user_type": "Subscriber",
+      "trips": 4306
+    },
+    {
+      "from_station_name": "Wood St & Chicago Ave (*)",
+      "user_type": "Subscriber",
+      "trips": 4279
+    },
+    {
+      "from_station_name": "Leavitt St & North Ave",
+      "user_type": "Subscriber",
+      "trips": 4251
+    },
+    {
+      "from_station_name": "Wabash Ave & Wacker Pl",
+      "user_type": "Customer",
+      "trips": 4208
+    },
+    {
+      "from_station_name": "Broadway & Argyle St",
+      "user_type": "Subscriber",
+      "trips": 4207
+    },
+    {
+      "from_station_name": "Benson Ave & Church St",
+      "user_type": "Subscriber",
+      "trips": 4201
+    },
+    {
+      "from_station_name": "Ashland Ave & Wrightwood Ave",
+      "user_type": "Subscriber",
+      "trips": 4177
+    },
+    {
+      "from_station_name": "Clark St & Elm St",
+      "user_type": "Customer",
+      "trips": 4148
+    },
+    {
+      "from_station_name": "Cornell Ave & Hyde Park Blvd",
+      "user_type": "Subscriber",
+      "trips": 4120
+    },
+    {
+      "from_station_name": "Damen Ave & Pierce Ave",
+      "user_type": "Customer",
+      "trips": 4086
+    },
+    {
+      "from_station_name": "Michigan Ave & Ida B Wells Dr",
+      "user_type": "Customer",
+      "trips": 4056
+    },
+    {
+      "from_station_name": "LaSalle St & Illinois St",
+      "user_type": "Customer",
+      "trips": 3995
+    },
+    {
+      "from_station_name": "Broadway & Barry Ave",
+      "user_type": "Customer",
+      "trips": 3991
+    },
+    {
+      "from_station_name": "Financial Pl & Ida B Wells Dr",
+      "user_type": "Subscriber",
+      "trips": 3989
+    },
+    {
+      "from_station_name": "Ashland Ave & Grace St",
+      "user_type": "Subscriber",
+      "trips": 3989
+    },
+    {
+      "from_station_name": "Cityfront Plaza Dr & Pioneer Ct",
+      "user_type": "Customer",
+      "trips": 3979
+    },
+    {
+      "from_station_name": "Buckingham Fountain (Temp)",
+      "user_type": "Customer",
+      "trips": 3978
+    },
+    {
+      "from_station_name": "Ashland Ave & Grand Ave",
+      "user_type": "Subscriber",
+      "trips": 3942
+    },
+    {
+      "from_station_name": "Racine Ave & Washington Blvd (*)",
+      "user_type": "Subscriber",
+      "trips": 3941
+    },
+    {
+      "from_station_name": "Fort Dearborn Dr & 31st St",
+      "user_type": "Customer",
+      "trips": 3934
+    },
+    {
+      "from_station_name": "Clinton St & Madison St",
+      "user_type": "Customer",
+      "trips": 3918
+    },
+    {
+      "from_station_name": "Dearborn St & Erie St",
+      "user_type": "Customer",
+      "trips": 3899
+    },
+    {
+      "from_station_name": "Ellis Ave & 53rd St",
+      "user_type": "Subscriber",
+      "trips": 3877
+    },
+    {
+      "from_station_name": "Damen Ave & Grand Ave",
+      "user_type": "Subscriber",
+      "trips": 3870
+    },
+    {
+      "from_station_name": "Clark St & Montrose Ave",
+      "user_type": "Subscriber",
+      "trips": 3864
+    },
+    {
+      "from_station_name": "Racine Ave & 18th St",
+      "user_type": "Subscriber",
+      "trips": 3860
+    },
+    {
+      "from_station_name": "Lincoln Ave & Sunnyside Ave",
+      "user_type": "Subscriber",
+      "trips": 3859
+    },
+    {
+      "from_station_name": "Morgan Ave & 14th Pl",
+      "user_type": "Subscriber",
+      "trips": 3847
+    },
+    {
+      "from_station_name": "Canal St & Adams St",
+      "user_type": "Customer",
+      "trips": 3814
+    },
+    {
+      "from_station_name": "Wabash Ave & Roosevelt Rd",
+      "user_type": "Customer",
+      "trips": 3803
+    },
+    {
+      "from_station_name": "Wilton Ave & Belmont Ave",
+      "user_type": "Customer",
+      "trips": 3776
+    },
+    {
+      "from_station_name": "Ravenswood Ave & Irving Park Rd",
+      "user_type": "Subscriber",
+      "trips": 3770
+    },
+    {
+      "from_station_name": "Rush St & Cedar St",
+      "user_type": "Customer",
+      "trips": 3757
+    },
+    {
+      "from_station_name": "Sangamon St & Washington Blvd (*)",
+      "user_type": "Subscriber",
+      "trips": 3716
+    },
+    {
+      "from_station_name": "Loomis St & Jackson Blvd",
+      "user_type": "Subscriber",
+      "trips": 3711
+    },
+    {
+      "from_station_name": "McCormick Place",
+      "user_type": "Customer",
+      "trips": 3697
+    },
+    {
+      "from_station_name": "State St & Randolph St",
+      "user_type": "Customer",
+      "trips": 3632
+    },
+    {
+      "from_station_name": "Sheridan Rd & Buena Ave",
+      "user_type": "Subscriber",
+      "trips": 3632
+    },
+    {
+      "from_station_name": "Clark St & 9th St (AMLI)",
+      "user_type": "Subscriber",
+      "trips": 3628
+    },
+    {
+      "from_station_name": "Buckingham Fountain",
+      "user_type": "Customer",
+      "trips": 3616
+    },
+    {
+      "from_station_name": "Cannon Dr & Fullerton Ave",
+      "user_type": "Customer",
+      "trips": 3607
+    },
+    {
+      "from_station_name": "Clark St & North Ave",
+      "user_type": "Customer",
+      "trips": 3585
+    },
+    {
+      "from_station_name": "Campbell Ave & North Ave",
+      "user_type": "Subscriber",
+      "trips": 3550
+    },
+    {
+      "from_station_name": "Lakefront Trail & Wilson Ave",
+      "user_type": "Subscriber",
+      "trips": 3534
+    },
+    {
+      "from_station_name": "Lincoln Ave & Waveland Ave",
+      "user_type": "Subscriber",
+      "trips": 3528
+    },
+    {
+      "from_station_name": "Western Ave & Division St",
+      "user_type": "Subscriber",
+      "trips": 3525
+    },
+    {
+      "from_station_name": "Logan Blvd & Elston Ave",
+      "user_type": "Subscriber",
+      "trips": 3517
+    },
+    {
+      "from_station_name": "Clarendon Ave & Junior Ter",
+      "user_type": "Subscriber",
+      "trips": 3499
+    },
+    {
+      "from_station_name": "Fort Dearborn Dr & 31st St",
+      "user_type": "Subscriber",
+      "trips": 3491
+    },
+    {
+      "from_station_name": "Damen Ave & Charleston St",
+      "user_type": "Subscriber",
+      "trips": 3489
+    },
+    {
+      "from_station_name": "Mies van der Rohe Way & Chicago Ave",
+      "user_type": "Customer",
+      "trips": 3470
+    },
+    {
+      "from_station_name": "Clark St & Bryn Mawr Ave",
+      "user_type": "Subscriber",
+      "trips": 3467
+    },
+    {
+      "from_station_name": "Franklin St & Monroe St",
+      "user_type": "Customer",
+      "trips": 3465
+    },
+    {
+      "from_station_name": "Orleans St & Hubbard St (*)",
+      "user_type": "Subscriber",
+      "trips": 3464
+    },
+    {
+      "from_station_name": "Daley Center Plaza",
+      "user_type": "Customer",
+      "trips": 3452
+    },
+    {
+      "from_station_name": "Stockton Dr & Wrightwood Ave",
+      "user_type": "Customer",
+      "trips": 3445
+    },
+    {
+      "from_station_name": "California Ave & Cortez St",
+      "user_type": "Subscriber",
+      "trips": 3427
+    },
+    {
+      "from_station_name": "Winthrop Ave & Lawrence Ave",
+      "user_type": "Subscriber",
+      "trips": 3416
+    },
+    {
+      "from_station_name": "Broadway & Ridge Ave",
+      "user_type": "Subscriber",
+      "trips": 3410
+    },
+    {
+      "from_station_name": "Burnham Harbor",
+      "user_type": "Customer",
+      "trips": 3391
+    },
+    {
+      "from_station_name": "Lincoln Ave & Belle Plaine Ave",
+      "user_type": "Subscriber",
+      "trips": 3386
+    },
+    {
+      "from_station_name": "Wells St & Hubbard St",
+      "user_type": "Customer",
+      "trips": 3379
+    },
+    {
+      "from_station_name": "Wood St & Hubbard St",
+      "user_type": "Subscriber",
+      "trips": 3375
+    },
+    {
+      "from_station_name": "Larrabee St & North Ave",
+      "user_type": "Subscriber",
+      "trips": 3368
+    },
+    {
+      "from_station_name": "Woodlawn Ave & 55th St",
+      "user_type": "Subscriber",
+      "trips": 3356
+    },
+    {
+      "from_station_name": "Greenview Ave & Diversey Pkwy",
+      "user_type": "Subscriber",
+      "trips": 3317
+    },
+    {
+      "from_station_name": "Financial Pl & Ida B Wells Dr (Temp)",
+      "user_type": "Subscriber",
+      "trips": 3296
+    },
+    {
+      "from_station_name": "Morgan St & 18th St",
+      "user_type": "Subscriber",
+      "trips": 3293
+    },
+    {
+      "from_station_name": "Kedzie Ave & Palmer Ct",
+      "user_type": "Subscriber",
+      "trips": 3256
+    },
+    {
+      "from_station_name": "Leavitt St & Chicago Ave",
+      "user_type": "Subscriber",
+      "trips": 3250
+    },
+    {
+      "from_station_name": "Franklin St & Illinois St",
+      "user_type": "Subscriber",
+      "trips": 3246
+    },
+    {
+      "from_station_name": "Sedgwick St & Schiller St",
+      "user_type": "Subscriber",
+      "trips": 3239
+    },
+    {
+      "from_station_name": "Marine Dr & Ainslie St",
+      "user_type": "Subscriber",
+      "trips": 3214
+    },
+    {
+      "from_station_name": "Dearborn St & Van Buren St",
+      "user_type": "Subscriber",
+      "trips": 3187
+    },
+    {
+      "from_station_name": "State St & Kinzie St",
+      "user_type": "Customer",
+      "trips": 3183
+    },
+    {
+      "from_station_name": "Damen Ave & Foster Ave",
+      "user_type": "Subscriber",
+      "trips": 3125
+    },
+    {
+      "from_station_name": "Leavitt St & Armitage Ave",
+      "user_type": "Subscriber",
+      "trips": 3124
+    },
+    {
+      "from_station_name": "Canal St & Harrison St",
+      "user_type": "Subscriber",
+      "trips": 3102
+    },
+    {
+      "from_station_name": "Clark St & Wrightwood Ave",
+      "user_type": "Customer",
+      "trips": 3101
+    },
+    {
+      "from_station_name": "Ashland Ave & Wellington Ave",
+      "user_type": "Subscriber",
+      "trips": 3081
+    },
+    {
+      "from_station_name": "Wells St & Evergreen Ave",
+      "user_type": "Customer",
+      "trips": 3074
+    },
+    {
+      "from_station_name": "Elizabeth (May) St & Fulton St",
+      "user_type": "Subscriber",
+      "trips": 3067
+    },
+    {
+      "from_station_name": "Fairbanks St & Superior St",
+      "user_type": "Subscriber",
+      "trips": 3066
+    },
+    {
+      "from_station_name": "LaSalle Dr & Huron St (*)",
+      "user_type": "Subscriber",
+      "trips": 3062
+    },
+    {
+      "from_station_name": "Throop (Loomis) St & Taylor St",
+      "user_type": "Subscriber",
+      "trips": 3050
+    },
+    {
+      "from_station_name": "Field Blvd & South Water St",
+      "user_type": "Customer",
+      "trips": 3047
+    },
+    {
+      "from_station_name": "Wells St & Huron St",
+      "user_type": "Customer",
+      "trips": 3026
+    },
+    {
+      "from_station_name": "Emerald Ave & 31st St",
+      "user_type": "Subscriber",
+      "trips": 3025
+    },
+    {
+      "from_station_name": "Broadway & Thorndale Ave",
+      "user_type": "Subscriber",
+      "trips": 3022
+    },
+    {
+      "from_station_name": "Green St & Randolph St",
+      "user_type": "Customer",
+      "trips": 3017
+    },
+    {
+      "from_station_name": "Ashland Ave & Lake St",
+      "user_type": "Subscriber",
+      "trips": 3002
+    },
+    {
+      "from_station_name": "Clark St & Drummond Pl",
+      "user_type": "Customer",
+      "trips": 2997
+    },
+    {
+      "from_station_name": "Franklin St & Jackson Blvd",
+      "user_type": "Customer",
+      "trips": 2985
+    },
+    {
+      "from_station_name": "Ashland Ave & Division St",
+      "user_type": "Customer",
+      "trips": 2940
+    },
+    {
+      "from_station_name": "Broadway & Cornelia Ave",
+      "user_type": "Customer",
+      "trips": 2938
+    },
+    {
+      "from_station_name": "Larrabee St & Webster Ave",
+      "user_type": "Customer",
+      "trips": 2937
+    },
+    {
+      "from_station_name": "Sheffield Ave & Fullerton Ave",
+      "user_type": "Customer",
+      "trips": 2927
+    },
+    {
+      "from_station_name": "Claremont Ave & Hirsch St",
+      "user_type": "Subscriber",
+      "trips": 2919
+    },
+    {
+      "from_station_name": "Seeley Ave & Roscoe St",
+      "user_type": "Subscriber",
+      "trips": 2914
+    },
+    {
+      "from_station_name": "Michigan Ave & Madison St",
+      "user_type": "Customer",
+      "trips": 2886
+    },
+    {
+      "from_station_name": "McClurg Ct & Erie St",
+      "user_type": "Customer",
+      "trips": 2883
+    },
+    {
+      "from_station_name": "Pine Grove Ave & Waveland Ave",
+      "user_type": "Customer",
+      "trips": 2878
+    },
+    {
+      "from_station_name": "Rush St & Superior St",
+      "user_type": "Customer",
+      "trips": 2871
+    },
+    {
+      "from_station_name": "Damen Ave & Clybourn Ave",
+      "user_type": "Subscriber",
+      "trips": 2868
+    },
+    {
+      "from_station_name": "Lincoln Ave & Fullerton Ave",
+      "user_type": "Customer",
+      "trips": 2858
+    },
+    {
+      "from_station_name": "Humboldt Blvd & Armitage Ave",
+      "user_type": "Subscriber",
+      "trips": 2838
+    },
+    {
+      "from_station_name": "Paulina St & 18th St",
+      "user_type": "Subscriber",
+      "trips": 2835
+    },
+    {
+      "from_station_name": "Damen Ave & Wellington Ave",
+      "user_type": "Subscriber",
+      "trips": 2834
+    },
+    {
+      "from_station_name": "Broadway & Granville Ave",
+      "user_type": "Subscriber",
+      "trips": 2809
+    },
+    {
+      "from_station_name": "Clark St & Newport St",
+      "user_type": "Customer",
+      "trips": 2789
+    },
+    {
+      "from_station_name": "Fairbanks St & Superior St (*)",
+      "user_type": "Subscriber",
+      "trips": 2788
+    },
+    {
+      "from_station_name": "Lake Park Ave & 53rd St",
+      "user_type": "Subscriber",
+      "trips": 2782
+    },
+    {
+      "from_station_name": "Clinton St & Washington Blvd",
+      "user_type": "Customer",
+      "trips": 2775
+    },
+    {
+      "from_station_name": "Albany Ave & Bloomingdale Ave",
+      "user_type": "Subscriber",
+      "trips": 2757
+    },
+    {
+      "from_station_name": "Dearborn Pkwy & Delaware Pl",
+      "user_type": "Customer",
+      "trips": 2749
+    },
+    {
+      "from_station_name": "Spaulding Ave & Armitage Ave",
+      "user_type": "Subscriber",
+      "trips": 2738
+    },
+    {
+      "from_station_name": "Sheridan Rd & Lawrence Ave",
+      "user_type": "Subscriber",
+      "trips": 2732
+    },
+    {
+      "from_station_name": "Calumet Ave & 33rd St",
+      "user_type": "Subscriber",
+      "trips": 2702
+    },
+    {
+      "from_station_name": "Canal St & Madison St",
+      "user_type": "Customer",
+      "trips": 2693
+    },
+    {
+      "from_station_name": "Broadway & Belmont Ave",
+      "user_type": "Customer",
+      "trips": 2677
+    },
+    {
+      "from_station_name": "Harper Ave & 59th St",
+      "user_type": "Subscriber",
+      "trips": 2674
+    },
+    {
+      "from_station_name": "Blackstone Ave & Hyde Park Blvd",
+      "user_type": "Subscriber",
+      "trips": 2666
+    },
+    {
+      "from_station_name": "Clark St & Lunt Ave",
+      "user_type": "Subscriber",
+      "trips": 2662
+    },
+    {
+      "from_station_name": "Indiana Ave & 31st St",
+      "user_type": "Subscriber",
+      "trips": 2659
+    },
+    {
+      "from_station_name": "California Ave & North Ave",
+      "user_type": "Subscriber",
+      "trips": 2652
+    },
+    {
+      "from_station_name": "Buckingham Fountain",
+      "user_type": "Subscriber",
+      "trips": 2645
+    },
+    {
+      "from_station_name": "Museum of Science and Industry",
+      "user_type": "Customer",
+      "trips": 2636
+    },
+    {
+      "from_station_name": "Sheridan Rd & Loyola Ave",
+      "user_type": "Subscriber",
+      "trips": 2609
+    },
+    {
+      "from_station_name": "Ravenswood Ave & Berteau Ave",
+      "user_type": "Subscriber",
+      "trips": 2593
+    },
+    {
+      "from_station_name": "Orleans St & Merchandise Mart Plaza",
+      "user_type": "Customer",
+      "trips": 2588
+    },
+    {
+      "from_station_name": "Halsted St & Roscoe St",
+      "user_type": "Customer",
+      "trips": 2578
+    },
+    {
+      "from_station_name": "Clarendon Ave & Leland Ave",
+      "user_type": "Subscriber",
+      "trips": 2569
+    },
+    {
+      "from_station_name": "Shore Dr & 55th St",
+      "user_type": "Customer",
+      "trips": 2565
+    },
+    {
+      "from_station_name": "Wabash Ave & 9th St",
+      "user_type": "Customer",
+      "trips": 2561
+    },
+    {
+      "from_station_name": "Racine Ave (May St) & Fulton St",
+      "user_type": "Subscriber",
+      "trips": 2544
+    },
+    {
+      "from_station_name": "Desplaines St & Kinzie St",
+      "user_type": "Customer",
+      "trips": 2530
+    },
+    {
+      "from_station_name": "Cannon Dr & Fullerton Ave",
+      "user_type": "Subscriber",
+      "trips": 2528
+    },
+    {
+      "from_station_name": "Sedgwick St & Webster Ave",
+      "user_type": "Customer",
+      "trips": 2521
+    },
+    {
+      "from_station_name": "Southport Ave & Waveland Ave",
+      "user_type": "Customer",
+      "trips": 2504
+    },
+    {
+      "from_station_name": "Morgan St & Lake St",
+      "user_type": "Customer",
+      "trips": 2486
+    },
+    {
+      "from_station_name": "Glenwood Ave & Morse Ave",
+      "user_type": "Subscriber",
+      "trips": 2475
+    },
+    {
+      "from_station_name": "Wentworth Ave & Cermak Rd (Temp)",
+      "user_type": "Subscriber",
+      "trips": 2470
+    },
+    {
+      "from_station_name": "Wells St & Elm St",
+      "user_type": "Customer",
+      "trips": 2461
+    },
+    {
+      "from_station_name": "Dearborn St & Van Buren St (*)",
+      "user_type": "Subscriber",
+      "trips": 2455
+    },
+    {
+      "from_station_name": "Winchester Ave & Elston Ave",
+      "user_type": "Subscriber",
+      "trips": 2453
+    },
+    {
+      "from_station_name": "Kingsbury St & Kinzie St",
+      "user_type": "Customer",
+      "trips": 2448
+    },
+    {
+      "from_station_name": "Orleans St & Elm St",
+      "user_type": "Subscriber",
+      "trips": 2441
+    },
+    {
+      "from_station_name": "Walsh Park",
+      "user_type": "Subscriber",
+      "trips": 2421
+    },
+    {
+      "from_station_name": "Western Ave & Fillmore St (*)",
+      "user_type": "Subscriber",
+      "trips": 2417
+    },
+    {
+      "from_station_name": "Field Museum",
+      "user_type": "Subscriber",
+      "trips": 2402
+    },
+    {
+      "from_station_name": "Kedzie Ave & Milwaukee Ave",
+      "user_type": "Customer",
+      "trips": 2393
+    },
+    {
+      "from_station_name": "Lakefront Trail & Wilson Ave",
+      "user_type": "Customer",
+      "trips": 2390
+    },
+    {
+      "from_station_name": "Stetson Ave & South Water St",
+      "user_type": "Customer",
+      "trips": 2390
+    },
+    {
+      "from_station_name": "Chicago Ave & Washington St",
+      "user_type": "Subscriber",
+      "trips": 2386
+    },
+    {
+      "from_station_name": "Southport Ave & Roscoe St",
+      "user_type": "Customer",
+      "trips": 2372
+    },
+    {
+      "from_station_name": "Calumet Ave & 18th St",
+      "user_type": "Customer",
+      "trips": 2360
+    },
+    {
+      "from_station_name": "LaSalle St & Jackson Blvd",
+      "user_type": "Customer",
+      "trips": 2357
+    },
+    {
+      "from_station_name": "Dearborn St & Monroe St",
+      "user_type": "Customer",
+      "trips": 2349
+    },
+    {
+      "from_station_name": "Clark St & Schiller St",
+      "user_type": "Customer",
+      "trips": 2344
+    },
+    {
+      "from_station_name": "Green St & Madison St",
+      "user_type": "Customer",
+      "trips": 2337
+    },
+    {
+      "from_station_name": "Sheridan Rd & Noyes St (NU)",
+      "user_type": "Subscriber",
+      "trips": 2333
+    },
+    {
+      "from_station_name": "Sedgwick St & North Ave",
+      "user_type": "Customer",
+      "trips": 2314
+    },
+    {
+      "from_station_name": "Leavitt St & Division St (*)",
+      "user_type": "Subscriber",
+      "trips": 2311
+    },
+    {
+      "from_station_name": "Western Ave & Roscoe St",
+      "user_type": "Subscriber",
+      "trips": 2299
+    },
+    {
+      "from_station_name": "Campbell Ave & Montrose Ave",
+      "user_type": "Subscriber",
+      "trips": 2287
+    },
+    {
+      "from_station_name": "Southport Ave & Clark St",
+      "user_type": "Subscriber",
+      "trips": 2285
+    },
+    {
+      "from_station_name": "California Ave & Francis Pl",
+      "user_type": "Subscriber",
+      "trips": 2284
+    },
+    {
+      "from_station_name": "Bissell St & Armitage Ave",
+      "user_type": "Customer",
+      "trips": 2274
+    },
+    {
+      "from_station_name": "State St & 35th St",
+      "user_type": "Subscriber",
+      "trips": 2271
+    },
+    {
+      "from_station_name": "Clark St & Grace St",
+      "user_type": "Customer",
+      "trips": 2247
+    },
+    {
+      "from_station_name": "Ashland Ave & Belle Plaine Ave",
+      "user_type": "Subscriber",
+      "trips": 2241
+    },
+    {
+      "from_station_name": "Clark St & Lake St",
+      "user_type": "Customer",
+      "trips": 2232
+    },
+    {
+      "from_station_name": "Clark St & Randolph St",
+      "user_type": "Customer",
+      "trips": 2231
+    },
+    {
+      "from_station_name": "Milwaukee Ave & Rockwell St",
+      "user_type": "Subscriber",
+      "trips": 2228
+    },
+    {
+      "from_station_name": "State St & Van Buren St",
+      "user_type": "Customer",
+      "trips": 2208
+    },
+    {
+      "from_station_name": "Leavitt St & Lawrence Ave",
+      "user_type": "Subscriber",
+      "trips": 2204
+    },
+    {
+      "from_station_name": "Elston Ave & Wabansia Ave",
+      "user_type": "Subscriber",
+      "trips": 2197
+    },
+    {
+      "from_station_name": "Sheffield Ave & Webster Ave",
+      "user_type": "Customer",
+      "trips": 2149
+    },
+    {
+      "from_station_name": "Clinton St & 18th St",
+      "user_type": "Subscriber",
+      "trips": 2143
+    },
+    {
+      "from_station_name": "Wabash Ave & Cermak Rd",
+      "user_type": "Subscriber",
+      "trips": 2142
+    },
+    {
+      "from_station_name": "Marshfield Ave & Cortland St",
+      "user_type": "Customer",
+      "trips": 2141
+    },
+    {
+      "from_station_name": "Wabash Ave & Adams St",
+      "user_type": "Customer",
+      "trips": 2133
+    },
+    {
+      "from_station_name": "Ritchie Ct & Banks St",
+      "user_type": "Customer",
+      "trips": 2132
+    },
+    {
+      "from_station_name": "State St & Pearson St",
+      "user_type": "Customer",
+      "trips": 2120
+    },
+    {
+      "from_station_name": "Stave St & Armitage Ave",
+      "user_type": "Subscriber",
+      "trips": 2093
+    },
+    {
+      "from_station_name": "Clark St & Elmdale Ave",
+      "user_type": "Subscriber",
+      "trips": 2071
+    },
+    {
+      "from_station_name": "Sheffield Ave & Wellington Ave",
+      "user_type": "Customer",
+      "trips": 2068
+    },
+    {
+      "from_station_name": "Clark St & Wellington Ave",
+      "user_type": "Customer",
+      "trips": 2067
+    },
+    {
+      "from_station_name": "California Ave & Altgeld St",
+      "user_type": "Subscriber",
+      "trips": 2067
+    },
+    {
+      "from_station_name": "Paulina St & Montrose Ave",
+      "user_type": "Subscriber",
+      "trips": 2050
+    },
+    {
+      "from_station_name": "Calumet Ave & 21st St",
+      "user_type": "Customer",
+      "trips": 2046
+    },
+    {
+      "from_station_name": "Wilton Ave & Diversey Pkwy",
+      "user_type": "Customer",
+      "trips": 2035
+    },
+    {
+      "from_station_name": "Damen Ave & Cortland St",
+      "user_type": "Customer",
+      "trips": 2024
+    },
+    {
+      "from_station_name": "Campbell Ave & Fullerton Ave",
+      "user_type": "Subscriber",
+      "trips": 2020
+    },
+    {
+      "from_station_name": "Federal St & Polk St",
+      "user_type": "Customer",
+      "trips": 2012
+    },
+    {
+      "from_station_name": "Milwaukee Ave & Wabansia Ave",
+      "user_type": "Customer",
+      "trips": 2008
+    },
+    {
+      "from_station_name": "Milwaukee Ave & Grand Ave",
+      "user_type": "Customer",
+      "trips": 1999
+    },
+    {
+      "from_station_name": "Halsted St & Dickens Ave",
+      "user_type": "Customer",
+      "trips": 1992
+    },
+    {
+      "from_station_name": "Ashland Ave & Lake St (Temp)",
+      "user_type": "Subscriber",
+      "trips": 1979
+    },
+    {
+      "from_station_name": "Damen Ave & Sunnyside Ave",
+      "user_type": "Subscriber",
+      "trips": 1978
+    },
+    {
+      "from_station_name": "Wolcott (Ravenswood) Ave & Montrose Ave",
+      "user_type": "Subscriber",
+      "trips": 1974
+    },
+    {
+      "from_station_name": "Paulina St & Howard St",
+      "user_type": "Subscriber",
+      "trips": 1966
+    },
+    {
+      "from_station_name": "Marine Dr & Ainslie St",
+      "user_type": "Customer",
+      "trips": 1958
+    },
+    {
+      "from_station_name": "Lincoln Ave & Addison St",
+      "user_type": "Subscriber",
+      "trips": 1948
+    },
+    {
+      "from_station_name": "McCormick Place",
+      "user_type": "Subscriber",
+      "trips": 1931
+    },
+    {
+      "from_station_name": "Calumet Ave & 21st St",
+      "user_type": "Subscriber",
+      "trips": 1927
+    },
+    {
+      "from_station_name": "Talman Ave & Addison St",
+      "user_type": "Subscriber",
+      "trips": 1920
+    },
+    {
+      "from_station_name": "Broadway & Waveland Ave",
+      "user_type": "Customer",
+      "trips": 1918
+    },
+    {
+      "from_station_name": "State St & Harrison St",
+      "user_type": "Customer",
+      "trips": 1913
+    },
+    {
+      "from_station_name": "Halsted St & 18th St",
+      "user_type": "Subscriber",
+      "trips": 1899
+    },
+    {
+      "from_station_name": "State St & 19th St",
+      "user_type": "Subscriber",
+      "trips": 1897
+    },
+    {
+      "from_station_name": "University Library (NU)",
+      "user_type": "Subscriber",
+      "trips": 1893
+    },
+    {
+      "from_station_name": "Emerald Ave & 28th St",
+      "user_type": "Subscriber",
+      "trips": 1886
+    },
+    {
+      "from_station_name": "Orleans St & Elm St (*)",
+      "user_type": "Subscriber",
+      "trips": 1864
+    },
+    {
+      "from_station_name": "Racine Ave & Belmont Ave",
+      "user_type": "Customer",
+      "trips": 1864
+    },
+    {
+      "from_station_name": "Lincoln Park Conservatory",
+      "user_type": "Customer",
+      "trips": 1859
+    },
+    {
+      "from_station_name": "Loomis St & Taylor St (*)",
+      "user_type": "Subscriber",
+      "trips": 1859
+    },
+    {
+      "from_station_name": "Ashland Ave & 13th St",
+      "user_type": "Subscriber",
+      "trips": 1858
+    },
+    {
+      "from_station_name": "California Ave & Milwaukee Ave",
+      "user_type": "Customer",
+      "trips": 1838
+    },
+    {
+      "from_station_name": "Shields Ave & 31st St",
+      "user_type": "Subscriber",
+      "trips": 1836
+    },
+    {
+      "from_station_name": "Clark St & Chicago Ave",
+      "user_type": "Customer",
+      "trips": 1835
+    },
+    {
+      "from_station_name": "Damen Ave & Melrose Ave",
+      "user_type": "Subscriber",
+      "trips": 1820
+    },
+    {
+      "from_station_name": "Larrabee St & Kingsbury St",
+      "user_type": "Customer",
+      "trips": 1817
+    },
+    {
+      "from_station_name": "Clinton St & Lake St",
+      "user_type": "Customer",
+      "trips": 1815
+    },
+    {
+      "from_station_name": "Wood St & Milwaukee Ave",
+      "user_type": "Customer",
+      "trips": 1794
+    },
+    {
+      "from_station_name": "Indiana Ave & 26th St",
+      "user_type": "Subscriber",
+      "trips": 1787
+    },
+    {
+      "from_station_name": "Kosciuszko Park",
+      "user_type": "Subscriber",
+      "trips": 1772
+    },
+    {
+      "from_station_name": "Drake Ave & Fullerton Ave",
+      "user_type": "Subscriber",
+      "trips": 1770
+    },
+    {
+      "from_station_name": "Richmond St & Diversey Ave",
+      "user_type": "Subscriber",
+      "trips": 1745
+    },
+    {
+      "from_station_name": "Cornell Ave & Hyde Park Blvd",
+      "user_type": "Customer",
+      "trips": 1739
+    },
+    {
+      "from_station_name": "Dearborn St & Adams St",
+      "user_type": "Customer",
+      "trips": 1736
+    },
+    {
+      "from_station_name": "Desplaines St & Randolph St",
+      "user_type": "Customer",
+      "trips": 1726
+    },
+    {
+      "from_station_name": "Franklin St & Lake St",
+      "user_type": "Customer",
+      "trips": 1721
+    },
+    {
+      "from_station_name": "Pine Grove Ave & Irving Park Rd",
+      "user_type": "Customer",
+      "trips": 1711
+    },
+    {
+      "from_station_name": "Racine Ave & 15th St",
+      "user_type": "Subscriber",
+      "trips": 1707
+    },
+    {
+      "from_station_name": "Eastlake Ter & Rogers Ave",
+      "user_type": "Subscriber",
+      "trips": 1696
+    },
+    {
+      "from_station_name": "Sheffield Ave & Wrightwood Ave",
+      "user_type": "Customer",
+      "trips": 1695
+    },
+    {
+      "from_station_name": "Kingsbury St & Erie St",
+      "user_type": "Customer",
+      "trips": 1690
+    },
+    {
+      "from_station_name": "Aberdeen St & Randolph St",
+      "user_type": "Customer",
+      "trips": 1690
+    },
+    {
+      "from_station_name": "Southport Ave & Wellington Ave",
+      "user_type": "Customer",
+      "trips": 1636
+    },
+    {
+      "from_station_name": "Damen Ave & Walnut (Lake) St (*)",
+      "user_type": "Subscriber",
+      "trips": 1636
+    },
+    {
+      "from_station_name": "May St & Cullerton St",
+      "user_type": "Subscriber",
+      "trips": 1626
+    },
+    {
+      "from_station_name": "Dayton St & North Ave",
+      "user_type": "Customer",
+      "trips": 1612
+    },
+    {
+      "from_station_name": "Sheffield Ave & Kingsbury St",
+      "user_type": "Customer",
+      "trips": 1598
+    },
+    {
+      "from_station_name": "Broadway & Granville Ave",
+      "user_type": "Customer",
+      "trips": 1597
+    },
+    {
+      "from_station_name": "Halsted St & North Branch St",
+      "user_type": "Subscriber",
+      "trips": 1592
+    },
+    {
+      "from_station_name": "Halsted St & Archer Ave",
+      "user_type": "Subscriber",
+      "trips": 1590
+    },
+    {
+      "from_station_name": "Greenview Ave & Fullerton Ave",
+      "user_type": "Customer",
+      "trips": 1587
+    },
+    {
+      "from_station_name": "Clarendon Ave & Junior Ter",
+      "user_type": "Customer",
+      "trips": 1576
+    },
+    {
+      "from_station_name": "Clarendon Ave & Gordon Ter",
+      "user_type": "Customer",
+      "trips": 1566
+    },
+    {
+      "from_station_name": "Troy St & Elston Ave",
+      "user_type": "Subscriber",
+      "trips": 1563
+    },
+    {
+      "from_station_name": "LaSalle Dr & Huron St",
+      "user_type": "Customer",
+      "trips": 1561
+    },
+    {
+      "from_station_name": "University Ave & 57th St",
+      "user_type": "Customer",
+      "trips": 1558
+    },
+    {
+      "from_station_name": "Larrabee St & Armitage Ave",
+      "user_type": "Customer",
+      "trips": 1556
+    },
+    {
+      "from_station_name": "Michigan Ave & 14th St",
+      "user_type": "Customer",
+      "trips": 1554
+    },
+    {
+      "from_station_name": "Honore St & Division St",
+      "user_type": "Customer",
+      "trips": 1553
+    },
+    {
+      "from_station_name": "Halsted St & Wrightwood Ave",
+      "user_type": "Customer",
+      "trips": 1547
+    },
+    {
+      "from_station_name": "Sheridan Rd & Irving Park Rd",
+      "user_type": "Customer",
+      "trips": 1543
+    },
+    {
+      "from_station_name": "Oakley Ave & Irving Park Rd",
+      "user_type": "Subscriber",
+      "trips": 1537
+    },
+    {
+      "from_station_name": "Lincoln Park Conservatory",
+      "user_type": "Subscriber",
+      "trips": 1531
+    },
+    {
+      "from_station_name": "Broadway & Sheridan Rd",
+      "user_type": "Customer",
+      "trips": 1525
+    },
+    {
+      "from_station_name": "Western Ave & Congress Pkwy",
+      "user_type": "Subscriber",
+      "trips": 1514
+    },
+    {
+      "from_station_name": "Washtenaw Ave & Lawrence Ave",
+      "user_type": "Subscriber",
+      "trips": 1514
+    },
+    {
+      "from_station_name": "Wabash Ave & 16th St",
+      "user_type": "Customer",
+      "trips": 1494
+    },
+    {
+      "from_station_name": "Sheridan Rd & Montrose Ave",
+      "user_type": "Customer",
+      "trips": 1490
+    },
+    {
+      "from_station_name": "Rush St & Hubbard St",
+      "user_type": "Customer",
+      "trips": 1485
+    },
+    {
+      "from_station_name": "Lincoln Ave & Diversey Pkwy",
+      "user_type": "Customer",
+      "trips": 1484
+    },
+    {
+      "from_station_name": "Ogden Ave & Congress Pkwy",
+      "user_type": "Subscriber",
+      "trips": 1481
+    },
+    {
+      "from_station_name": "Rockwell St & Eastwood Ave",
+      "user_type": "Subscriber",
+      "trips": 1476
+    },
+    {
+      "from_station_name": "California Ave & Division St",
+      "user_type": "Subscriber",
+      "trips": 1474
+    },
+    {
+      "from_station_name": "Southport Ave & Clybourn Ave",
+      "user_type": "Customer",
+      "trips": 1458
+    },
+    {
+      "from_station_name": "Western Ave & Winnebago Ave",
+      "user_type": "Customer",
+      "trips": 1446
+    },
+    {
+      "from_station_name": "Morgan St & 31st St",
+      "user_type": "Subscriber",
+      "trips": 1443
+    },
+    {
+      "from_station_name": "Peoria St & Jackson Blvd",
+      "user_type": "Customer",
+      "trips": 1430
+    },
+    {
+      "from_station_name": "Drake Ave & Addison St",
+      "user_type": "Subscriber",
+      "trips": 1428
+    },
+    {
+      "from_station_name": "Avondale Ave & Irving Park Rd",
+      "user_type": "Subscriber",
+      "trips": 1427
+    },
+    {
+      "from_station_name": "Winchester (Ravenswood) Ave & Balmoral Ave",
+      "user_type": "Subscriber",
+      "trips": 1425
+    },
+    {
+      "from_station_name": "Clark St & Berwyn Ave",
+      "user_type": "Customer",
+      "trips": 1415
+    },
+    {
+      "from_station_name": "Lake Park Ave & 35th St",
+      "user_type": "Subscriber",
+      "trips": 1411
+    },
+    {
+      "from_station_name": "Ravenswood Ave & Lawrence Ave",
+      "user_type": "Customer",
+      "trips": 1410
+    },
+    {
+      "from_station_name": "Rhodes Ave & 32nd St",
+      "user_type": "Subscriber",
+      "trips": 1408
+    },
+    {
+      "from_station_name": "Halsted St & Clybourn Ave",
+      "user_type": "Customer",
+      "trips": 1408
+    },
+    {
+      "from_station_name": "Greenview Ave & Jarvis Ave",
+      "user_type": "Subscriber",
+      "trips": 1408
+    },
+    {
+      "from_station_name": "Wells St & Polk St",
+      "user_type": "Customer",
+      "trips": 1403
+    },
+    {
+      "from_station_name": "LaSalle St & Washington St",
+      "user_type": "Customer",
+      "trips": 1401
+    },
+    {
+      "from_station_name": "Larrabee St & Division St",
+      "user_type": "Customer",
+      "trips": 1398
+    },
+    {
+      "from_station_name": "Southport Ave & Wrightwood Ave",
+      "user_type": "Customer",
+      "trips": 1392
+    },
+    {
+      "from_station_name": "Ogden Ave & Chicago Ave",
+      "user_type": "Customer",
+      "trips": 1386
+    },
+    {
+      "from_station_name": "Lake Park Ave & 53rd St",
+      "user_type": "Customer",
+      "trips": 1379
+    },
+    {
+      "from_station_name": "Canal St & Taylor St",
+      "user_type": "Customer",
+      "trips": 1379
+    },
+    {
+      "from_station_name": "Broadway & Thorndale Ave",
+      "user_type": "Customer",
+      "trips": 1371
+    },
+    {
+      "from_station_name": "Delano Ct & Roosevelt Rd",
+      "user_type": "Customer",
+      "trips": 1370
+    },
+    {
+      "from_station_name": "Sheridan Rd & Columbia Ave",
+      "user_type": "Subscriber",
+      "trips": 1364
+    },
+    {
+      "from_station_name": "Chicago Ave & Dempster St",
+      "user_type": "Subscriber",
+      "trips": 1362
+    },
+    {
+      "from_station_name": "Leavitt St & Addison St",
+      "user_type": "Subscriber",
+      "trips": 1359
+    },
+    {
+      "from_station_name": "Ogden Ave & Roosevelt Rd",
+      "user_type": "Subscriber",
+      "trips": 1356
+    },
+    {
+      "from_station_name": "Clark St & Columbia Ave",
+      "user_type": "Subscriber",
+      "trips": 1356
+    },
+    {
+      "from_station_name": "Damen Ave & Madison St",
+      "user_type": "Subscriber",
+      "trips": 1344
+    },
+    {
+      "from_station_name": "Chicago Ave & Sheridan Rd",
+      "user_type": "Subscriber",
+      "trips": 1344
+    },
+    {
+      "from_station_name": "Western Ave & Monroe St",
+      "user_type": "Subscriber",
+      "trips": 1344
+    },
+    {
+      "from_station_name": "Damen Ave & Chicago Ave",
+      "user_type": "Customer",
+      "trips": 1321
+    },
+    {
+      "from_station_name": "Racine Ave & Fullerton Ave",
+      "user_type": "Customer",
+      "trips": 1321
+    },
+    {
+      "from_station_name": "Clifton Ave & Armitage Ave",
+      "user_type": "Customer",
+      "trips": 1310
+    },
+    {
+      "from_station_name": "Desplaines St & Jackson Blvd",
+      "user_type": "Customer",
+      "trips": 1308
+    },
+    {
+      "from_station_name": "Wells St & Walton St",
+      "user_type": "Customer",
+      "trips": 1307
+    },
+    {
+      "from_station_name": "Burling St (Halsted) & Diversey Pkwy (Temp)",
+      "user_type": "Customer",
+      "trips": 1302
+    },
+    {
+      "from_station_name": "Sedgwick St & Huron St",
+      "user_type": "Customer",
+      "trips": 1293
+    },
+    {
+      "from_station_name": "Michigan Ave & 18th St",
+      "user_type": "Customer",
+      "trips": 1289
+    },
+    {
+      "from_station_name": "Kimball Ave & Belmont Ave",
+      "user_type": "Subscriber",
+      "trips": 1287
+    },
+    {
+      "from_station_name": "Malcolm X College",
+      "user_type": "Subscriber",
+      "trips": 1282
+    },
+    {
+      "from_station_name": "Wacker Dr & Washington St",
+      "user_type": "Customer",
+      "trips": 1277
+    },
+    {
+      "from_station_name": "Wells St & 19th St",
+      "user_type": "Subscriber",
+      "trips": 1273
+    },
+    {
+      "from_station_name": "Central Park Ave & Elbridge Ave",
+      "user_type": "Subscriber",
+      "trips": 1273
+    },
+    {
+      "from_station_name": "Wentworth Ave & Cermak Rd (Temp)",
+      "user_type": "Customer",
+      "trips": 1270
+    },
+    {
+      "from_station_name": "Aberdeen St & Jackson Blvd",
+      "user_type": "Customer",
+      "trips": 1262
+    },
+    {
+      "from_station_name": "Central St Metra",
+      "user_type": "Subscriber",
+      "trips": 1255
+    },
+    {
+      "from_station_name": "Sheffield Ave & Willow St",
+      "user_type": "Customer",
+      "trips": 1255
+    },
+    {
+      "from_station_name": "Paulina Ave & North Ave",
+      "user_type": "Customer",
+      "trips": 1254
+    },
+    {
+      "from_station_name": "California Ave & Fletcher St",
+      "user_type": "Subscriber",
+      "trips": 1244
+    },
+    {
+      "from_station_name": "California Ave & Montrose Ave",
+      "user_type": "Subscriber",
+      "trips": 1242
+    },
+    {
+      "from_station_name": "Canal St & Jackson Blvd",
+      "user_type": "Customer",
+      "trips": 1241
+    },
+    {
+      "from_station_name": "Wolcott (Ravenswood) Ave & Montrose Ave (*)",
+      "user_type": "Subscriber",
+      "trips": 1237
+    },
+    {
+      "from_station_name": "Hoyne Ave & Balmoral Ave",
+      "user_type": "Subscriber",
+      "trips": 1233
+    },
+    {
+      "from_station_name": "Leavitt St & Belmont Ave (*)",
+      "user_type": "Subscriber",
+      "trips": 1222
+    },
+    {
+      "from_station_name": "Lincoln Ave & Winona St",
+      "user_type": "Subscriber",
+      "trips": 1212
+    },
+    {
+      "from_station_name": "Damen Ave & Cullerton St",
+      "user_type": "Subscriber",
+      "trips": 1212
+    },
+    {
+      "from_station_name": "Lincoln Ave & Roscoe St",
+      "user_type": "Customer",
+      "trips": 1211
+    },
+    {
+      "from_station_name": "Aberdeen St & Monroe St",
+      "user_type": "Customer",
+      "trips": 1211
+    },
+    {
+      "from_station_name": "Clark St & Winnemac Ave",
+      "user_type": "Customer",
+      "trips": 1200
+    },
+    {
+      "from_station_name": "Orleans St & Chestnut St (NEXT Apts)",
+      "user_type": "Customer",
+      "trips": 1199
+    },
+    {
+      "from_station_name": "Broadway & Wilson Ave",
+      "user_type": "Customer",
+      "trips": 1199
+    },
+    {
+      "from_station_name": "Wentworth Ave & 35th St",
+      "user_type": "Subscriber",
+      "trips": 1196
+    },
+    {
+      "from_station_name": "Francisco Ave & Foster Ave",
+      "user_type": "Subscriber",
+      "trips": 1194
+    },
+    {
+      "from_station_name": "Wentworth Ave & 33rd St",
+      "user_type": "Subscriber",
+      "trips": 1187
+    },
+    {
+      "from_station_name": "Ellis Ave & 60th St",
+      "user_type": "Customer",
+      "trips": 1178
+    },
+    {
+      "from_station_name": "May St & Taylor St",
+      "user_type": "Customer",
+      "trips": 1176
+    },
+    {
+      "from_station_name": "Halsted St & Willow St",
+      "user_type": "Customer",
+      "trips": 1169
+    },
+    {
+      "from_station_name": "Clinton St & Roosevelt Rd",
+      "user_type": "Customer",
+      "trips": 1168
+    },
+    {
+      "from_station_name": "Lincoln Ave & Belmont Ave",
+      "user_type": "Customer",
+      "trips": 1159
+    },
+    {
+      "from_station_name": "Clinton St & Jackson Blvd",
+      "user_type": "Customer",
+      "trips": 1144
+    },
+    {
+      "from_station_name": "Sheridan Rd & Loyola Ave",
+      "user_type": "Customer",
+      "trips": 1135
+    },
+    {
+      "from_station_name": "Ellis Ave & 55th St",
+      "user_type": "Customer",
+      "trips": 1134
+    },
+    {
+      "from_station_name": "Franklin St & Adams St (Temp)",
+      "user_type": "Customer",
+      "trips": 1126
+    },
+    {
+      "from_station_name": "LaSalle St & Adams St",
+      "user_type": "Customer",
+      "trips": 1117
+    },
+    {
+      "from_station_name": "Lake Park Ave & 47th St",
+      "user_type": "Subscriber",
+      "trips": 1117
+    },
+    {
+      "from_station_name": "Kimbark Ave & 53rd St",
+      "user_type": "Customer",
+      "trips": 1113
+    },
+    {
+      "from_station_name": "Greenwood Ave & 47th St",
+      "user_type": "Subscriber",
+      "trips": 1110
+    },
+    {
+      "from_station_name": "Benson Ave & Church St",
+      "user_type": "Customer",
+      "trips": 1105
+    },
+    {
+      "from_station_name": "Damen Ave & Division St",
+      "user_type": "Customer",
+      "trips": 1098
+    },
+    {
+      "from_station_name": "Sheridan Rd & Greenleaf Ave",
+      "user_type": "Subscriber",
+      "trips": 1093
+    },
+    {
+      "from_station_name": "Clark St & Schreiber Ave",
+      "user_type": "Subscriber",
+      "trips": 1090
+    },
+    {
+      "from_station_name": "Broadway & Argyle St",
+      "user_type": "Customer",
+      "trips": 1087
+    },
+    {
+      "from_station_name": "Prairie Ave & Garfield Blvd",
+      "user_type": "Subscriber",
+      "trips": 1082
+    },
+    {
+      "from_station_name": "Walsh Park",
+      "user_type": "Customer",
+      "trips": 1077
+    },
+    {
+      "from_station_name": "Central Park Ave & Bloomingdale Ave",
+      "user_type": "Customer",
+      "trips": 1075
+    },
+    {
+      "from_station_name": "Western Ave & Lunt Ave",
+      "user_type": "Subscriber",
+      "trips": 1074
+    },
+    {
+      "from_station_name": "Western Ave & 21st St",
+      "user_type": "Subscriber",
+      "trips": 1053
+    },
+    {
+      "from_station_name": "Loomis St & Archer Ave",
+      "user_type": "Subscriber",
+      "trips": 1051
+    },
+    {
+      "from_station_name": "Halsted St & 21st St",
+      "user_type": "Subscriber",
+      "trips": 1046
+    },
+    {
+      "from_station_name": "Lake Park Ave & 35th St",
+      "user_type": "Customer",
+      "trips": 1035
+    },
+    {
+      "from_station_name": "Albany Ave & Bloomingdale Ave",
+      "user_type": "Customer",
+      "trips": 1033
+    },
+    {
+      "from_station_name": "Museum of Science and Industry",
+      "user_type": "Subscriber",
+      "trips": 1028
+    },
+    {
+      "from_station_name": "Clinton St & Polk St (*)",
+      "user_type": "Subscriber",
+      "trips": 1022
+    },
+    {
+      "from_station_name": "Woodlawn Ave & Lake Park Ave",
+      "user_type": "Subscriber",
+      "trips": 1010
+    },
+    {
+      "from_station_name": "Broadway & Berwyn Ave",
+      "user_type": "Customer",
+      "trips": 1010
+    },
+    {
+      "from_station_name": "Manor Ave & Leland Ave",
+      "user_type": "Subscriber",
+      "trips": 1007
+    },
+    {
+      "from_station_name": "Ashland Ave & 21st St",
+      "user_type": "Subscriber",
+      "trips": 1000
+    },
+    {
+      "from_station_name": "Central Park Ave & Bloomingdale Ave",
+      "user_type": "Subscriber",
+      "trips": 997
+    },
+    {
+      "from_station_name": "Ashland Ave & Blackhawk St",
+      "user_type": "Customer",
+      "trips": 991
+    },
+    {
+      "from_station_name": "Southport Ave & Belmont Ave",
+      "user_type": "Customer",
+      "trips": 985
+    },
+    {
+      "from_station_name": "Halsted St & Maxwell St",
+      "user_type": "Customer",
+      "trips": 985
+    },
+    {
+      "from_station_name": "Troy St & North Ave",
+      "user_type": "Subscriber",
+      "trips": 982
+    },
+    {
+      "from_station_name": "Racine Ave & 18th St",
+      "user_type": "Customer",
+      "trips": 971
+    },
+    {
+      "from_station_name": "Normal Ave & Archer Ave",
+      "user_type": "Subscriber",
+      "trips": 966
+    },
+    {
+      "from_station_name": "Racine Ave & Wrightwood Ave",
+      "user_type": "Customer",
+      "trips": 965
+    },
+    {
+      "from_station_name": "Southport Ave & Irving Park Rd",
+      "user_type": "Customer",
+      "trips": 962
+    },
+    {
+      "from_station_name": "Morgan St & Polk St",
+      "user_type": "Customer",
+      "trips": 960
+    },
+    {
+      "from_station_name": "Kedzie Ave & Leland Ave",
+      "user_type": "Subscriber",
+      "trips": 954
+    },
+    {
+      "from_station_name": "Carpenter St & Huron St",
+      "user_type": "Customer",
+      "trips": 952
+    },
+    {
+      "from_station_name": "Clinton St & Polk St",
+      "user_type": "Subscriber",
+      "trips": 949
+    },
+    {
+      "from_station_name": "Canal St & Monroe St",
+      "user_type": "Customer",
+      "trips": 942
+    },
+    {
+      "from_station_name": "Lake Park Ave & 56th St",
+      "user_type": "Customer",
+      "trips": 941
+    },
+    {
+      "from_station_name": "Clark St & Ida B Wells Dr",
+      "user_type": "Customer",
+      "trips": 938
+    },
+    {
+      "from_station_name": "Wallace St & 35th St",
+      "user_type": "Subscriber",
+      "trips": 930
+    },
+    {
+      "from_station_name": "Leavitt St & North Ave",
+      "user_type": "Customer",
+      "trips": 929
+    },
+    {
+      "from_station_name": "Humboldt Blvd & Armitage Ave",
+      "user_type": "Customer",
+      "trips": 925
+    },
+    {
+      "from_station_name": "Christiana Ave & Lawrence Ave",
+      "user_type": "Subscriber",
+      "trips": 924
+    },
+    {
+      "from_station_name": "Central St & Girard Ave",
+      "user_type": "Subscriber",
+      "trips": 913
+    },
+    {
+      "from_station_name": "Wells St & 19th St",
+      "user_type": "Customer",
+      "trips": 912
+    },
+    {
+      "from_station_name": "Ashland Ave & Chicago Ave",
+      "user_type": "Customer",
+      "trips": 911
+    },
+    {
+      "from_station_name": "Broadway & Ridge Ave",
+      "user_type": "Customer",
+      "trips": 909
+    },
+    {
+      "from_station_name": "Fairbanks St & Superior St",
+      "user_type": "Customer",
+      "trips": 905
+    },
+    {
+      "from_station_name": "Glenwood Ave & Touhy Ave",
+      "user_type": "Subscriber",
+      "trips": 900
+    },
+    {
+      "from_station_name": "Ashland Ave & Wrightwood Ave",
+      "user_type": "Customer",
+      "trips": 897
+    },
+    {
+      "from_station_name": "Western Ave & Walton St",
+      "user_type": "Customer",
+      "trips": 893
+    },
+    {
+      "from_station_name": "Wabash Ave & Cermak Rd",
+      "user_type": "Customer",
+      "trips": 893
+    },
+    {
+      "from_station_name": "Clarendon Ave & Leland Ave",
+      "user_type": "Customer",
+      "trips": 884
+    },
+    {
+      "from_station_name": "900 W Harrison St",
+      "user_type": "Customer",
+      "trips": 883
+    },
+    {
+      "from_station_name": "Damen Ave & Thomas St (Augusta Blvd)",
+      "user_type": "Customer",
+      "trips": 877
+    },
+    {
+      "from_station_name": "Damen Ave & Charleston St",
+      "user_type": "Customer",
+      "trips": 873
+    },
+    {
+      "from_station_name": "Monticello Ave & Irving Park Rd",
+      "user_type": "Subscriber",
+      "trips": 872
+    },
+    {
+      "from_station_name": "Jefferson St & Monroe St",
+      "user_type": "Customer",
+      "trips": 863
+    },
+    {
+      "from_station_name": "Western Ave & Leland Ave",
+      "user_type": "Customer",
+      "trips": 854
+    },
+    {
+      "from_station_name": "Sheridan Rd & Lawrence Ave",
+      "user_type": "Customer",
+      "trips": 852
+    },
+    {
+      "from_station_name": "Shields Ave & 28th Pl",
+      "user_type": "Subscriber",
+      "trips": 850
+    },
+    {
+      "from_station_name": "California Ave & 23rd Pl",
+      "user_type": "Subscriber",
+      "trips": 849
+    },
+    {
+      "from_station_name": "Avers Ave & Belmont Ave",
+      "user_type": "Subscriber",
+      "trips": 845
+    },
+    {
+      "from_station_name": "Morgan St & 18th St",
+      "user_type": "Customer",
+      "trips": 844
+    },
+    {
+      "from_station_name": "Racine Ave & 13th St",
+      "user_type": "Subscriber",
+      "trips": 842
+    },
+    {
+      "from_station_name": "Greenview Ave & Diversey Pkwy",
+      "user_type": "Customer",
+      "trips": 840
+    },
+    {
+      "from_station_name": "Warren Park East",
+      "user_type": "Subscriber",
+      "trips": 834
+    },
+    {
+      "from_station_name": "Western Ave & Division St",
+      "user_type": "Customer",
+      "trips": 831
+    },
+    {
+      "from_station_name": "Noble St & Milwaukee Ave",
+      "user_type": "Customer",
+      "trips": 821
+    },
+    {
+      "from_station_name": "Lake Park Ave & 47th St",
+      "user_type": "Customer",
+      "trips": 818
+    },
+    {
+      "from_station_name": "Campbell Ave & North Ave",
+      "user_type": "Customer",
+      "trips": 817
+    },
+    {
+      "from_station_name": "Drake Ave & Montrose Ave",
+      "user_type": "Subscriber",
+      "trips": 814
+    },
+    {
+      "from_station_name": "Loomis St & Lexington St",
+      "user_type": "Customer",
+      "trips": 811
+    },
+    {
+      "from_station_name": "Ogden Ave & Race Ave",
+      "user_type": "Customer",
+      "trips": 803
+    },
+    {
+      "from_station_name": "Sheridan Rd & Buena Ave",
+      "user_type": "Customer",
+      "trips": 795
+    },
+    {
+      "from_station_name": "Spaulding Ave & Armitage Ave",
+      "user_type": "Customer",
+      "trips": 795
+    },
+    {
+      "from_station_name": "Halsted St & Polk St",
+      "user_type": "Customer",
+      "trips": 794
+    },
+    {
+      "from_station_name": "Buckingham Fountain (Temp)",
+      "user_type": "Subscriber",
+      "trips": 791
+    },
+    {
+      "from_station_name": "Franklin St & Chicago Ave (Temp)",
+      "user_type": "Customer",
+      "trips": 789
+    },
+    {
+      "from_station_name": "Kedzie Ave & Foster Ave",
+      "user_type": "Subscriber",
+      "trips": 789
+    },
+    {
+      "from_station_name": "Dodge Ave & Church St",
+      "user_type": "Subscriber",
+      "trips": 786
+    },
+    {
+      "from_station_name": "Elmwood Ave & Austin St",
+      "user_type": "Subscriber",
+      "trips": 783
+    },
+    {
+      "from_station_name": "Damen Ave & Madison St",
+      "user_type": "Customer",
+      "trips": 782
+    },
+    {
+      "from_station_name": "Central Park Ave & North Ave",
+      "user_type": "Subscriber",
+      "trips": 782
+    },
+    {
+      "from_station_name": "California Ave & Byron St",
+      "user_type": "Subscriber",
+      "trips": 781
+    },
+    {
+      "from_station_name": "Smith Park (*)",
+      "user_type": "Subscriber",
+      "trips": 778
+    },
+    {
+      "from_station_name": "Blue Island Ave & 18th St",
+      "user_type": "Customer",
+      "trips": 765
+    },
+    {
+      "from_station_name": "Eckhart Park",
+      "user_type": "Customer",
+      "trips": 763
+    },
+    {
+      "from_station_name": "Franklin St & Chicago Ave",
+      "user_type": "Customer",
+      "trips": 763
+    },
+    {
+      "from_station_name": "MLK Jr Dr & Pershing Rd",
+      "user_type": "Subscriber",
+      "trips": 759
+    },
+    {
+      "from_station_name": "Milwaukee Ave & Rockwell St",
+      "user_type": "Customer",
+      "trips": 757
+    },
+    {
+      "from_station_name": "Dearborn St & Van Buren St",
+      "user_type": "Customer",
+      "trips": 754
+    },
+    {
+      "from_station_name": "Winthrop Ave & Lawrence Ave",
+      "user_type": "Customer",
+      "trips": 753
+    },
+    {
+      "from_station_name": "State St & 19th St",
+      "user_type": "Customer",
+      "trips": 753
+    },
+    {
+      "from_station_name": "Larrabee St & Oak St",
+      "user_type": "Customer",
+      "trips": 750
+    },
+    {
+      "from_station_name": "Calumet Ave & 35th St",
+      "user_type": "Subscriber",
+      "trips": 749
+    },
+    {
+      "from_station_name": "Albany Ave & Montrose Ave",
+      "user_type": "Subscriber",
+      "trips": 746
+    },
+    {
+      "from_station_name": "Ada St & Washington Blvd",
+      "user_type": "Customer",
+      "trips": 744
+    },
+    {
+      "from_station_name": "Lincoln Ave & Belle Plaine Ave",
+      "user_type": "Customer",
+      "trips": 735
+    },
+    {
+      "from_station_name": "Sawyer Ave & Irving Park Rd",
+      "user_type": "Subscriber",
+      "trips": 723
+    },
+    {
+      "from_station_name": "Clark St & 9th St (AMLI)",
+      "user_type": "Customer",
+      "trips": 719
+    },
+    {
+      "from_station_name": "Blackstone Ave & Hyde Park Blvd",
+      "user_type": "Customer",
+      "trips": 717
+    },
+    {
+      "from_station_name": "Seeley Ave & Roscoe St",
+      "user_type": "Customer",
+      "trips": 713
+    },
+    {
+      "from_station_name": "Sheridan Rd & Noyes St (NU)",
+      "user_type": "Customer",
+      "trips": 710
+    },
+    {
+      "from_station_name": "MLK Jr Dr & 29th St",
+      "user_type": "Customer",
+      "trips": 705
+    },
+    {
+      "from_station_name": "Halsted St & 37th St",
+      "user_type": "Subscriber",
+      "trips": 705
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 47th St",
+      "user_type": "Subscriber",
+      "trips": 699
+    },
+    {
+      "from_station_name": "Damen Ave & Leland Ave",
+      "user_type": "Customer",
+      "trips": 694
+    },
+    {
+      "from_station_name": "Ashland Ave & Grace St",
+      "user_type": "Customer",
+      "trips": 691
+    },
+    {
+      "from_station_name": "Racine Ave & Randolph St",
+      "user_type": "Customer",
+      "trips": 690
+    },
+    {
+      "from_station_name": "Clark St & Leland Ave",
+      "user_type": "Customer",
+      "trips": 688
+    },
+    {
+      "from_station_name": "63rd St Beach",
+      "user_type": "Customer",
+      "trips": 687
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 51st St",
+      "user_type": "Subscriber",
+      "trips": 686
+    },
+    {
+      "from_station_name": "Ridge Blvd & Touhy Ave",
+      "user_type": "Subscriber",
+      "trips": 683
+    },
+    {
+      "from_station_name": "Spaulding Ave & Division St",
+      "user_type": "Subscriber",
+      "trips": 682
+    },
+    {
+      "from_station_name": "Wentworth Ave & 24th St (Temp)",
+      "user_type": "Subscriber",
+      "trips": 677
+    },
+    {
+      "from_station_name": "Franklin St & Quincy St",
+      "user_type": "Customer",
+      "trips": 674
+    },
+    {
+      "from_station_name": "Kedzie Ave & Lake St",
+      "user_type": "Subscriber",
+      "trips": 671
+    },
+    {
+      "from_station_name": "Lincoln Ave & Sunnyside Ave",
+      "user_type": "Customer",
+      "trips": 669
+    },
+    {
+      "from_station_name": "Damen Ave & Grand Ave",
+      "user_type": "Customer",
+      "trips": 668
+    },
+    {
+      "from_station_name": "California Ave & 21st St",
+      "user_type": "Subscriber",
+      "trips": 667
+    },
+    {
+      "from_station_name": "Orleans St & Hubbard St",
+      "user_type": "Customer",
+      "trips": 665
+    },
+    {
+      "from_station_name": "Leavitt St & Armitage Ave",
+      "user_type": "Customer",
+      "trips": 660
+    },
+    {
+      "from_station_name": "Ellis Ave & 58th St",
+      "user_type": "Customer",
+      "trips": 654
+    },
+    {
+      "from_station_name": "Damen Ave & Wellington Ave",
+      "user_type": "Customer",
+      "trips": 652
+    },
+    {
+      "from_station_name": "California Ave & Cortez St",
+      "user_type": "Customer",
+      "trips": 652
+    },
+    {
+      "from_station_name": "Ravenswood Ave & Irving Park Rd",
+      "user_type": "Customer",
+      "trips": 649
+    },
+    {
+      "from_station_name": "Chicago Ave & Sheridan Rd",
+      "user_type": "Customer",
+      "trips": 647
+    },
+    {
+      "from_station_name": "Financial Pl & Ida B Wells Dr",
+      "user_type": "Customer",
+      "trips": 645
+    },
+    {
+      "from_station_name": "California Ave & Lake St",
+      "user_type": "Subscriber",
+      "trips": 645
+    },
+    {
+      "from_station_name": "Clark St & Bryn Mawr Ave",
+      "user_type": "Customer",
+      "trips": 643
+    },
+    {
+      "from_station_name": "Halsted St & Roosevelt Rd",
+      "user_type": "Customer",
+      "trips": 636
+    },
+    {
+      "from_station_name": "California Ave & Division St",
+      "user_type": "Customer",
+      "trips": 634
+    },
+    {
+      "from_station_name": "Logan Blvd & Elston Ave",
+      "user_type": "Customer",
+      "trips": 627
+    },
+    {
+      "from_station_name": "Sedgwick St & Schiller St",
+      "user_type": "Customer",
+      "trips": 622
+    },
+    {
+      "from_station_name": "Lincolnwood Dr & Central St",
+      "user_type": "Subscriber",
+      "trips": 619
+    },
+    {
+      "from_station_name": "Sangamon St & Washington Blvd",
+      "user_type": "Customer",
+      "trips": 617
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 43rd St",
+      "user_type": "Subscriber",
+      "trips": 610
+    },
+    {
+      "from_station_name": "Halsted St & 35th St",
+      "user_type": "Subscriber",
+      "trips": 595
+    },
+    {
+      "from_station_name": "Dorchester Ave & 49th St",
+      "user_type": "Subscriber",
+      "trips": 589
+    },
+    {
+      "from_station_name": "Western Ave & Granville Ave",
+      "user_type": "Subscriber",
+      "trips": 589
+    },
+    {
+      "from_station_name": "Western Ave & Howard St",
+      "user_type": "Subscriber",
+      "trips": 587
+    },
+    {
+      "from_station_name": "Kedzie Ave & Palmer Ct",
+      "user_type": "Customer",
+      "trips": 586
+    },
+    {
+      "from_station_name": "California Ave & Francis Pl",
+      "user_type": "Customer",
+      "trips": 582
+    },
+    {
+      "from_station_name": "Franklin St & Illinois St",
+      "user_type": "Customer",
+      "trips": 575
+    },
+    {
+      "from_station_name": "Ashland Ave & Augusta Blvd",
+      "user_type": "Customer",
+      "trips": 573
+    },
+    {
+      "from_station_name": "Keystone Ave & Fullerton Ave",
+      "user_type": "Subscriber",
+      "trips": 572
+    },
+    {
+      "from_station_name": "State St & 33rd St",
+      "user_type": "Customer",
+      "trips": 572
+    },
+    {
+      "from_station_name": "Woodlawn Ave & 55th St",
+      "user_type": "Customer",
+      "trips": 569
+    },
+    {
+      "from_station_name": "Glenwood Ave & Morse Ave",
+      "user_type": "Customer",
+      "trips": 569
+    },
+    {
+      "from_station_name": "Larrabee St & North Ave",
+      "user_type": "Customer",
+      "trips": 568
+    },
+    {
+      "from_station_name": "Winchester Ave & Elston Ave",
+      "user_type": "Customer",
+      "trips": 563
+    },
+    {
+      "from_station_name": "California Ave & North Ave",
+      "user_type": "Customer",
+      "trips": 560
+    },
+    {
+      "from_station_name": "Clark St & Jarvis Ave",
+      "user_type": "Subscriber",
+      "trips": 560
+    },
+    {
+      "from_station_name": "Clybourn Ave & Division St",
+      "user_type": "Customer",
+      "trips": 559
+    },
+    {
+      "from_station_name": "Paulina St & 18th St",
+      "user_type": "Customer",
+      "trips": 557
+    },
+    {
+      "from_station_name": "Lincoln Ave & Waveland Ave",
+      "user_type": "Customer",
+      "trips": 554
+    },
+    {
+      "from_station_name": "Racine Ave & 35th St",
+      "user_type": "Subscriber",
+      "trips": 554
+    },
+    {
+      "from_station_name": "Wolcott Ave & Polk St",
+      "user_type": "Customer",
+      "trips": 553
+    },
+    {
+      "from_station_name": "University Library (NU)",
+      "user_type": "Customer",
+      "trips": 552
+    },
+    {
+      "from_station_name": "State St & 29th St",
+      "user_type": "Subscriber",
+      "trips": 551
+    },
+    {
+      "from_station_name": "Damen Ave & Melrose Ave",
+      "user_type": "Customer",
+      "trips": 551
+    },
+    {
+      "from_station_name": "Clark St & Montrose Ave",
+      "user_type": "Customer",
+      "trips": 549
+    },
+    {
+      "from_station_name": "Damen Ave & Clybourn Ave",
+      "user_type": "Customer",
+      "trips": 546
+    },
+    {
+      "from_station_name": "Ashland Ave & McDowell Ave",
+      "user_type": "Subscriber",
+      "trips": 545
+    },
+    {
+      "from_station_name": "Paulina St & Flournoy St",
+      "user_type": "Customer",
+      "trips": 543
+    },
+    {
+      "from_station_name": "Western Ave & 24th St",
+      "user_type": "Subscriber",
+      "trips": 536
+    },
+    {
+      "from_station_name": "Rhodes Ave & 32nd St",
+      "user_type": "Customer",
+      "trips": 535
+    },
+    {
+      "from_station_name": "Ashland Ave & Lake St",
+      "user_type": "Customer",
+      "trips": 531
+    },
+    {
+      "from_station_name": "Kedzie Ave & Chicago Ave",
+      "user_type": "Subscriber",
+      "trips": 530
+    },
+    {
+      "from_station_name": "Bernard St & Elston Ave",
+      "user_type": "Subscriber",
+      "trips": 530
+    },
+    {
+      "from_station_name": "Richmond St & Diversey Ave",
+      "user_type": "Customer",
+      "trips": 529
+    },
+    {
+      "from_station_name": "California Ave & Fletcher St",
+      "user_type": "Customer",
+      "trips": 525
+    },
+    {
+      "from_station_name": "St. Louis Ave & Balmoral Ave",
+      "user_type": "Subscriber",
+      "trips": 524
+    },
+    {
+      "from_station_name": "63rd St Beach",
+      "user_type": "Subscriber",
+      "trips": 524
+    },
+    {
+      "from_station_name": "Ashland Ave & Grand Ave",
+      "user_type": "Customer",
+      "trips": 522
+    },
+    {
+      "from_station_name": "Ashland Ave & Wellington Ave",
+      "user_type": "Customer",
+      "trips": 517
+    },
+    {
+      "from_station_name": "Clinton St & Tilden St",
+      "user_type": "Customer",
+      "trips": 515
+    },
+    {
+      "from_station_name": "Paulina St & Montrose Ave",
+      "user_type": "Customer",
+      "trips": 514
+    },
+    {
+      "from_station_name": "California Ave & Francis Pl (Temp)",
+      "user_type": "Subscriber",
+      "trips": 512
+    },
+    {
+      "from_station_name": "Leavitt St & Chicago Ave",
+      "user_type": "Customer",
+      "trips": 511
+    },
+    {
+      "from_station_name": "Damen Ave & Foster Ave",
+      "user_type": "Customer",
+      "trips": 509
+    },
+    {
+      "from_station_name": "Harper Ave & 59th St",
+      "user_type": "Customer",
+      "trips": 508
+    },
+    {
+      "from_station_name": "Sacramento Blvd & Franklin Blvd",
+      "user_type": "Subscriber",
+      "trips": 507
+    },
+    {
+      "from_station_name": "South Shore Dr & 71st St",
+      "user_type": "Subscriber",
+      "trips": 505
+    },
+    {
+      "from_station_name": "Artesian Ave & Hubbard St",
+      "user_type": "Customer",
+      "trips": 503
+    },
+    {
+      "from_station_name": "Ashland Ave & Belle Plaine Ave",
+      "user_type": "Customer",
+      "trips": 501
+    },
+    {
+      "from_station_name": "Racine Ave & Congress Pkwy",
+      "user_type": "Customer",
+      "trips": 496
+    },
+    {
+      "from_station_name": "Calumet Ave & 51st St",
+      "user_type": "Subscriber",
+      "trips": 495
+    },
+    {
+      "from_station_name": "Ellis Ave & 53rd St",
+      "user_type": "Customer",
+      "trips": 492
+    },
+    {
+      "from_station_name": "Larrabee St & Menomonee St",
+      "user_type": "Customer",
+      "trips": 492
+    },
+    {
+      "from_station_name": "Milwaukee Ave & Cuyler Ave",
+      "user_type": "Subscriber",
+      "trips": 491
+    },
+    {
+      "from_station_name": "Wood St & Chicago Ave (*)",
+      "user_type": "Customer",
+      "trips": 487
+    },
+    {
+      "from_station_name": "LaSalle Dr & Huron St (*)",
+      "user_type": "Customer",
+      "trips": 483
+    },
+    {
+      "from_station_name": "Wood St & Hubbard St",
+      "user_type": "Customer",
+      "trips": 483
+    },
+    {
+      "from_station_name": "Campbell Ave & Fullerton Ave",
+      "user_type": "Customer",
+      "trips": 483
+    },
+    {
+      "from_station_name": "Pulaski Rd & Eddy St (Temp)",
+      "user_type": "Subscriber",
+      "trips": 483
+    },
+    {
+      "from_station_name": "Wentworth Ave & 35th St",
+      "user_type": "Customer",
+      "trips": 481
+    },
+    {
+      "from_station_name": "California Ave & Montrose Ave",
+      "user_type": "Customer",
+      "trips": 480
+    },
+    {
+      "from_station_name": "Troy St & North Ave",
+      "user_type": "Customer",
+      "trips": 477
+    },
+    {
+      "from_station_name": "Drake Ave & Fullerton Ave",
+      "user_type": "Customer",
+      "trips": 473
+    },
+    {
+      "from_station_name": "Damen Ave & Cullerton St",
+      "user_type": "Customer",
+      "trips": 472
+    },
+    {
+      "from_station_name": "Knox Ave & Montrose Ave",
+      "user_type": "Subscriber",
+      "trips": 472
+    },
+    {
+      "from_station_name": "Wood St & Augusta Blvd",
+      "user_type": "Customer",
+      "trips": 468
+    },
+    {
+      "from_station_name": "Halsted St & Clybourn Ave (*)",
+      "user_type": "Customer",
+      "trips": 467
+    },
+    {
+      "from_station_name": "Kilbourn Ave & Milwaukee Ave",
+      "user_type": "Subscriber",
+      "trips": 466
+    },
+    {
+      "from_station_name": "Chicago Ave & Washington St",
+      "user_type": "Customer",
+      "trips": 465
+    },
+    {
+      "from_station_name": "Loomis St & Jackson Blvd",
+      "user_type": "Customer",
+      "trips": 465
+    },
+    {
+      "from_station_name": "Washtenaw Ave & Ogden Ave",
+      "user_type": "Subscriber",
+      "trips": 459
+    },
+    {
+      "from_station_name": "Paulina St & Howard St",
+      "user_type": "Customer",
+      "trips": 458
+    },
+    {
+      "from_station_name": "Sheridan Rd & Greenleaf Ave",
+      "user_type": "Customer",
+      "trips": 450
+    },
+    {
+      "from_station_name": "Keystone Ave & Montrose Ave",
+      "user_type": "Subscriber",
+      "trips": 447
+    },
+    {
+      "from_station_name": "Kilbourn Ave & Irving Park Rd",
+      "user_type": "Subscriber",
+      "trips": 445
+    },
+    {
+      "from_station_name": "Conservatory Dr & Lake St",
+      "user_type": "Subscriber",
+      "trips": 445
+    },
+    {
+      "from_station_name": "Chicago Ave & Dempster St",
+      "user_type": "Customer",
+      "trips": 441
+    },
+    {
+      "from_station_name": "Indiana Ave & 26th St",
+      "user_type": "Customer",
+      "trips": 440
+    },
+    {
+      "from_station_name": "Stave St & Armitage Ave",
+      "user_type": "Customer",
+      "trips": 436
+    },
+    {
+      "from_station_name": "California Ave & Altgeld St",
+      "user_type": "Customer",
+      "trips": 432
+    },
+    {
+      "from_station_name": "Elston Ave & Wabansia Ave",
+      "user_type": "Customer",
+      "trips": 432
+    },
+    {
+      "from_station_name": "Talman Ave & Addison St",
+      "user_type": "Customer",
+      "trips": 426
+    },
+    {
+      "from_station_name": "Cherry Ave & Blackhawk St",
+      "user_type": "Subscriber",
+      "trips": 423
+    },
+    {
+      "from_station_name": "Bosworth Ave & Howard St",
+      "user_type": "Subscriber",
+      "trips": 422
+    },
+    {
+      "from_station_name": "Sheridan Rd & Columbia Ave",
+      "user_type": "Customer",
+      "trips": 422
+    },
+    {
+      "from_station_name": "Racine Ave & Washington Blvd (*)",
+      "user_type": "Customer",
+      "trips": 421
+    },
+    {
+      "from_station_name": "Morgan Ave & 14th Pl",
+      "user_type": "Customer",
+      "trips": 419
+    },
+    {
+      "from_station_name": "Clinton St & 18th St",
+      "user_type": "Customer",
+      "trips": 417
+    },
+    {
+      "from_station_name": "Ashland Ave & Archer Ave",
+      "user_type": "Subscriber",
+      "trips": 417
+    },
+    {
+      "from_station_name": "Halsted St & 21st St",
+      "user_type": "Customer",
+      "trips": 414
+    },
+    {
+      "from_station_name": "Warren Park West",
+      "user_type": "Subscriber",
+      "trips": 406
+    },
+    {
+      "from_station_name": "Damen Ave & Sunnyside Ave",
+      "user_type": "Customer",
+      "trips": 406
+    },
+    {
+      "from_station_name": "Southport Ave & Clark St",
+      "user_type": "Customer",
+      "trips": 406
+    },
+    {
+      "from_station_name": "Princeton Ave & Garfield Blvd",
+      "user_type": "Subscriber",
+      "trips": 405
+    },
+    {
+      "from_station_name": "Ridge Blvd & Howard St",
+      "user_type": "Subscriber",
+      "trips": 401
+    },
+    {
+      "from_station_name": "Prairie Ave & 43rd St",
+      "user_type": "Subscriber",
+      "trips": 401
+    },
+    {
+      "from_station_name": "Greenwood Ave & 47th St",
+      "user_type": "Customer",
+      "trips": 400
+    },
+    {
+      "from_station_name": "Indiana Ave & 31st St",
+      "user_type": "Customer",
+      "trips": 398
+    },
+    {
+      "from_station_name": "Washtenaw Ave & Ogden Ave (*)",
+      "user_type": "Subscriber",
+      "trips": 396
+    },
+    {
+      "from_station_name": "Wentworth Ave & 24th St",
+      "user_type": "Subscriber",
+      "trips": 394
+    },
+    {
+      "from_station_name": "Kimball Ave & Belmont Ave",
+      "user_type": "Customer",
+      "trips": 391
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & Oakwood Blvd",
+      "user_type": "Customer",
+      "trips": 388
+    },
+    {
+      "from_station_name": "2112 W Peterson Ave",
+      "user_type": "Subscriber",
+      "trips": 385
+    },
+    {
+      "from_station_name": "DuSable Museum",
+      "user_type": "Subscriber",
+      "trips": 382
+    },
+    {
+      "from_station_name": "Wolcott (Ravenswood) Ave & Montrose Ave",
+      "user_type": "Customer",
+      "trips": 381
+    },
+    {
+      "from_station_name": "Clark St & Elmdale Ave",
+      "user_type": "Customer",
+      "trips": 378
+    },
+    {
+      "from_station_name": "California Ave & Byron St",
+      "user_type": "Customer",
+      "trips": 376
+    },
+    {
+      "from_station_name": "Clark St & Touhy Ave",
+      "user_type": "Subscriber",
+      "trips": 375
+    },
+    {
+      "from_station_name": "Kedzie Ave & 21st St",
+      "user_type": "Subscriber",
+      "trips": 370
+    },
+    {
+      "from_station_name": "Clark St & Lunt Ave",
+      "user_type": "Customer",
+      "trips": 367
+    },
+    {
+      "from_station_name": "Leavitt St & Addison St",
+      "user_type": "Customer",
+      "trips": 366
+    },
+    {
+      "from_station_name": "Leavitt St & Belmont Ave (*)",
+      "user_type": "Customer",
+      "trips": 364
+    },
+    {
+      "from_station_name": "Orleans St & Elm St",
+      "user_type": "Customer",
+      "trips": 359
+    },
+    {
+      "from_station_name": "Morgan St & 31st St",
+      "user_type": "Customer",
+      "trips": 357
+    },
+    {
+      "from_station_name": "State St & 35th St",
+      "user_type": "Customer",
+      "trips": 356
+    },
+    {
+      "from_station_name": "Troy St & Elston Ave",
+      "user_type": "Customer",
+      "trips": 355
+    },
+    {
+      "from_station_name": "South Shore Dr & 71st St",
+      "user_type": "Customer",
+      "trips": 355
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & Oakwood Blvd",
+      "user_type": "Subscriber",
+      "trips": 352
+    },
+    {
+      "from_station_name": "South Shore Dr & 67th St",
+      "user_type": "Customer",
+      "trips": 351
+    },
+    {
+      "from_station_name": "Avondale Ave & Irving Park Rd",
+      "user_type": "Customer",
+      "trips": 351
+    },
+    {
+      "from_station_name": "Eastlake Ter & Rogers Ave",
+      "user_type": "Customer",
+      "trips": 345
+    },
+    {
+      "from_station_name": "Lincoln Ave & Addison St",
+      "user_type": "Customer",
+      "trips": 337
+    },
+    {
+      "from_station_name": "Leavitt St & Archer Ave",
+      "user_type": "Subscriber",
+      "trips": 336
+    },
+    {
+      "from_station_name": "Lincoln Ave & Winona St",
+      "user_type": "Customer",
+      "trips": 336
+    },
+    {
+      "from_station_name": "Leavitt St & Lawrence Ave",
+      "user_type": "Customer",
+      "trips": 334
+    },
+    {
+      "from_station_name": "Budlong Woods Library",
+      "user_type": "Subscriber",
+      "trips": 333
+    },
+    {
+      "from_station_name": "Francisco Ave & Foster Ave",
+      "user_type": "Customer",
+      "trips": 332
+    },
+    {
+      "from_station_name": "Elizabeth (May) St & Fulton St",
+      "user_type": "Customer",
+      "trips": 332
+    },
+    {
+      "from_station_name": "Clinton St & Jackson Blvd (*)",
+      "user_type": "Customer",
+      "trips": 331
+    },
+    {
+      "from_station_name": "Hoyne Ave & Balmoral Ave",
+      "user_type": "Customer",
+      "trips": 331
+    },
+    {
+      "from_station_name": "Claremont Ave & Hirsch St",
+      "user_type": "Customer",
+      "trips": 330
+    },
+    {
+      "from_station_name": "Throop (Loomis) St & Taylor St",
+      "user_type": "Customer",
+      "trips": 329
+    },
+    {
+      "from_station_name": "Winchester (Ravenswood) Ave & Balmoral Ave",
+      "user_type": "Customer",
+      "trips": 328
+    },
+    {
+      "from_station_name": "Ravenswood Ave & Berteau Ave",
+      "user_type": "Customer",
+      "trips": 325
+    },
+    {
+      "from_station_name": "Greenview Ave & Jarvis Ave",
+      "user_type": "Customer",
+      "trips": 325
+    },
+    {
+      "from_station_name": "South Shore Dr & 67th St",
+      "user_type": "Subscriber",
+      "trips": 324
+    },
+    {
+      "from_station_name": "Valli Produce - Evanston Plaza",
+      "user_type": "Subscriber",
+      "trips": 321
+    },
+    {
+      "from_station_name": "Jeffery Blvd & 67th St",
+      "user_type": "Customer",
+      "trips": 316
+    },
+    {
+      "from_station_name": "Halsted St & 35th St (*)",
+      "user_type": "Subscriber",
+      "trips": 314
+    },
+    {
+      "from_station_name": "Washtenaw Ave & Lawrence Ave",
+      "user_type": "Customer",
+      "trips": 314
+    },
+    {
+      "from_station_name": "Halsted St & Archer Ave",
+      "user_type": "Customer",
+      "trips": 313
+    },
+    {
+      "from_station_name": "Kedzie Ave & Bryn Mawr Ave",
+      "user_type": "Subscriber",
+      "trips": 312
+    },
+    {
+      "from_station_name": "Oakley Ave & Irving Park Rd",
+      "user_type": "Customer",
+      "trips": 308
+    },
+    {
+      "from_station_name": "Western Ave & Congress Pkwy",
+      "user_type": "Customer",
+      "trips": 308
+    },
+    {
+      "from_station_name": "Halsted St & 18th St",
+      "user_type": "Customer",
+      "trips": 307
+    },
+    {
+      "from_station_name": "Calumet Ave & 33rd St",
+      "user_type": "Customer",
+      "trips": 301
+    },
+    {
+      "from_station_name": "Ashland Ave & Pershing Rd",
+      "user_type": "Subscriber",
+      "trips": 300
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 63rd St",
+      "user_type": "Subscriber",
+      "trips": 299
+    },
+    {
+      "from_station_name": "Woodlawn Ave & Lake Park Ave",
+      "user_type": "Customer",
+      "trips": 298
+    },
+    {
+      "from_station_name": "Austin Blvd & Lake St",
+      "user_type": "Subscriber",
+      "trips": 297
+    },
+    {
+      "from_station_name": "Prairie Ave & 43rd St",
+      "user_type": "Customer",
+      "trips": 296
+    },
+    {
+      "from_station_name": "Avers Ave & Belmont Ave",
+      "user_type": "Customer",
+      "trips": 295
+    },
+    {
+      "from_station_name": "Princeton Ave & 47th St",
+      "user_type": "Subscriber",
+      "trips": 294
+    },
+    {
+      "from_station_name": "Western Ave & Roscoe St",
+      "user_type": "Customer",
+      "trips": 290
+    },
+    {
+      "from_station_name": "Emerald Ave & 31st St",
+      "user_type": "Customer",
+      "trips": 279
+    },
+    {
+      "from_station_name": "Hermitage Ave & Polk St",
+      "user_type": "Customer",
+      "trips": 277
+    },
+    {
+      "from_station_name": "Archer (Damen) Ave & 37th St",
+      "user_type": "Subscriber",
+      "trips": 277
+    },
+    {
+      "from_station_name": "Wood St & Taylor St",
+      "user_type": "Customer",
+      "trips": 276
+    },
+    {
+      "from_station_name": "Rockwell St & Eastwood Ave",
+      "user_type": "Customer",
+      "trips": 276
+    },
+    {
+      "from_station_name": "Dodge Ave & Mulford St",
+      "user_type": "Subscriber",
+      "trips": 275
+    },
+    {
+      "from_station_name": "MLK Jr Dr & 47th St",
+      "user_type": "Subscriber",
+      "trips": 275
+    },
+    {
+      "from_station_name": "Clark St & Schreiber Ave",
+      "user_type": "Customer",
+      "trips": 271
+    },
+    {
+      "from_station_name": "Prairie Ave & Garfield Blvd",
+      "user_type": "Customer",
+      "trips": 271
+    },
+    {
+      "from_station_name": "Christiana Ave & Lawrence Ave",
+      "user_type": "Customer",
+      "trips": 271
+    },
+    {
+      "from_station_name": "Indiana Ave & 40th St",
+      "user_type": "Subscriber",
+      "trips": 271
+    },
+    {
+      "from_station_name": "Evanston Civic Center",
+      "user_type": "Subscriber",
+      "trips": 271
+    },
+    {
+      "from_station_name": "Malcolm X College",
+      "user_type": "Customer",
+      "trips": 270
+    },
+    {
+      "from_station_name": "Canal St & Harrison St",
+      "user_type": "Customer",
+      "trips": 269
+    },
+    {
+      "from_station_name": "May St & Cullerton St",
+      "user_type": "Customer",
+      "trips": 267
+    },
+    {
+      "from_station_name": "Warren Park West",
+      "user_type": "Customer",
+      "trips": 267
+    },
+    {
+      "from_station_name": "Kedzie Ave & Leland Ave",
+      "user_type": "Customer",
+      "trips": 265
+    },
+    {
+      "from_station_name": "Leavitt St & Division St (*)",
+      "user_type": "Customer",
+      "trips": 265
+    },
+    {
+      "from_station_name": "Central Park Ave & North Ave",
+      "user_type": "Customer",
+      "trips": 264
+    },
+    {
+      "from_station_name": "Western Ave & Monroe St",
+      "user_type": "Customer",
+      "trips": 264
+    },
+    {
+      "from_station_name": "Halsted St & North Branch St",
+      "user_type": "Customer",
+      "trips": 263
+    },
+    {
+      "from_station_name": "Fairbanks St & Superior St (*)",
+      "user_type": "Customer",
+      "trips": 260
+    },
+    {
+      "from_station_name": "Dorchester Ave & 63rd St",
+      "user_type": "Subscriber",
+      "trips": 259
+    },
+    {
+      "from_station_name": "Spaulding Ave & Division St",
+      "user_type": "Customer",
+      "trips": 256
+    },
+    {
+      "from_station_name": "Wentworth Ave & 33rd St",
+      "user_type": "Customer",
+      "trips": 255
+    },
+    {
+      "from_station_name": "Central St Metra",
+      "user_type": "Customer",
+      "trips": 254
+    },
+    {
+      "from_station_name": "Oakley Ave & Touhy Ave",
+      "user_type": "Subscriber",
+      "trips": 251
+    },
+    {
+      "from_station_name": "Wentworth Ave & 24th St (Temp)",
+      "user_type": "Customer",
+      "trips": 251
+    },
+    {
+      "from_station_name": "Union Ave & Root St",
+      "user_type": "Subscriber",
+      "trips": 249
+    },
+    {
+      "from_station_name": "Kildare Ave & Montrose Ave",
+      "user_type": "Subscriber",
+      "trips": 248
+    },
+    {
+      "from_station_name": "Albany Ave & Montrose Ave",
+      "user_type": "Customer",
+      "trips": 248
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 47th St",
+      "user_type": "Customer",
+      "trips": 247
+    },
+    {
+      "from_station_name": "Orleans St & Hubbard St (*)",
+      "user_type": "Customer",
+      "trips": 247
+    },
+    {
+      "from_station_name": "Racine Ave & 15th St",
+      "user_type": "Customer",
+      "trips": 246
+    },
+    {
+      "from_station_name": "Kedzie Ave & Bryn Mawr Ave",
+      "user_type": "Customer",
+      "trips": 243
+    },
+    {
+      "from_station_name": "Wood St & 35th St",
+      "user_type": "Subscriber",
+      "trips": 243
+    },
+    {
+      "from_station_name": "Clinton St & Polk St",
+      "user_type": "Customer",
+      "trips": 242
+    },
+    {
+      "from_station_name": "Central Park Ave & Elbridge Ave",
+      "user_type": "Customer",
+      "trips": 240
+    },
+    {
+      "from_station_name": "Sawyer Ave & Irving Park Rd",
+      "user_type": "Customer",
+      "trips": 238
+    },
+    {
+      "from_station_name": "Smith Park (*)",
+      "user_type": "Customer",
+      "trips": 238
+    },
+    {
+      "from_station_name": "Halsted St & 47th Pl",
+      "user_type": "Subscriber",
+      "trips": 237
+    },
+    {
+      "from_station_name": "Kosciuszko Park",
+      "user_type": "Customer",
+      "trips": 235
+    },
+    {
+      "from_station_name": "Wallace St & 35th St",
+      "user_type": "Customer",
+      "trips": 233
+    },
+    {
+      "from_station_name": "MLK Jr Dr & Pershing Rd",
+      "user_type": "Customer",
+      "trips": 232
+    },
+    {
+      "from_station_name": "Conservatory Dr & Lake St",
+      "user_type": "Customer",
+      "trips": 229
+    },
+    {
+      "from_station_name": "Financial Pl & Ida B Wells Dr (Temp)",
+      "user_type": "Customer",
+      "trips": 222
+    },
+    {
+      "from_station_name": "Fairfield Ave & Roosevelt Rd",
+      "user_type": "Subscriber",
+      "trips": 221
+    },
+    {
+      "from_station_name": "Damen Ave & Walnut (Lake) St (*)",
+      "user_type": "Customer",
+      "trips": 216
+    },
+    {
+      "from_station_name": "Calumet Ave & 35th St",
+      "user_type": "Customer",
+      "trips": 216
+    },
+    {
+      "from_station_name": "Drake Ave & Montrose Ave",
+      "user_type": "Customer",
+      "trips": 211
+    },
+    {
+      "from_station_name": "Racine Ave & Garfield Blvd",
+      "user_type": "Subscriber",
+      "trips": 211
+    },
+    {
+      "from_station_name": "Western Ave & Fillmore St (*)",
+      "user_type": "Customer",
+      "trips": 210
+    },
+    {
+      "from_station_name": "Budlong Woods Library",
+      "user_type": "Customer",
+      "trips": 210
+    },
+    {
+      "from_station_name": "Dodge Ave & Church St",
+      "user_type": "Customer",
+      "trips": 209
+    },
+    {
+      "from_station_name": "Western Ave & Lunt Ave",
+      "user_type": "Customer",
+      "trips": 208
+    },
+    {
+      "from_station_name": "Dearborn St & Van Buren St (*)",
+      "user_type": "Customer",
+      "trips": 206
+    },
+    {
+      "from_station_name": "Dorchester Ave & 63rd St",
+      "user_type": "Customer",
+      "trips": 203
+    },
+    {
+      "from_station_name": "Wolcott Ave & Fargo Ave",
+      "user_type": "Subscriber",
+      "trips": 203
+    },
+    {
+      "from_station_name": "Washtenaw Ave & Ogden Ave",
+      "user_type": "Customer",
+      "trips": 201
+    },
+    {
+      "from_station_name": "Keystone Ave & Fullerton Ave",
+      "user_type": "Customer",
+      "trips": 200
+    },
+    {
+      "from_station_name": "Ashland Ave & Lake St (Temp)",
+      "user_type": "Customer",
+      "trips": 200
+    },
+    {
+      "from_station_name": "DuSable Museum",
+      "user_type": "Customer",
+      "trips": 200
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 51st St",
+      "user_type": "Customer",
+      "trips": 199
+    },
+    {
+      "from_station_name": "Maplewood Ave & Peterson Ave",
+      "user_type": "Subscriber",
+      "trips": 198
+    },
+    {
+      "from_station_name": "Racine Ave & 13th St",
+      "user_type": "Customer",
+      "trips": 197
+    },
+    {
+      "from_station_name": "Drake Ave & Addison St",
+      "user_type": "Customer",
+      "trips": 196
+    },
+    {
+      "from_station_name": "South Shore Dr & 74th St",
+      "user_type": "Subscriber",
+      "trips": 194
+    },
+    {
+      "from_station_name": "Ashland Ave & 21st St",
+      "user_type": "Customer",
+      "trips": 194
+    },
+    {
+      "from_station_name": "Emerald Ave & 28th St",
+      "user_type": "Customer",
+      "trips": 194
+    },
+    {
+      "from_station_name": "Canal St & Monroe St (*)",
+      "user_type": "Customer",
+      "trips": 193
+    },
+    {
+      "from_station_name": "Sangamon St & Washington Blvd (*)",
+      "user_type": "Customer",
+      "trips": 191
+    },
+    {
+      "from_station_name": "Western Ave & 28th St",
+      "user_type": "Subscriber",
+      "trips": 186
+    },
+    {
+      "from_station_name": "Evanston Civic Center",
+      "user_type": "Customer",
+      "trips": 185
+    },
+    {
+      "from_station_name": "Glenwood Ave & Touhy Ave",
+      "user_type": "Customer",
+      "trips": 185
+    },
+    {
+      "from_station_name": "Western Blvd & 48th Pl",
+      "user_type": "Subscriber",
+      "trips": 184
+    },
+    {
+      "from_station_name": "Monticello Ave & Irving Park Rd",
+      "user_type": "Customer",
+      "trips": 184
+    },
+    {
+      "from_station_name": "Ogden Ave & Roosevelt Rd",
+      "user_type": "Customer",
+      "trips": 184
+    },
+    {
+      "from_station_name": "Kilbourn Ave & Milwaukee Ave",
+      "user_type": "Customer",
+      "trips": 183
+    },
+    {
+      "from_station_name": "Campbell Ave & Montrose Ave",
+      "user_type": "Customer",
+      "trips": 182
+    },
+    {
+      "from_station_name": "Hoyne Ave & 47th St",
+      "user_type": "Subscriber",
+      "trips": 182
+    },
+    {
+      "from_station_name": "Calumet Ave & 51st St",
+      "user_type": "Customer",
+      "trips": 182
+    },
+    {
+      "from_station_name": "State St & 79th St",
+      "user_type": "Subscriber",
+      "trips": 180
+    },
+    {
+      "from_station_name": "Ashland Ave & Archer Ave",
+      "user_type": "Customer",
+      "trips": 179
+    },
+    {
+      "from_station_name": "Kedzie Ave & Foster Ave",
+      "user_type": "Customer",
+      "trips": 178
+    },
+    {
+      "from_station_name": "Loomis St & Archer Ave",
+      "user_type": "Customer",
+      "trips": 178
+    },
+    {
+      "from_station_name": "Ridge Blvd & Touhy Ave",
+      "user_type": "Customer",
+      "trips": 177
+    },
+    {
+      "from_station_name": "Western Ave & Howard St",
+      "user_type": "Customer",
+      "trips": 177
+    },
+    {
+      "from_station_name": "St. Louis Ave & Balmoral Ave",
+      "user_type": "Customer",
+      "trips": 175
+    },
+    {
+      "from_station_name": "Ridge Blvd & Howard St",
+      "user_type": "Customer",
+      "trips": 174
+    },
+    {
+      "from_station_name": "California Ave & 21st St",
+      "user_type": "Customer",
+      "trips": 172
+    },
+    {
+      "from_station_name": "Oakley Ave & Touhy Ave",
+      "user_type": "Customer",
+      "trips": 169
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 43rd St",
+      "user_type": "Customer",
+      "trips": 166
+    },
+    {
+      "from_station_name": "State St & 29th St",
+      "user_type": "Customer",
+      "trips": 166
+    },
+    {
+      "from_station_name": "Shields Ave & 31st St",
+      "user_type": "Customer",
+      "trips": 164
+    },
+    {
+      "from_station_name": "Elmwood Ave & Austin St",
+      "user_type": "Customer",
+      "trips": 161
+    },
+    {
+      "from_station_name": "State St & Pershing Rd",
+      "user_type": "Subscriber",
+      "trips": 161
+    },
+    {
+      "from_station_name": "Fairfield Ave & Roosevelt Rd",
+      "user_type": "Customer",
+      "trips": 158
+    },
+    {
+      "from_station_name": "Damen Ave & Coulter St",
+      "user_type": "Subscriber",
+      "trips": 157
+    },
+    {
+      "from_station_name": "Central Park Ave & Ogden Ave",
+      "user_type": "Subscriber",
+      "trips": 157
+    },
+    {
+      "from_station_name": "Albany Ave & 26th St",
+      "user_type": "Subscriber",
+      "trips": 157
+    },
+    {
+      "from_station_name": "Central St & Girard Ave",
+      "user_type": "Customer",
+      "trips": 156
+    },
+    {
+      "from_station_name": "Stony Island Ave & 64th St",
+      "user_type": "Customer",
+      "trips": 155
+    },
+    {
+      "from_station_name": "Western Ave & 21st St",
+      "user_type": "Customer",
+      "trips": 155
+    },
+    {
+      "from_station_name": "Halsted St & 35th St",
+      "user_type": "Customer",
+      "trips": 153
+    },
+    {
+      "from_station_name": "Dorchester Ave & 49th St",
+      "user_type": "Customer",
+      "trips": 151
+    },
+    {
+      "from_station_name": "Halsted St & 63rd St",
+      "user_type": "Subscriber",
+      "trips": 150
+    },
+    {
+      "from_station_name": "Normal Ave & Archer Ave",
+      "user_type": "Customer",
+      "trips": 150
+    },
+    {
+      "from_station_name": "Kedzie Ave & Lake St",
+      "user_type": "Customer",
+      "trips": 149
+    },
+    {
+      "from_station_name": "Knox Ave & Montrose Ave",
+      "user_type": "Customer",
+      "trips": 144
+    },
+    {
+      "from_station_name": "Pulaski Rd & Eddy St (Temp)",
+      "user_type": "Customer",
+      "trips": 143
+    },
+    {
+      "from_station_name": "Ashland Ave & 13th St",
+      "user_type": "Customer",
+      "trips": 140
+    },
+    {
+      "from_station_name": "Kedzie Ave & Roosevelt Rd",
+      "user_type": "Subscriber",
+      "trips": 140
+    },
+    {
+      "from_station_name": "Ogden Ave & Congress Pkwy",
+      "user_type": "Customer",
+      "trips": 140
+    },
+    {
+      "from_station_name": "Clark St & Columbia Ave",
+      "user_type": "Customer",
+      "trips": 139
+    },
+    {
+      "from_station_name": "Archer (Damen) Ave & 37th St (*)",
+      "user_type": "Subscriber",
+      "trips": 139
+    },
+    {
+      "from_station_name": "Kedzie Ave & Chicago Ave",
+      "user_type": "Customer",
+      "trips": 139
+    },
+    {
+      "from_station_name": "Kildare Ave & Montrose Ave",
+      "user_type": "Customer",
+      "trips": 139
+    },
+    {
+      "from_station_name": "Wolcott (Ravenswood) Ave & Montrose Ave (*)",
+      "user_type": "Customer",
+      "trips": 138
+    },
+    {
+      "from_station_name": "Austin Blvd & Lake St",
+      "user_type": "Customer",
+      "trips": 138
+    },
+    {
+      "from_station_name": "Shields Ave & 28th Pl",
+      "user_type": "Customer",
+      "trips": 138
+    },
+    {
+      "from_station_name": "Racine Ave (May St) & Fulton St",
+      "user_type": "Customer",
+      "trips": 137
+    },
+    {
+      "from_station_name": "Wentworth Ave & 24th St",
+      "user_type": "Customer",
+      "trips": 136
+    },
+    {
+      "from_station_name": "Western Ave & Granville Ave",
+      "user_type": "Customer",
+      "trips": 134
+    },
+    {
+      "from_station_name": "Clark St & Jarvis Ave",
+      "user_type": "Customer",
+      "trips": 134
+    },
+    {
+      "from_station_name": "Warren Park East",
+      "user_type": "Customer",
+      "trips": 133
+    },
+    {
+      "from_station_name": "Racine Ave & 35th St",
+      "user_type": "Customer",
+      "trips": 133
+    },
+    {
+      "from_station_name": "Lincolnwood Dr & Central St",
+      "user_type": "Customer",
+      "trips": 132
+    },
+    {
+      "from_station_name": "Jeffery Blvd & 71st St",
+      "user_type": "Subscriber",
+      "trips": 130
+    },
+    {
+      "from_station_name": "Orleans St & Elm St (*)",
+      "user_type": "Customer",
+      "trips": 129
+    },
+    {
+      "from_station_name": "Keystone Ave & Montrose Ave",
+      "user_type": "Customer",
+      "trips": 128
+    },
+    {
+      "from_station_name": "Stony Island Ave & 67th St",
+      "user_type": "Customer",
+      "trips": 126
+    },
+    {
+      "from_station_name": "Leavitt St & Archer Ave",
+      "user_type": "Customer",
+      "trips": 126
+    },
+    {
+      "from_station_name": "Central Ave & Chicago Ave",
+      "user_type": "Subscriber",
+      "trips": 125
+    },
+    {
+      "from_station_name": "South Shore Dr & 74th St",
+      "user_type": "Customer",
+      "trips": 125
+    },
+    {
+      "from_station_name": "Stony Island Ave & 71st St",
+      "user_type": "Subscriber",
+      "trips": 121
+    },
+    {
+      "from_station_name": "2112 W Peterson Ave",
+      "user_type": "Customer",
+      "trips": 121
+    },
+    {
+      "from_station_name": "Cherry Ave & Blackhawk St",
+      "user_type": "Customer",
+      "trips": 120
+    },
+    {
+      "from_station_name": "California Ave & 26th St",
+      "user_type": "Subscriber",
+      "trips": 119
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 67th St",
+      "user_type": "Subscriber",
+      "trips": 117
+    },
+    {
+      "from_station_name": "Cornell Dr & Hayes Dr",
+      "user_type": "Customer",
+      "trips": 117
+    },
+    {
+      "from_station_name": "Dodge Ave & Mulford St",
+      "user_type": "Customer",
+      "trips": 115
+    },
+    {
+      "from_station_name": "Indiana Ave & 40th St",
+      "user_type": "Customer",
+      "trips": 114
+    },
+    {
+      "from_station_name": "Morgan St & Pershing Rd",
+      "user_type": "Subscriber",
+      "trips": 112
+    },
+    {
+      "from_station_name": "MLK Jr Dr & 47th St",
+      "user_type": "Customer",
+      "trips": 112
+    },
+    {
+      "from_station_name": "Manor Ave & Leland Ave",
+      "user_type": "Customer",
+      "trips": 112
+    },
+    {
+      "from_station_name": "Kedzie Ave & Harrison St",
+      "user_type": "Subscriber",
+      "trips": 109
+    },
+    {
+      "from_station_name": "Ashland Ave & Garfield Blvd",
+      "user_type": "Subscriber",
+      "trips": 108
+    },
+    {
+      "from_station_name": "Bernard St & Elston Ave",
+      "user_type": "Customer",
+      "trips": 108
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 63rd St",
+      "user_type": "Customer",
+      "trips": 108
+    },
+    {
+      "from_station_name": "Cornell Dr & Hayes Dr",
+      "user_type": "Subscriber",
+      "trips": 107
+    },
+    {
+      "from_station_name": "California Ave & Lake St",
+      "user_type": "Customer",
+      "trips": 103
+    },
+    {
+      "from_station_name": "Valli Produce - Evanston Plaza",
+      "user_type": "Customer",
+      "trips": 103
+    },
+    {
+      "from_station_name": "Greenwood Ave & 79th St",
+      "user_type": "Subscriber",
+      "trips": 103
+    },
+    {
+      "from_station_name": "Damen Ave & Pershing Rd",
+      "user_type": "Customer",
+      "trips": 103
+    },
+    {
+      "from_station_name": "Austin Blvd & Madison St",
+      "user_type": "Subscriber",
+      "trips": 101
+    },
+    {
+      "from_station_name": "Rainbow Beach",
+      "user_type": "Customer",
+      "trips": 97
+    },
+    {
+      "from_station_name": "Millard Ave & 26th St",
+      "user_type": "Subscriber",
+      "trips": 97
+    },
+    {
+      "from_station_name": "Pulaski Rd & Lake St",
+      "user_type": "Subscriber",
+      "trips": 96
+    },
+    {
+      "from_station_name": "Laramie Ave & Madison St",
+      "user_type": "Subscriber",
+      "trips": 96
+    },
+    {
+      "from_station_name": "Eberhart Ave & 61st St",
+      "user_type": "Subscriber",
+      "trips": 96
+    },
+    {
+      "from_station_name": "MLK Jr Dr & 83rd St",
+      "user_type": "Subscriber",
+      "trips": 96
+    },
+    {
+      "from_station_name": "Perry Ave & 69th St",
+      "user_type": "Subscriber",
+      "trips": 95
+    },
+    {
+      "from_station_name": "Karlov Ave & Madison St",
+      "user_type": "Subscriber",
+      "trips": 95
+    },
+    {
+      "from_station_name": "Kostner Ave & Adams St",
+      "user_type": "Subscriber",
+      "trips": 91
+    },
+    {
+      "from_station_name": "Archer (Damen) Ave & 37th St",
+      "user_type": "Customer",
+      "trips": 91
+    },
+    {
+      "from_station_name": "Maplewood Ave & Peterson Ave",
+      "user_type": "Customer",
+      "trips": 91
+    },
+    {
+      "from_station_name": "Pulaski Rd & Congress Pkwy",
+      "user_type": "Subscriber",
+      "trips": 91
+    },
+    {
+      "from_station_name": "Wentworth Ave & 63rd St",
+      "user_type": "Subscriber",
+      "trips": 90
+    },
+    {
+      "from_station_name": "Central Ave & Madison St",
+      "user_type": "Subscriber",
+      "trips": 89
+    },
+    {
+      "from_station_name": "MLK Jr Dr & 56th St",
+      "user_type": "Subscriber",
+      "trips": 87
+    },
+    {
+      "from_station_name": "Stony Island Ave & 64th St",
+      "user_type": "Subscriber",
+      "trips": 86
+    },
+    {
+      "from_station_name": "Kedzie Ave & 24th St",
+      "user_type": "Subscriber",
+      "trips": 86
+    },
+    {
+      "from_station_name": "MLK Jr Dr & 63rd St",
+      "user_type": "Subscriber",
+      "trips": 86
+    },
+    {
+      "from_station_name": "Loomis St & Taylor St (*)",
+      "user_type": "Customer",
+      "trips": 85
+    },
+    {
+      "from_station_name": "Eberhart Ave & 61st St",
+      "user_type": "Customer",
+      "trips": 85
+    },
+    {
+      "from_station_name": "Wood St & 35th St",
+      "user_type": "Customer",
+      "trips": 85
+    },
+    {
+      "from_station_name": "Union Ave & Root St",
+      "user_type": "Customer",
+      "trips": 85
+    },
+    {
+      "from_station_name": "Wabash Ave & 87th St",
+      "user_type": "Subscriber",
+      "trips": 84
+    },
+    {
+      "from_station_name": "Austin Blvd & Madison St",
+      "user_type": "Customer",
+      "trips": 84
+    },
+    {
+      "from_station_name": "Central Park Ave & Ogden Ave",
+      "user_type": "Customer",
+      "trips": 83
+    },
+    {
+      "from_station_name": "Milwaukee Ave & Cuyler Ave",
+      "user_type": "Customer",
+      "trips": 82
+    },
+    {
+      "from_station_name": "Jeffery Blvd & 76th St",
+      "user_type": "Subscriber",
+      "trips": 82
+    },
+    {
+      "from_station_name": "Jeffery Blvd & 67th St",
+      "user_type": "Subscriber",
+      "trips": 82
+    },
+    {
+      "from_station_name": "Stony Island Ave & 71st St",
+      "user_type": "Customer",
+      "trips": 81
+    },
+    {
+      "from_station_name": "Bosworth Ave & Howard St",
+      "user_type": "Customer",
+      "trips": 78
+    },
+    {
+      "from_station_name": "Albany Ave & 26th St",
+      "user_type": "Customer",
+      "trips": 78
+    },
+    {
+      "from_station_name": "Western Ave & 24th St",
+      "user_type": "Customer",
+      "trips": 78
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 83rd St",
+      "user_type": "Customer",
+      "trips": 78
+    },
+    {
+      "from_station_name": "Jeffery Blvd & 71st St",
+      "user_type": "Customer",
+      "trips": 77
+    },
+    {
+      "from_station_name": "Stony Island Ave & 67th St",
+      "user_type": "Subscriber",
+      "trips": 75
+    },
+    {
+      "from_station_name": "MLK Jr Dr & 56th St (*)",
+      "user_type": "Subscriber",
+      "trips": 73
+    },
+    {
+      "from_station_name": "Stony Island Ave & 75th St",
+      "user_type": "Subscriber",
+      "trips": 72
+    },
+    {
+      "from_station_name": "Rainbow Beach",
+      "user_type": "Subscriber",
+      "trips": 71
+    },
+    {
+      "from_station_name": "Yates Blvd & 75th St",
+      "user_type": "Subscriber",
+      "trips": 70
+    },
+    {
+      "from_station_name": "Elizabeth St & 47th St",
+      "user_type": "Subscriber",
+      "trips": 69
+    },
+    {
+      "from_station_name": "Kilbourn Ave & Irving Park Rd",
+      "user_type": "Customer",
+      "trips": 68
+    },
+    {
+      "from_station_name": "Kedzie Ave & 21st St",
+      "user_type": "Customer",
+      "trips": 68
+    },
+    {
+      "from_station_name": "Halsted St & 37th St",
+      "user_type": "Customer",
+      "trips": 68
+    },
+    {
+      "from_station_name": "Clinton St & Polk St (*)",
+      "user_type": "Customer",
+      "trips": 68
+    },
+    {
+      "from_station_name": "Vernon Ave & 75th St",
+      "user_type": "Subscriber",
+      "trips": 67
+    },
+    {
+      "from_station_name": "Austin Blvd & Chicago Ave",
+      "user_type": "Subscriber",
+      "trips": 66
+    },
+    {
+      "from_station_name": "MLK Jr Dr & 83rd St",
+      "user_type": "Customer",
+      "trips": 66
+    },
+    {
+      "from_station_name": "California Ave & Francis Pl (Temp)",
+      "user_type": "Customer",
+      "trips": 65
+    },
+    {
+      "from_station_name": "Millard Ave & 26th St",
+      "user_type": "Customer",
+      "trips": 64
+    },
+    {
+      "from_station_name": "Latrobe Ave & Chicago Ave",
+      "user_type": "Subscriber",
+      "trips": 62
+    },
+    {
+      "from_station_name": "California Ave & 23rd Pl",
+      "user_type": "Customer",
+      "trips": 61
+    },
+    {
+      "from_station_name": "Cicero Ave & Lake St",
+      "user_type": "Subscriber",
+      "trips": 61
+    },
+    {
+      "from_station_name": "Central Park Blvd & 5th Ave",
+      "user_type": "Subscriber",
+      "trips": 61
+    },
+    {
+      "from_station_name": "State St & 54th St",
+      "user_type": "Subscriber",
+      "trips": 60
+    },
+    {
+      "from_station_name": "Marshfield Ave & 44th St",
+      "user_type": "Subscriber",
+      "trips": 60
+    },
+    {
+      "from_station_name": "Ashland Ave & 63rd St",
+      "user_type": "Subscriber",
+      "trips": 57
+    },
+    {
+      "from_station_name": "Vernon Ave & 75th St",
+      "user_type": "Customer",
+      "trips": 57
+    },
+    {
+      "from_station_name": "Austin Blvd & Chicago Ave",
+      "user_type": "Customer",
+      "trips": 57
+    },
+    {
+      "from_station_name": "Ashland Ave & Pershing Rd",
+      "user_type": "Customer",
+      "trips": 57
+    },
+    {
+      "from_station_name": "Western Ave & 28th St",
+      "user_type": "Customer",
+      "trips": 56
+    },
+    {
+      "from_station_name": "Damen Ave & Pershing Rd",
+      "user_type": "Subscriber",
+      "trips": 55
+    },
+    {
+      "from_station_name": "Central Ave & Lake St",
+      "user_type": "Customer",
+      "trips": 54
+    },
+    {
+      "from_station_name": "Racine Ave & Garfield Blvd",
+      "user_type": "Customer",
+      "trips": 54
+    },
+    {
+      "from_station_name": "Phillips Ave & 83rd St",
+      "user_type": "Subscriber",
+      "trips": 54
+    },
+    {
+      "from_station_name": "Kedzie Ave & Roosevelt Rd",
+      "user_type": "Customer",
+      "trips": 54
+    },
+    {
+      "from_station_name": "Shields Ave & 43rd St",
+      "user_type": "Subscriber",
+      "trips": 53
+    },
+    {
+      "from_station_name": "Central Ave & Chicago Ave",
+      "user_type": "Customer",
+      "trips": 52
+    },
+    {
+      "from_station_name": "State St & Pershing Rd",
+      "user_type": "Customer",
+      "trips": 52
+    },
+    {
+      "from_station_name": "Ashland Ave & 50th St",
+      "user_type": "Subscriber",
+      "trips": 51
+    },
+    {
+      "from_station_name": "Central Ave & Harrison St",
+      "user_type": "Customer",
+      "trips": 50
+    },
+    {
+      "from_station_name": "Princeton Ave & 47th St",
+      "user_type": "Customer",
+      "trips": 50
+    },
+    {
+      "from_station_name": "Western Blvd & 48th Pl",
+      "user_type": "Customer",
+      "trips": 50
+    },
+    {
+      "from_station_name": "Halsted St & 56th St",
+      "user_type": "Subscriber",
+      "trips": 49
+    },
+    {
+      "from_station_name": "MLK Jr Dr & 56th St",
+      "user_type": "Customer",
+      "trips": 49
+    },
+    {
+      "from_station_name": "Phillips Ave & 79th St",
+      "user_type": "Subscriber",
+      "trips": 48
+    },
+    {
+      "from_station_name": "Laramie Ave & Madison St",
+      "user_type": "Customer",
+      "trips": 48
+    },
+    {
+      "from_station_name": "California Ave & 26th St",
+      "user_type": "Customer",
+      "trips": 47
+    },
+    {
+      "from_station_name": "Damen Ave & Coulter St",
+      "user_type": "Customer",
+      "trips": 47
+    },
+    {
+      "from_station_name": "Central Ave & Lake St",
+      "user_type": "Subscriber",
+      "trips": 47
+    },
+    {
+      "from_station_name": "Yates Blvd & 75th St",
+      "user_type": "Customer",
+      "trips": 45
+    },
+    {
+      "from_station_name": "Clark St & Touhy Ave",
+      "user_type": "Customer",
+      "trips": 45
+    },
+    {
+      "from_station_name": "MLK Jr Dr & 63rd St",
+      "user_type": "Customer",
+      "trips": 45
+    },
+    {
+      "from_station_name": "Ashland Ave & 66th St",
+      "user_type": "Subscriber",
+      "trips": 44
+    },
+    {
+      "from_station_name": "Sacramento Blvd & Franklin Blvd",
+      "user_type": "Customer",
+      "trips": 43
+    },
+    {
+      "from_station_name": "Stony Island Ave & 75th St",
+      "user_type": "Customer",
+      "trips": 43
+    },
+    {
+      "from_station_name": "Wentworth Ave & 63rd St",
+      "user_type": "Customer",
+      "trips": 43
+    },
+    {
+      "from_station_name": "Central Park Ave & 24th St",
+      "user_type": "Customer",
+      "trips": 43
+    },
+    {
+      "from_station_name": "Jeffery Blvd & 76th St",
+      "user_type": "Customer",
+      "trips": 43
+    },
+    {
+      "from_station_name": "Damen Ave & 51st St",
+      "user_type": "Subscriber",
+      "trips": 42
+    },
+    {
+      "from_station_name": "Wabash Ave & 87th St",
+      "user_type": "Customer",
+      "trips": 41
+    },
+    {
+      "from_station_name": "Vernon Ave & 79th St",
+      "user_type": "Subscriber",
+      "trips": 41
+    },
+    {
+      "from_station_name": "Halsted St & 69th St",
+      "user_type": "Subscriber",
+      "trips": 41
+    },
+    {
+      "from_station_name": "Central Ave & Madison St",
+      "user_type": "Customer",
+      "trips": 40
+    },
+    {
+      "from_station_name": "Kenton Ave & Madison St",
+      "user_type": "Subscriber",
+      "trips": 40
+    },
+    {
+      "from_station_name": "Laramie Ave & Kinzie St",
+      "user_type": "Subscriber",
+      "trips": 40
+    },
+    {
+      "from_station_name": "Wolcott Ave & Fargo Ave",
+      "user_type": "Customer",
+      "trips": 39
+    },
+    {
+      "from_station_name": "Eggleston Ave & 69th St (*)",
+      "user_type": "Subscriber",
+      "trips": 38
+    },
+    {
+      "from_station_name": "Laramie Ave & Gladys Ave",
+      "user_type": "Subscriber",
+      "trips": 38
+    },
+    {
+      "from_station_name": "Stewart Ave & 63rd St (*)",
+      "user_type": "Subscriber",
+      "trips": 38
+    },
+    {
+      "from_station_name": "State St & 79th St",
+      "user_type": "Customer",
+      "trips": 38
+    },
+    {
+      "from_station_name": "Central Park Blvd & 5th Ave",
+      "user_type": "Customer",
+      "trips": 37
+    },
+    {
+      "from_station_name": "Ashland Ave & 69th St",
+      "user_type": "Subscriber",
+      "trips": 37
+    },
+    {
+      "from_station_name": "State St & 76th St",
+      "user_type": "Subscriber",
+      "trips": 37
+    },
+    {
+      "from_station_name": "Princeton Ave & Garfield Blvd",
+      "user_type": "Customer",
+      "trips": 37
+    },
+    {
+      "from_station_name": "Halsted St & 69th St",
+      "user_type": "Customer",
+      "trips": 37
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 78th St",
+      "user_type": "Subscriber",
+      "trips": 36
+    },
+    {
+      "from_station_name": "Kedzie Ave & Harrison St",
+      "user_type": "Customer",
+      "trips": 35
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 67th St",
+      "user_type": "Customer",
+      "trips": 35
+    },
+    {
+      "from_station_name": "Bennett Ave & 79th St",
+      "user_type": "Subscriber",
+      "trips": 35
+    },
+    {
+      "from_station_name": "Stony Island Ave & 82nd St",
+      "user_type": "Subscriber",
+      "trips": 35
+    },
+    {
+      "from_station_name": "Ashland Ave & McDowell Ave",
+      "user_type": "Customer",
+      "trips": 35
+    },
+    {
+      "from_station_name": "Woodlawn Ave & 75th St",
+      "user_type": "Customer",
+      "trips": 34
+    },
+    {
+      "from_station_name": "Ashland Ave & 50th St",
+      "user_type": "Customer",
+      "trips": 34
+    },
+    {
+      "from_station_name": "Cicero Ave & Quincy St",
+      "user_type": "Customer",
+      "trips": 34
+    },
+    {
+      "from_station_name": "Stony Island Ave & 82nd St",
+      "user_type": "Customer",
+      "trips": 33
+    },
+    {
+      "from_station_name": "Hoyne Ave & 47th St",
+      "user_type": "Customer",
+      "trips": 33
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 83rd St",
+      "user_type": "Subscriber",
+      "trips": 32
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 78th St",
+      "user_type": "Customer",
+      "trips": 30
+    },
+    {
+      "from_station_name": "Kedzie Ave & 24th St",
+      "user_type": "Customer",
+      "trips": 30
+    },
+    {
+      "from_station_name": "Pulaski Rd & Lake St",
+      "user_type": "Customer",
+      "trips": 30
+    },
+    {
+      "from_station_name": "Ellis Ave & 83rd St",
+      "user_type": "Subscriber",
+      "trips": 30
+    },
+    {
+      "from_station_name": "Marshfield Ave & 44th St",
+      "user_type": "Customer",
+      "trips": 30
+    },
+    {
+      "from_station_name": "Phillips Ave & 83rd St",
+      "user_type": "Customer",
+      "trips": 29
+    },
+    {
+      "from_station_name": "Laramie Ave & Kinzie St",
+      "user_type": "Customer",
+      "trips": 29
+    },
+    {
+      "from_station_name": "Evans Ave & 75th St",
+      "user_type": "Subscriber",
+      "trips": 29
+    },
+    {
+      "from_station_name": "Perry Ave & 69th St",
+      "user_type": "Customer",
+      "trips": 29
+    },
+    {
+      "from_station_name": "State St & 54th St",
+      "user_type": "Customer",
+      "trips": 29
+    },
+    {
+      "from_station_name": "Vernon Ave & 79th St",
+      "user_type": "Customer",
+      "trips": 29
+    },
+    {
+      "from_station_name": "Marshfield Ave & 59th St",
+      "user_type": "Subscriber",
+      "trips": 29
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 71st St",
+      "user_type": "Customer",
+      "trips": 27
+    },
+    {
+      "from_station_name": "Cicero Ave & Quincy St",
+      "user_type": "Subscriber",
+      "trips": 27
+    },
+    {
+      "from_station_name": "Karlov Ave & Madison St",
+      "user_type": "Customer",
+      "trips": 27
+    },
+    {
+      "from_station_name": "South Chicago Ave & 83rd St",
+      "user_type": "Customer",
+      "trips": 26
+    },
+    {
+      "from_station_name": "Calumet Ave & 71st St",
+      "user_type": "Customer",
+      "trips": 25
+    },
+    {
+      "from_station_name": "Ellis Ave & 83rd St",
+      "user_type": "Customer",
+      "trips": 25
+    },
+    {
+      "from_station_name": "May St & 69th St",
+      "user_type": "Subscriber",
+      "trips": 25
+    },
+    {
+      "from_station_name": "Wabash Ave & 83rd St",
+      "user_type": "Subscriber",
+      "trips": 25
+    },
+    {
+      "from_station_name": "Washtenaw Ave & Ogden Ave (*)",
+      "user_type": "Customer",
+      "trips": 25
+    },
+    {
+      "from_station_name": "Central Ave & Harrison St",
+      "user_type": "Subscriber",
+      "trips": 25
+    },
+    {
+      "from_station_name": "Cicero Ave & Lake St",
+      "user_type": "Customer",
+      "trips": 25
+    },
+    {
+      "from_station_name": "DIVVY Map Frame B/C Station",
+      "user_type": "Subscriber",
+      "trips": 24
+    },
+    {
+      "from_station_name": "Ashland Ave & 63rd St",
+      "user_type": "Customer",
+      "trips": 24
+    },
+    {
+      "from_station_name": "Pulaski Rd & Congress Pkwy",
+      "user_type": "Customer",
+      "trips": 24
+    },
+    {
+      "from_station_name": "Halsted St & 35th St (*)",
+      "user_type": "Customer",
+      "trips": 24
+    },
+    {
+      "from_station_name": "Exchange Ave & 79th St",
+      "user_type": "Customer",
+      "trips": 23
+    },
+    {
+      "from_station_name": "Latrobe Ave & Chicago Ave",
+      "user_type": "Customer",
+      "trips": 23
+    },
+    {
+      "from_station_name": "State St & 76th St",
+      "user_type": "Customer",
+      "trips": 23
+    },
+    {
+      "from_station_name": "Throop St & 52nd St",
+      "user_type": "Subscriber",
+      "trips": 23
+    },
+    {
+      "from_station_name": "Cottage Grove Ave & 71st St",
+      "user_type": "Subscriber",
+      "trips": 22
+    },
+    {
+      "from_station_name": "Halsted St & 59th St",
+      "user_type": "Subscriber",
+      "trips": 21
+    },
+    {
+      "from_station_name": "Phillips Ave & 79th St",
+      "user_type": "Customer",
+      "trips": 21
+    },
+    {
+      "from_station_name": "Commercial Ave & 83rd St",
+      "user_type": "Customer",
+      "trips": 21
+    },
+    {
+      "from_station_name": "Damen Ave & 59th St",
+      "user_type": "Subscriber",
+      "trips": 21
+    },
+    {
+      "from_station_name": "Halsted St & 56th St",
+      "user_type": "Customer",
+      "trips": 21
+    },
+    {
+      "from_station_name": "Halsted St & 63rd St",
+      "user_type": "Customer",
+      "trips": 20
+    },
+    {
+      "from_station_name": "Vincennes Ave & 75th St",
+      "user_type": "Customer",
+      "trips": 20
+    },
+    {
+      "from_station_name": "Greenwood Ave & 79th St",
+      "user_type": "Customer",
+      "trips": 20
+    },
+    {
+      "from_station_name": "Ashland Ave & 69th St",
+      "user_type": "Customer",
+      "trips": 20
+    },
+    {
+      "from_station_name": "Kenton Ave & Madison St",
+      "user_type": "Customer",
+      "trips": 20
+    },
+    {
+      "from_station_name": "Throop St & 52nd St",
+      "user_type": "Customer",
+      "trips": 20
+    },
+    {
+      "from_station_name": "Cicero Ave & Flournoy St",
+      "user_type": "Subscriber",
+      "trips": 19
+    },
+    {
+      "from_station_name": "Halsted St & 47th Pl",
+      "user_type": "Customer",
+      "trips": 19
+    },
+    {
+      "from_station_name": "Commercial Ave & 83rd St",
+      "user_type": "Subscriber",
+      "trips": 18
+    },
+    {
+      "from_station_name": "Damen Ave & 51st St",
+      "user_type": "Customer",
+      "trips": 18
+    },
+    {
+      "from_station_name": "Central Park Ave & 24th St",
+      "user_type": "Subscriber",
+      "trips": 17
+    },
+    {
+      "from_station_name": "Halsted St & 51st St",
+      "user_type": "Customer",
+      "trips": 17
+    },
+    {
+      "from_station_name": "Stony Island Ave & South Chicago Ave",
+      "user_type": "Subscriber",
+      "trips": 16
+    },
+    {
+      "from_station_name": "Exchange Ave & 79th St",
+      "user_type": "Subscriber",
+      "trips": 16
+    },
+    {
+      "from_station_name": "Damen Ave & 59th St",
+      "user_type": "Customer",
+      "trips": 16
+    },
+    {
+      "from_station_name": "Halsted St & 59th St",
+      "user_type": "Customer",
+      "trips": 15
+    },
+    {
+      "from_station_name": "HUBBARD ST BIKE CHECKING (LBS-WH-TEST)",
+      "user_type": "Subscriber",
+      "trips": 15
+    },
+    {
+      "from_station_name": "MLK Jr Dr & 56th St (*)",
+      "user_type": "Customer",
+      "trips": 14
+    },
+    {
+      "from_station_name": "Evans Ave & 75th St",
+      "user_type": "Customer",
+      "trips": 14
+    },
+    {
+      "from_station_name": "Seeley Ave & Garfield Blvd",
+      "user_type": "Customer",
+      "trips": 14
+    },
+    {
+      "from_station_name": "Laramie Ave & Gladys Ave",
+      "user_type": "Customer",
+      "trips": 13
+    },
+    {
+      "from_station_name": "Morgan St & Pershing Rd",
+      "user_type": "Customer",
+      "trips": 13
+    },
+    {
+      "from_station_name": "Rhodes Ave & 71st St",
+      "user_type": "Customer",
+      "trips": 13
+    },
+    {
+      "from_station_name": "Bennett Ave & 79th St",
+      "user_type": "Customer",
+      "trips": 13
+    },
+    {
+      "from_station_name": "South Chicago Ave & Elliot Ave",
+      "user_type": "Customer",
+      "trips": 11
+    },
+    {
+      "from_station_name": "Kostner Ave & Lake St",
+      "user_type": "Subscriber",
+      "trips": 11
+    },
+    {
+      "from_station_name": "Woodlawn Ave & 75th St",
+      "user_type": "Subscriber",
+      "trips": 11
+    },
+    {
+      "from_station_name": "South Chicago Ave & 83rd St",
+      "user_type": "Subscriber",
+      "trips": 10
+    },
+    {
+      "from_station_name": "Cicero Ave & Flournoy St",
+      "user_type": "Customer",
+      "trips": 10
+    },
+    {
+      "from_station_name": "Halsted St & 51st St",
+      "user_type": "Subscriber",
+      "trips": 10
+    },
+    {
+      "from_station_name": "Ashland Ave & 66th St",
+      "user_type": "Customer",
+      "trips": 10
+    },
+    {
+      "from_station_name": "Stony Island Ave & South Chicago Ave",
+      "user_type": "Customer",
+      "trips": 10
+    },
+    {
+      "from_station_name": "May St & 69th St",
+      "user_type": "Customer",
+      "trips": 9
+    },
+    {
+      "from_station_name": "Marshfield Ave & 59th St",
+      "user_type": "Customer",
+      "trips": 9
+    },
+    {
+      "from_station_name": "Kostner Ave & Lake St",
+      "user_type": "Customer",
+      "trips": 9
+    },
+    {
+      "from_station_name": "Eggleston Ave & 69th St (*)",
+      "user_type": "Customer",
+      "trips": 8
+    },
+    {
+      "from_station_name": "Ashland Ave & Garfield Blvd",
+      "user_type": "Customer",
+      "trips": 8
+    },
+    {
+      "from_station_name": "Shields Ave & 43rd St",
+      "user_type": "Customer",
+      "trips": 8
+    },
+    {
+      "from_station_name": "Elizabeth St & 47th St",
+      "user_type": "Customer",
+      "trips": 8
+    },
+    {
+      "from_station_name": "Calumet Ave & 71st St",
+      "user_type": "Subscriber",
+      "trips": 8
+    },
+    {
+      "from_station_name": "Wabash Ave & 83rd St",
+      "user_type": "Customer",
+      "trips": 7
+    },
+    {
+      "from_station_name": "Carpenter St & 63rd St",
+      "user_type": "Customer",
+      "trips": 7
+    },
+    {
+      "from_station_name": "Elizabeth St & 59th St",
+      "user_type": "Subscriber",
+      "trips": 7
+    },
+    {
+      "from_station_name": "Archer (Damen) Ave & 37th St (*)",
+      "user_type": "Customer",
+      "trips": 7
+    },
+    {
+      "from_station_name": "Racine Ave & 65th St",
+      "user_type": "Customer",
+      "trips": 6
+    },
+    {
+      "from_station_name": "Michigan Ave & 71st St",
+      "user_type": "Customer",
+      "trips": 6
+    },
+    {
+      "from_station_name": "Kostner Ave & Adams St",
+      "user_type": "Customer",
+      "trips": 6
+    },
+    {
+      "from_station_name": "Carpenter St & 63rd St",
+      "user_type": "Subscriber",
+      "trips": 6
+    },
+    {
+      "from_station_name": "Michigan Ave & 71st St",
+      "user_type": "Subscriber",
+      "trips": 5
+    },
+    {
+      "from_station_name": "Racine Ave & 61st St",
+      "user_type": "Subscriber",
+      "trips": 5
+    },
+    {
+      "from_station_name": "Racine Ave & 61st St",
+      "user_type": "Customer",
+      "trips": 4
+    },
+    {
+      "from_station_name": "Racine Ave & 65th St",
+      "user_type": "Subscriber",
+      "trips": 4
+    },
+    {
+      "from_station_name": "Rhodes Ave & 71st St",
+      "user_type": "Subscriber",
+      "trips": 4
+    },
+    {
+      "from_station_name": "Vincennes Ave & 75th St",
+      "user_type": "Subscriber",
+      "trips": 3
+    },
+    {
+      "from_station_name": "DIVVY CASSETTE REPAIR MOBILE STATION",
+      "user_type": "Subscriber",
+      "trips": 3
+    },
+    {
+      "from_station_name": "Seeley Ave & Garfield Blvd",
+      "user_type": "Subscriber",
+      "trips": 3
+    },
+    {
+      "from_station_name": "Stewart Ave & 63rd St (*)",
+      "user_type": "Customer",
+      "trips": 2
+    },
+    {
+      "from_station_name": "South Chicago Ave & Elliot Ave",
+      "user_type": "Subscriber",
+      "trips": 2
+    },
+    {
+      "from_station_name": "DIVVY Map Frame B/C Station",
+      "user_type": "Customer",
+      "trips": 2
+    },
+    {
+      "from_station_name": "Elizabeth St & 59th St",
+      "user_type": "Customer",
+      "trips": 1
+    },
+    {
+      "from_station_name": "Special Events",
+      "user_type": "Customer",
+      "trips": 1
+    },
+    {
+      "from_station_name": "LBS - BBB La Magie",
+      "user_type": "Customer",
+      "trips": 1
+    }
+  ],
+  "method": {
+    "duration_filter": "Average duration excludes trips shorter than 60 seconds or longer than 24 hours.",
+    "refresh": "Aggregates generated directly from the City of Chicago Open Data API."
+  }
+}

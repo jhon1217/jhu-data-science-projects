@@ -1,6 +1,5 @@
 tmp/
 *.tmp
 *.clean.pdf
-*_audit.*
-audit/
-audits/
+projects/**/raw/
+__pycache__/

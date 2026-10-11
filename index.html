@@ -1,60 +1,116 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Data science projects completed for the Johns Hopkins University Data Science Specialization.">
-  <title>Jhon Deiner Diaz | Data Science Portfolio</title>
-  <style>
-    :root { color-scheme: light; --ink:#102a43; --muted:#52667a; --blue:#0b6e99; --teal:#168a82; --surface:#fff; --background:#f2f6f8; --border:#dce6eb; }
-    * { box-sizing: border-box; }
-    body { margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; background:var(--background); color:var(--ink); }
-    a { color:inherit; }
-    header { background:linear-gradient(135deg,#0c3b57 0%,#0b6e73 100%); color:white; }
-    .hero, main, footer { width:min(1120px,calc(100% - 40px)); margin:0 auto; }
-    .hero { padding:72px 0 64px; }
-    .eyebrow { margin:0 0 14px; color:#aee8df; font-size:.78rem; font-weight:800; letter-spacing:.13em; text-transform:uppercase; }
-    h1 { max-width:760px; margin:0; font-size:clamp(2.4rem,7vw,4.8rem); line-height:1.02; letter-spacing:-.04em; }
-    .lead { max-width:720px; margin:22px 0 0; color:#d9eef0; font-size:1.08rem; line-height:1.7; }
-    .summary { display:flex; flex-wrap:wrap; gap:10px; margin-top:30px; }
-    .summary span { padding:8px 12px; border:1px solid rgba(255,255,255,.24); border-radius:999px; background:rgba(255,255,255,.09); font-size:.88rem; }
-    main { padding:54px 0 72px; }
-    .section-heading { margin-bottom:24px; }
-    .section-heading h2 { margin:0 0 8px; font-size:1.7rem; }
-    .section-heading p { margin:0; color:var(--muted); }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(310px,1fr)); gap:18px; }
-    article { display:flex; flex-direction:column; min-height:250px; padding:24px; border:1px solid var(--border); border-radius:18px; background:var(--surface); box-shadow:0 12px 34px rgba(16,42,67,.07); }
-    .number { color:var(--teal); font-size:.78rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; }
-    article h3 { margin:9px 0 8px; font-size:1.25rem; }
-    article p { margin:0; color:var(--muted); line-height:1.55; }
-    ul { display:grid; gap:8px; margin:auto 0 0; padding:22px 0 0; list-style:none; }
-    li { border-top:1px solid var(--border); padding-top:8px; }
-    li a { color:var(--blue); font-weight:720; text-decoration:none; }
-    li a:hover, li a:focus-visible { text-decoration:underline; }
-    footer { padding:24px 0 40px; border-top:1px solid var(--border); color:var(--muted); font-size:.9rem; }
-    @media (max-width:560px) { .hero { padding:52px 0 46px; } .grid { grid-template-columns:1fr; } }
-  </style>
+  <title>Jhon Deiner Diaz | Data Portfolio</title>
+  <meta name="description" content="Interactive data analytics and data science portfolio featuring predictive modeling, behavioral analysis, geospatial storytelling, and reproducible research.">
+  <meta property="og:title" content="Jhon Deiner Diaz | Data Portfolio">
+  <meta property="og:description" content="From raw data to decisions: interactive case studies across Google and Johns Hopkins programs.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jhon1217.github.io/jhu-data-science-projects/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <header>
-    <div class="hero">
-      <p class="eyebrow">Johns Hopkins University · Data Science</p>
-      <h1>Course project portfolio</h1>
-      <p class="lead">A curated collection of reproducible analyses, statistical reports, machine learning models, and interactive data products developed with R and modern web libraries.</p>
-      <div class="summary" aria-label="Portfolio summary"><span>6 subject areas</span><span>Reproducible analysis</span><span>Interactive visualizations</span></div>
+  <nav class="nav">
+    <div class="shell nav-inner">
+      <a class="brand" href="#top">Jhon<span>.</span>data</a>
+      <div class="nav-actions">
+        <a class="nav-link" href="#work">Selected work</a>
+        <a class="nav-link" href="#credentials">Credentials</a>
+        <a class="nav-link" href="https://github.com/jhon1217">GitHub</a>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Use light theme">☀</button>
+      </div>
     </div>
-  </header>
-  <main>
-    <div class="section-heading"><h2>Selected coursework</h2><p>Open any project to view the analysis, visualization, or presentation.</p></div>
-    <section class="grid">
-      <article><span class="number">01 · Exploratory analysis</span><h3>Household Power Consumption</h3><p>Six visual analyses created from individual household electric power consumption data.</p><ul><li><a href="eda-plot1.png">Plot 1</a> · <a href="eda-plot2.png">Plot 2</a> · <a href="eda-plot3.png">Plot 3</a></li><li><a href="eda-plot4.png">Plot 4</a> · <a href="eda-plot5.png">Plot 5</a> · <a href="eda-plot6.png">Plot 6</a></li></ul></article>
-      <article><span class="number">02 · Reproducible research</span><h3>Activity and Severe Weather</h3><p>Reproducible reporting for activity monitoring and NOAA storm impact data.</p><ul><li><a href="reproducible-research-project-1.html">Activity monitoring analysis</a></li><li><a href="noaa-storm-analysis.pdf">Severe weather impact report</a></li></ul></article>
-      <article><span class="number">03 · Statistical modeling</span><h3>Inference and Regression</h3><p>Simulation based inference, ToothGrowth analysis, and multivariable fuel economy modeling.</p><ul><li><a href="statistical-inference-project.pdf">Statistical inference report</a></li><li><a href="regression-models-project.pdf">Regression models report</a></li></ul></article>
-      <article><span class="number">04 · Machine learning</span><h3>Exercise Quality Prediction</h3><p>Cross validated classification of weight lifting technique using wearable sensor data.</p><ul><li><a href="practical-machine-learning.html">Prediction analysis</a></li></ul></article>
-      <article><span class="number">05 · Data products</span><h3>Interactive Applications</h3><p>Leaflet, Plotly, and Shiny projects designed for direct exploration and clear communication.</p><ul><li><a href="data-products-leaflet.html">Colombian city map</a></li><li><a href="data-products-plotly.html">Fuel economy presentation</a></li><li><a href="data-products-shiny-pitch.html">Shiny application pitch</a></li></ul></article>
-      <article><span class="number">06 · Capstone</span><h3>NextWord Predictor</h3><p>An n-gram language model, exploratory corpus report, and product presentation for next-word prediction.</p><ul><li><a href="capstone-milestone.html">Corpus milestone report</a></li><li><a href="capstone-pitch.html">Product presentation</a></li></ul></article>
+  </nav>
+
+  <main id="top">
+    <section class="hero">
+      <div class="shell">
+        <span class="eyebrow">Data analyst · Data scientist</span>
+        <h1>Evidence into<br><span class="gradient">clear decisions.</span></h1>
+        <p class="hero-copy">I build end-to-end analyses that connect a real question, trustworthy data, rigorous methods, and an experience people can explore.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">Explore selected work ↓</a>
+          <a class="button" href="https://github.com/jhon1217">View GitHub ↗</a>
+        </div>
+        <div class="hero-stats reveal" aria-label="Portfolio highlights">
+          <div class="stat"><strong>3</strong><span>specialized learning tracks</span></div>
+          <div class="stat"><strong>3.8M</strong><span>mobility trips analyzed</span></div>
+          <div class="stat"><strong>20.6K</strong><span>engine cycles modeled</span></div>
+          <div class="stat"><strong>R · Python</strong><span>analysis and product stack</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div><span class="eyebrow">Selected work</span><h2>Projects with a point of view.</h2></div>
+          <p>Filter by learning track. Every case study includes the question, the method, an interactive result, and enough context to judge the conclusion.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="filter active" type="button" data-filter="all">All projects</button>
+          <button class="filter" type="button" data-filter="advanced">Google Advanced</button>
+          <button class="filter" type="button" data-filter="google">Google Data Analytics</button>
+          <button class="filter" type="button" data-filter="jhu">Johns Hopkins</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured reveal" data-track="advanced" style="--card-accent:#67e8f9">
+            <div><span class="project-number">01 · Predictive maintenance</span><h3>How many useful cycles does a jet engine have left?</h3><p>A machine learning case study using NASA C-MAPSS sensor histories to estimate remaining useful life and surface the signals that drive each prediction.</p><div class="tags"><span class="tag">Python</span><span class="tag">Random forest</span><span class="tag">Feature engineering</span><span class="tag">Plotly</span></div></div>
+            <a class="card-link" href="projects/google-advanced/cmapss/">Open interactive case study</a>
+          </article>
+
+          <article class="project-card compact reveal" data-track="google" style="--card-accent:#fbbf24">
+            <div><span class="project-number">02 · Urban mobility</span><h3>What separates casual riders from members?</h3><p>A behavioral analysis of 3.8 million Divvy trips with practical growth recommendations.</p><div class="tags"><span class="tag">SQL</span><span class="tag">Open data</span><span class="tag">Segmentation</span></div></div>
+            <a class="card-link" href="projects/google-data-analytics/divvy/">Explore the dashboard</a>
+          </article>
+
+          <article class="project-card reveal" data-track="jhu" style="--card-accent:#a78bfa">
+            <div><span class="project-number">03 · Machine learning</span><h3>Recognizing exercise quality from wearable sensors</h3><p>A reproducible classification workflow that predicts how an exercise was performed from body movement signals.</p><div class="tags"><span class="tag">R</span><span class="tag">Random forest</span><span class="tag">Cross validation</span></div></div>
+            <a class="card-link" href="practical-machine-learning.html">Read the analysis</a>
+          </article>
+
+          <article class="project-card reveal" data-track="jhu" style="--card-accent:#5ee8ae">
+            <div><span class="project-number">04 · Geospatial story</span><h3>A guided map of Bogotá</h3><p>An interactive Leaflet experience with curated places, contextual popups, map controls, and a clear visual hierarchy.</p><div class="tags"><span class="tag">R Markdown</span><span class="tag">Leaflet</span><span class="tag">Geospatial</span></div></div>
+            <a class="card-link" href="data-products-leaflet.html">Explore the map</a>
+          </article>
+
+          <article class="project-card compact reveal" data-track="jhu" style="--card-accent:#fb7185">
+            <div><span class="project-number">05 · Natural language</span><h3>Next-word prediction</h3><p>A language product that turns corpus analysis into fast, explainable suggestions.</p><div class="tags"><span class="tag">NLP</span><span class="tag">Shiny</span><span class="tag">R</span></div></div>
+            <a class="card-link" href="capstone-pitch.html">View product story</a>
+          </article>
+
+          <article class="project-card compact reveal" data-track="jhu" style="--card-accent:#60a5fa">
+            <div><span class="project-number">06 · Public health</span><h3>Severe weather impact</h3><p>Reproducible evidence on event types with the largest health and economic consequences.</p><div class="tags"><span class="tag">R</span><span class="tag">NOAA</span><span class="tag">Reproducible research</span></div></div>
+            <a class="card-link" href="noaa-storm-analysis.pdf">Open report</a>
+          </article>
+
+          <article class="project-card compact reveal" data-track="jhu" style="--card-accent:#c084fc">
+            <div><span class="project-number">07 · Statistical inference</span><h3>Simulation and tooth growth</h3><p>Applied inference through the exponential distribution and experimental comparison.</p><div class="tags"><span class="tag">Inference</span><span class="tag">Simulation</span><span class="tag">R</span></div></div>
+            <a class="card-link" href="statistical-inference-project.pdf">Open report</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="credentials">
+      <div class="shell">
+        <div class="section-heading reveal"><div><span class="eyebrow">Learning tracks</span><h2>Three perspectives on data.</h2></div><p>Business analysis, advanced statistical modeling, and reproducible data science come together in one project portfolio.</p></div>
+        <div class="credential-grid">
+          <article class="credential reveal"><small>Google</small><h3>Advanced Data Analytics Professional Certificate</h3><p>Statistical analysis, regression, machine learning, experimental design, and Python.</p></article>
+          <article class="credential reveal"><small>Google</small><h3>Data Analytics Professional Certificate</h3><p>Business questions, data preparation, SQL, visualization, and stakeholder communication.</p></article>
+          <article class="credential reveal"><small>Johns Hopkins University</small><h3>Data Science Specialization</h3><p>Reproducible research, statistical inference, machine learning, data products, and NLP.</p></article>
+        </div>
+      </div>
     </section>
   </main>
-  <footer>Jhon Deiner Diaz · Johns Hopkins University Data Science Specialization · Updated October 2026</footer>
+
+  <footer><div class="shell footer-inner"><span>© 2026 Jhon Deiner Diaz</span><span>Built around evidence, clarity, and useful questions.</span></div></footer>
+  <script src="assets/app.js"></script>
 </body>
 </html>
