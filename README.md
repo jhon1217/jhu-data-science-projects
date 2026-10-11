@@ -20,8 +20,12 @@ Interactive project portfolio by **Jhon Deiner Diaz**, bringing together busines
 
 - **[Exercise Quality Prediction](https://jhon1217.github.io/jhu-data-science-projects/practical-machine-learning.html)** — wearable sensor classification with cross validation.
 - **[Colombian City Explorer](https://jhon1217.github.io/jhu-data-science-projects/data-products-leaflet.html)** — interactive geospatial storytelling with Leaflet.
+- **[Fuel Economy Scenario Explorer](https://jhon1217.github.io/jhu-data-science-projects/data-products-shiny-pitch.html)** — a reactive Shiny product backed by an adjusted fuel-economy model.
+- **[Interactive Plotly Presentation](https://jhon1217.github.io/jhu-data-science-projects/data-products-plotly.html)** — an explorable data-product presentation.
 - **[NextWord Predictor](https://jhon1217.github.io/jhu-data-science-projects/capstone-pitch.html)** — natural language prediction product.
+- **[SwiftKey Corpus Milestone](https://jhon1217.github.io/jhu-data-science-projects/capstone-milestone.html)** — exploratory evidence and validation for the language model.
 - **[Severe Weather Impact](https://jhon1217.github.io/jhu-data-science-projects/noaa-storm-analysis.pdf)** — health and economic impact analysis using NOAA data.
+- **[Activity Monitoring](https://jhon1217.github.io/jhu-data-science-projects/reproducible-research-project-1.html)** — daily activity patterns and missing-value imputation.
 - **[Statistical Inference](https://jhon1217.github.io/jhu-data-science-projects/statistical-inference-project.pdf)** — simulation and experimental comparison.
 - **[Regression Models](https://jhon1217.github.io/jhu-data-science-projects/regression-models-project.pdf)** — transmission and fuel economy analysis.
 
@@ -35,7 +39,7 @@ Python, R, SQL, JavaScript, R Markdown, scikit-learn, Plotly, Leaflet, Shiny, an
 - `projects/google-data-analytics/` — business analytics case studies.
 - Root reports and presentations — Johns Hopkins Data Science projects at stable public URLs.
 - `assets/` — shared portfolio design and interactions.
-- `scripts/check_portfolio.py` — local link and published-data validation.
+- `scripts/check_portfolio.py` — local link, artifact, and published-data validation.
 
 Each featured case study cites its public data source and includes the code used to produce its published results.
 

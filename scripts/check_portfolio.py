@@ -116,14 +116,28 @@ def check_project_data() -> None:
         station_sum = sum(row["trips"] for row in divvy["top_stations"] if row["user_type"] == rider_type)
         assert 0 < station_sum <= total
 
+    capstone = json.loads((ROOT / "capstone-results.json").read_text(encoding="utf-8"))
+    corpus = capstone["corpus"]
+    assert sum(source["lines"] for source in corpus.values()) == 4_269_678
+    assert sum(source["words"] for source in corpus.values()) == 101_215_624
+    validation = capstone["validation"]
+    assert validation["tokens"] == 193_477
+    assert sum(validation["backoff_orders"].values()) == validation["tokens"]
+    assert_close(validation["top1_accuracy"] * 100, 12.44, 2)
+    assert_close(validation["top3_accuracy"] * 100, 20.07, 2)
+    assert validation["top1_accuracy"] <= validation["top3_accuracy"]
+    assert all(capstone["example_predictions"].values())
+
 
 def check_published_artifacts() -> None:
     required = {
         "practical-machine-learning.html": 100_000,
         "data-products-leaflet.html": 1_500,
         "data-products-plotly.html": 2_000,
+        "data-products-shiny-pitch.html": 1_200,
         "capstone-pitch.html": 1_200,
         "capstone-milestone.html": 20_000,
+        "reproducible-research-project-1.html": 100_000,
         "noaa-storm-analysis.pdf": 10_000,
         "regression-models-project.pdf": 10_000,
         "statistical-inference-project.pdf": 10_000,
@@ -149,6 +163,17 @@ def check_presentation_metrics() -> None:
     assert "within_20_cycles" in cmapss_js and "training_rows" in cmapss_js
     assert all(token in divvy_js for token in ["data.totals", "data.monthly", "data.weekday", "data.hourly", "data.top_stations"])
     assert re.search(r"member\s*/\s*total\s*\*\s*100", divvy_js)
+
+    capstone_pitch = (ROOT / "capstone-pitch.html").read_text(encoding="utf-8")
+    milestone = (ROOT / "capstone-milestone.html").read_text(encoding="utf-8")
+    for expected in ["4,269,678", "193,477", "12.44%", "20.07%"]:
+        assert expected in capstone_pitch, f"Capstone pitch is missing validated result: {expected}"
+        assert expected in milestone, f"Capstone milestone is missing validated result: {expected}"
+
+    for app_name in ["capstone-app.R", "data-products-shiny-app.R"]:
+        app = (ROOT / app_name).read_text(encoding="utf-8")
+        assert "shinyApp(" in app, f"Incomplete Shiny application: {app_name}"
+        assert 'source("ui.R"' not in app and 'source("server.R"' not in app, f"Missing split app files: {app_name}"
 
 
 def main() -> None:
